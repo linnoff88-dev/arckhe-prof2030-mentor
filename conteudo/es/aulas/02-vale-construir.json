@@ -1,0 +1,340 @@
+{
+  "slug": "vale-construir",
+  "num": 2,
+  "menu": "Spec",
+  "titulo": "¿Vale la pena construirlo?",
+  "titulo_curto": "¿Vale la pena construirlo?",
+  "minutos": 18,
+  "lead": "Hoy se puede construir casi todo en una tarde. Por eso \"se puede hacer\" dejó de ser un motivo. Antes del prototipo, el mentor pasa la idea por un filtro corto y, si sobrevive, ayuda al gerente a escribirla en una página: el proceso, el resultado, lo que la herramienta puede hacer y lo que nunca hace.",
+  "objetivo": "filtrar la idea del gerente y escribir la spec de una página, con permisos, responsable y datos que quedan fuera.",
+  "competencias": [
+    "filtrar-ideia",
+    "mapear-processo",
+    "escrever-spec",
+    "definir-permissoes"
+  ],
+  "aprende": [
+    {
+      "icone": "lupa",
+      "t": "Filtrar la idea en cinco preguntas"
+    },
+    {
+      "icone": "camadas",
+      "t": "Ver el proceso en seis eslabones"
+    },
+    {
+      "icone": "cadeado",
+      "t": "Decidir las siete acciones y los datos"
+    },
+    {
+      "icone": "arquivo",
+      "t": "Escribir la spec de una página"
+    }
+  ],
+  "hero_alt": "Dos personas deciden sobre una página impresa; una tacha líneas con el bolígrafo.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Del deseo a la spec de una página",
+      "sub": "La idea pasa por cuatro filtros. Solo lo que pasa se vuelve spec. Haz clic en cada bloque.",
+      "nos": [
+        {
+          "icone": "alvo",
+          "titulo": "Dolor real",
+          "sub": "¿Alguien sufre con esto?",
+          "itens": [
+            {
+              "icone": "relogio",
+              "t": "Frecuencia y tiempo"
+            },
+            {
+              "icone": "usuario",
+              "t": "Quién sufre"
+            }
+          ],
+          "detalhe": "Sin dolor, nadie cambia de hábito. Pregunta cuántas veces por semana ocurre, cuánto tiempo toma y qué se pierde cuando falla. Una respuesta en adjetivo (\"es mucho\") todavía no es dolor medido."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Fecha de caducidad",
+          "sub": "¿Seguirá valiendo en 3, 6, 12 meses?",
+          "itens": [
+            {
+              "icone": "nuvem",
+              "t": "¿Ya existe en el sistema de pago?"
+            },
+            {
+              "icone": "chat",
+              "t": "¿Se resuelve con un pedido en el chat?"
+            }
+          ],
+          "detalhe": "Si el CRM o el chat que la empresa ya paga va a tener esto como función en pocos meses, construir es gastar con plazo corto. A veces la respuesta correcta es \"usa la función que ya existe\"."
+        },
+        {
+          "icone": "fila",
+          "titulo": "Uso recurrente",
+          "sub": "¿Entra en la rutina?",
+          "itens": [
+            {
+              "icone": "calendario",
+              "t": "Cada semana, por lo menos"
+            }
+          ],
+          "detalhe": "Una herramienta usada una vez al mes no compensa el mantenimiento. El primer proyecto del programa necesita entrar en la rutina del gerente para generar un resultado medible."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Riesgo",
+          "sub": "¿Qué dato y qué acción?",
+          "itens": [
+            {
+              "icone": "cadeado",
+              "t": "¿Dato personal?"
+            },
+            {
+              "icone": "enviar",
+              "t": "¿Sale de la empresa?"
+            }
+          ],
+          "detalhe": "Cuantos más datos personales y más acciones hacia afuera, antes necesita entrar TI. Un riesgo alto no mata la idea: cambia el tamaño del primer prototipo."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Spec de 1 página",
+          "sub": "Lo que pasa se vuelve documento",
+          "itens": [
+            {
+              "icone": "lista",
+              "t": "Proceso, eslabones, permisos"
+            },
+            {
+              "icone": "usuario",
+              "t": "Responsable con nombre"
+            }
+          ],
+          "detalhe": "Una página que el gerente, el mentor, el dueño de la empresa y TI leen completa. Es lo que el prototipo va a seguir y lo que TI va a recibir.",
+          "forte": true
+        }
+      ],
+      "legenda": "Descartar una idea aquí es un éxito: cuesta una conversación, no un mes de mantenimiento.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "El filtro completo",
+        "texto": "Dolor medido, fecha de caducidad larga, uso recurrente y riesgo conocido. Lo que pasa por los cuatro se vuelve una página."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cómo conducir el filtro y la spec",
+      "sub": "Haz clic en cada etapa.",
+      "passos": [
+        {
+          "titulo": "Medir el dolor",
+          "sub": "Número, no adjetivo",
+          "texto": [
+            "Pide cinco casos reales de la semana pasada. ¿Cuántos presupuestos quedaron sin respuesta? ¿Cuánto tiempo gasta Patrícia armando cada mensaje?",
+            "Estos números se convierten en la línea de base de la clase 7. Sin ellos, nadie sabrá después si la herramienta ayudó."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "En una semana, 42 presupuestos abiertos; 17 sin ninguna respuesta en 48 horas. Cada seguimiento toma unos 6 minutos (números ficticios del laboratorio)."
+          }
+        },
+        {
+          "titulo": "Probar la fecha de vencimiento",
+          "sub": "¿Ya existe? ¿Va a existir?",
+          "texto": [
+            "Pregunta: ¿el CRM o el chat que la empresa ya paga hace esto, o lo hará pronto? Si una versión 80% buena aparece dentro de algo que todos ya usan, el gerente no necesita la suya.",
+            "Construir lo que es demasiado fácil también es una alerta: si tomó media hora, el proveedor hace lo mismo. El valor está en las reglas del negocio que solo Patrícia conoce."
+          ],
+          "exemplo": {
+            "rot": "Pregunta",
+            "texto": "\"Si mañana el CRM lanza un botón de seguimiento, ¿qué hace todavía tu herramienta que él no hace?\""
+          }
+        },
+        {
+          "titulo": "Ver el proceso en seis eslabones",
+          "sub": "Entrada, decisión, acción, verificación, excepción, resultado",
+          "texto": [
+            "Todo proceso cabe en seis eslabones. Entrada y acción suelen poder delegarse. La decisión se divide en dos: la que sigue una regla (delegable) y la que exige juicio (se queda con la persona).",
+            "La excepción siempre tiene un destino humano con nombre. El mapa muestra dónde entra la herramienta y dónde se detiene."
+          ],
+          "exemplo": {
+            "rot": "Seguimiento",
+            "texto": "Entrada: presupuesto abierto hace 2 días. Decisión (regla): ¿cliente activo? Acción: sugerir mensaje. Verificación: Patrícia aprueba. Excepción: el cliente reclamó → Patrícia llama. Resultado: respuesta registrada."
+          }
+        },
+        {
+          "titulo": "Decidir las siete acciones y los datos",
+          "sub": "Puede, con aprobación, no puede",
+          "texto": [
+            "Para cada acción, una respuesta: leer, escribir en borrador, modificar, enviar, comprar (gastar margen), borrar y aprobar. En la primera versión, leer y borrador suelen ser \"puede\"; modificar y enviar, \"con aprobación\"; comprar, borrar y aprobar, \"no puede\".",
+            "Para los datos, una pregunta: ¿el trabajo sale igual sin ellos? Si es así, el dato queda fuera. Para sugerir un seguimiento, la herramienta no necesita el CPF."
+          ],
+          "exemplo": {
+            "rot": "Regla que resuelve",
+            "texto": "Cada fila de la matriz tiene un responsable con nombre. Un permiso sin responsable nadie lo revisa, y crece solo."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos: filtro y spec de una página",
+      "sub": "El filtro cabe en cinco minutos. La spec cabe en una página.",
+      "blocos": [
+        {
+          "rot": "Filtro de la idea (5 preguntas)",
+          "icone": "lupa",
+          "conteudo": "IDEA: <nombre>   GERENTE: <nombre>   FECHA: <dd/mm>\n\n1. Dolor: ¿cuántas veces por semana? ¿cuánto tiempo cada vez? ¿qué se pierde?\n   -> <números de la última semana>\n2. Validez: ¿el sistema que ya pagamos hace esto o lo hará en 3–6 meses?\n   -> <sí / no / no sé: preguntar a TI>\n3. Recurrencia: ¿se usará al menos cada semana?\n   -> <sí / no>\n4. Riesgo: ¿usa dato personal? ¿envía algo hacia afuera? ¿toca dinero, precio o pedido?\n   -> <verde / amarillo / rojo>\n5. Diferencial: ¿qué regla del negocio solo nosotros conocemos y la herramienta va a seguir?\n   -> <1 frase>\n\nDECISIÓN: <seguir a la spec / usar recurso existente / archivar>  MOTIVO: <1 frase>"
+        },
+        {
+          "rot": "Spec de una página — herramienta de seguimiento (Horizonte)",
+          "icone": "arquivo",
+          "conteudo": "# Spec — Seguimiento de presupuestos · v0.1\nResponsable del proceso: Patrícia Lima (gerente comercial) · Mentor: <tu nombre> · TI: Rafael\n\n## 1. Proceso y resultado\nTodo presupuesto abierto hace 2 días hábiles recibe una respuesta al cliente, aprobada por Patrícia.\nLínea de base: 17 de 42 presupuestos sin respuesta en 48 h (semana de <fecha>).\n\n## 2. Seis eslabones\n- Entrada: lista de presupuestos abiertos (exportación del sistema de ventas)\n- Decisión por regla: cliente activo y presupuesto < 15 días -> sugerir seguimiento\n- Decisión por juicio: cliente con reclamo abierto -> Patrícia decide\n- Acción: borrador de mensaje (WhatsApp o e-mail), citando solo productos del catálogo actual\n- Verificación: Patrícia lee, edita y aprueba\n- Excepción: pedido de descuento, reclamo, dato faltante -> cola de Patrícia\n- Resultado: fecha de la respuesta registrada en la planilla de control\n\n## 3. Permisos (primera versión)\n| Acción | Respuesta | Responsable |\n|---|---|---|\n| Leer presupuestos e historial de compras | puede | Patrícia |\n| Escribir borrador de mensaje | puede | Patrícia |\n| Cambiar estado del presupuesto | con aprobación | Patrícia |\n| Enviar mensaje al cliente | con aprobación | Patrícia |\n| Dar descuento / cambiar precio | NO PUEDE | Carlos (dueño) |\n| Borrar cliente o presupuesto | NO PUEDE | Rafael (TI) |\n| Aprobar su propio mensaje | NO PUEDE | — |\n\n## 4. Datos que quedan fuera\nCPF, datos bancarios, límite de crédito de terceros, conversaciones antiguas completas.\n\n## 5. Fuera del alcance de la v0.1\nEnvío automático, conexión con el WhatsApp oficial, cualquier descuento.\n\n## 6. Cómo sabremos que funcionó\n% de presupuestos con respuesta en 48 h · mensajes aprobados sin edición · cero límites violados."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Cómo verificar",
+            "html": "<ol><li>Ninguna línea de la spec está en blanco.</li><li>Al menos dos acciones están en \"no puede\".</li><li>Cada línea de permiso tiene un responsable con nombre.</li><li>Hay una lista de datos que quedan fuera.</li><li>La línea de base tiene número y fecha.</li></ol>"
+          },
+          {
+            "rot": "Errores comunes",
+            "html": "<ul><li><b>Spec de veinte páginas</b>: nadie la lee. Una página, frente y reverso como máximo.</li><li><b>\"Acceso al sistema de ventas\"</b> en una sola frase: no distingue leer, modificar y enviar.</li><li><b>Dato \"porque puede ser útil\"</b>: si el trabajo sale igual sin él, queda fuera.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica: filtrar y escribir la spec",
+      "sub": "Con tu gerente o con Patrícia.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Filtro de la idea",
+          "min": "20 min",
+          "texto": "Pasa la idea elegida en la clase 1 por las cinco preguntas, con números de la última semana.",
+          "pronto": "el filtro tiene las cinco respuestas y una decisión con motivo."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Seis eslabones",
+          "min": "20 min",
+          "texto": "Reescribe el proceso en entrada, decisión (regla y juicio), acción, verificación, excepción y resultado.",
+          "pronto": "cada eslabón tiene una línea y toda excepción tiene un destino humano con nombre."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Spec con permisos",
+          "min": "40 min",
+          "texto": "Completa la spec de una página con el gerente: las siete acciones, los responsables y los datos que quedan fuera.",
+          "pronto": "la spec cabe en una página, tiene al menos dos acciones en \"no puede\" y un responsable por fila."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Pon a prueba lo que aprendiste",
+      "sub": "La explicación aparece después de tu respuesta.",
+      "perguntas": [
+        {
+          "p": "El CRM de la empresa va a lanzar un botón de seguimiento el próximo trimestre. ¿Qué sugiere el filtro?",
+          "opcoes": [
+            "Construir de todos modos, más rápido.",
+            "Verificar qué haría la herramienta propia además del recurso nativo; si nada, usar el recurso.",
+            "Cambiar de CRM.",
+            "Ignorar: el filtro solo mira el dolor."
+          ],
+          "certa": 1,
+          "explica": "Es la fecha de vencimiento. Si el recurso nativo resuelve el 80%, la herramienta propia necesita un diferencial claro, como reglas del negocio que solo la gerente conoce.",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "Para sugerir un seguimiento, ¿la herramienta necesita el CPF del cliente?",
+          "opcoes": [
+            "Sí, para identificar al cliente.",
+            "No: el trabajo sale igual sin él, así que queda fuera.",
+            "Solo con aprobación.",
+            "Depende del modelo de IA."
+          ],
+          "certa": 1,
+          "explica": "La pregunta es \"¿el trabajo sale igual sin esto?\". Un dato sensible no es caso de aprobación: si no es necesario, queda fuera del alcance.",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "En la primera versión, \"enviar mensaje al cliente\" debe ser:",
+          "opcoes": [
+            "Puede.",
+            "Con aprobación.",
+            "No puede, nunca.",
+            "Decidido por la IA."
+          ],
+          "certa": 1,
+          "explica": "Enviar saca algo de la empresa y no vuelve. En la primera versión, la herramienta lo prepara y una persona lo libera. Se afloja solo después de pruebas y de un registro limpio.",
+          "ref": "codigo"
+        },
+        {
+          "p": "¿Cuál de estos es un eslabón de excepción bien escrito?",
+          "opcoes": [
+            "\"Los casos raros los resuelve la herramienta.\"",
+            "\"Un pedido de descuento o un reclamo va a la cola de Patrícia.\"",
+            "\"Las excepciones son raras.\"",
+            "\"TI lo revisa después.\""
+          ],
+          "certa": 1,
+          "explica": "Una excepción necesita un disparador concreto y un destino humano con nombre.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "La clase en cuatro frases",
+      "itens": [
+        {
+          "t": "Filtro antes",
+          "texto": "Dolor medido, plazo de validez, uso recurrente y riesgo. Descartar una idea aquí sale barato."
+        },
+        {
+          "t": "Seis eslabones",
+          "texto": "La entrada y la acción se delegan; el juicio y la excepción quedan con una persona con nombre."
+        },
+        {
+          "t": "Siete acciones",
+          "texto": "Leer, escribir, modificar, enviar, comprar, borrar y aprobar: puede, con aprobación o no puede."
+        },
+        {
+          "t": "Una página",
+          "texto": "La spec cabe en una página que el responsable, el gerente y TI leen completa."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Arquitecto de Trabajo con IA (proceso → spec con permisos)",
+          "href": "https://inematds.github.io/pffia/",
+          "icone": "lista"
+        },
+        {
+          "t": "Productos en la era de la IA: ¿vale la pena construir?",
+          "href": "https://inematds.github.io/produtos-era-ia/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Gestión de Agentes: los 7 principios",
+          "href": "https://inematds.github.io/curso-7pa/",
+          "icone": "camadas"
+        }
+      ]
+    }
+  ]
+}

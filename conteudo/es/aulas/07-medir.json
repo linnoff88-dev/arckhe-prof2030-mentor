@@ -1,0 +1,353 @@
+{
+  "slug": "medir",
+  "num": 7,
+  "menu": "Medir",
+  "titulo": "Medir y mejorar",
+  "titulo_curto": "Medir y mejorar",
+  "minutos": 18,
+  "lead": "Una herramienta activada sin línea de base es una apuesta: nadie sabe si ayudó. Es la falla F11 del laboratorio. En esta clase armas con el gerente un panel de tres indicadores, una revisión semanal corta y una forma de mejorar sin romper lo que ya funciona.",
+  "objetivo": "armar el panel de 3 indicadores con línea de base y aplicar 1 mejora probada, con decisión de mantener o volver atrás.",
+  "competencias": [
+    "definir-linha-de-base",
+    "montar-painel-de-indicadores",
+    "conduzir-revisao-semanal",
+    "testar-melhoria-sem-regressao"
+  ],
+  "aprende": [
+    {
+      "icone": "grafico",
+      "t": "Tres indicadores con denominador"
+    },
+    {
+      "icone": "calendario",
+      "t": "La revisión semanal de 15 minutos"
+    },
+    {
+      "icone": "lupa",
+      "t": "Una hipótesis, una modificación"
+    },
+    {
+      "icone": "voltar",
+      "t": "Mantener o volver atrás con evidencia"
+    }
+  ],
+  "hero_alt": "La mentora y la gerente miran un panel con tres gráficos simples en un monitor.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "El ciclo de mejora",
+      "sub": "Medir antes, dar seguimiento, cambiar una sola cosa y decidir. Haz clic en cada bloque.",
+      "nos": [
+        {
+          "icone": "marca",
+          "titulo": "Línea de base",
+          "sub": "Cómo era antes",
+          "itens": [
+            {
+              "icone": "relogio",
+              "t": "Semana anterior a la herramienta"
+            }
+          ],
+          "detalhe": "El número de antes, con período y denominador. En Horizonte: 17 de 42 presupuestos sin respuesta en 48 horas en una semana. Sin eso, cualquier mejora es opinión."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "3 indicadores",
+          "sub": "Resultado, calidad, costo",
+          "itens": [
+            {
+              "icone": "alvo",
+              "t": "Uso y resultado"
+            },
+            {
+              "icone": "check",
+              "t": "Calidad"
+            },
+            {
+              "icone": "grafico",
+              "t": "Costo por tarea"
+            }
+          ],
+          "detalhe": "Tres números, ni uno más. Resultado de negocio con uso, calidad con cero límites violados y costo por tarea incluyendo el tiempo de la persona.",
+          "forte": true
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Revisión semanal",
+          "sub": "15 minutos",
+          "itens": [
+            {
+              "icone": "lista",
+              "t": "Siete preguntas"
+            }
+          ],
+          "detalhe": "Cada semana, la gerente y el mentor miran los tres números y la lista de excepciones. Si el uso cae, la edición sube o se viola un límite, se enciende la alerta."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Hipótesis",
+          "sub": "Un cambio",
+          "itens": [
+            {
+              "icone": "caneta",
+              "t": "Si... entonces... porque..."
+            }
+          ],
+          "detalhe": "Un cambio concreto, con el número que debe moverse y la evidencia que lo respalda. Con dos cambios juntos, nadie sabe cuál funcionó."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Probar y decidir",
+          "sub": "La misma batería, sin empeorar",
+          "itens": [
+            {
+              "icone": "check",
+              "t": "Se queda"
+            },
+            {
+              "icone": "voltar",
+              "t": "Vuelve"
+            }
+          ],
+          "detalhe": "La versión nueva corre la misma batería. Solo se queda si mejora el objetivo sin empeorar los demás. Si no, se vuelve a la anterior, que quedó guardada."
+        }
+      ],
+      "volta": "¿Decidiste? La próxima semana se mide de nuevo",
+      "legenda": "Una meta sola enseña a hacer trampa: la meta es siempre \"mejorar X sin empeorar Y ni Z\".",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "El ciclo completo",
+        "texto": "Línea de base, tres indicadores, revisión semanal, una hipótesis a la vez y decisión de mantener o volver atrás con la misma batería."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cómo medir sin engañarse",
+      "sub": "Haz clic en cada etapa.",
+      "passos": [
+        {
+          "titulo": "Siempre el denominador",
+          "sub": "X de cuántos, en qué período",
+          "texto": [
+            "\"Hicimos 30 seguimientos\" no dice nada. \"30 de 41 presupuestos elegibles de la semana tuvieron respuesta en 48 h\" sí dice.",
+            "Separa prueba, piloto y producción: un número de batería no es un número de operación."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Antes: 25 de 42 (60%) con respuesta en 48 h. Semana 3 con la herramienta: 36 de 40 (90%). Datos ficticios del laboratorio."
+          }
+        },
+        {
+          "titulo": "El costo incluye a la persona",
+          "sub": "Costo por tarea, completo",
+          "texto": [
+            "Costo por seguimiento = costo de IA y hospedaje + minutos de la gerente revisando y tratando excepciones. Una herramienta barata que duplica la revisión no ahorra nada.",
+            "El precio de la IA baja rápido. Ejemplo: Anthropic lanzó el 22/09/2026 un modelo que, según ella, cuesta 40% menos que el anterior para tareas típicas. Por eso, revisa la elección de modelo cada trimestre, corriendo la batería."
+          ],
+          "exemplo": {
+            "rot": "Cuenta simple",
+            "texto": "Antes: 6 min por seguimiento. Ahora: 1,5 min de revisión + R$ <x> de IA. La diferencia se convierte en tiempo de Patrícia con el cliente."
+          }
+        },
+        {
+          "titulo": "Revisión semanal",
+          "sub": "15 minutos, siete preguntas",
+          "texto": [
+            "¿Mejoró frente a la línea de base? ¿Cambiaron la calidad y las excepciones? ¿Cuánto trabajo humano hizo falta? ¿Cuál fue el costo completo? ¿Algo necesita pausa o menos autonomía? ¿Qué hipótesis vale la pena probar? ¿Quién lo hace y cuándo?",
+            "Señales de alerta: el uso cae de una semana a otra, el equipo vuelve a la forma antigua, la edición de los borradores sube."
+          ],
+          "exemplo": {
+            "rot": "Regla",
+            "texto": "Con menos de 30 observaciones, anota la tendencia, pero no decidas."
+          }
+        },
+        {
+          "titulo": "Mejorar sin regresión",
+          "sub": "Un cambio, misma batería",
+          "texto": [
+            "Escribe la hipótesis: si cambio esto, entonces este número va de A a B, porque vimos tal evidencia. Aplica solo ese cambio en una versión nueva.",
+            "Corre la batería de la clase 5. Se queda si mejora el objetivo y ningún otro empeora más allá de la tolerancia; si no, se vuelve atrás. La versión anterior sigue guardada en Git."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Hipótesis: citar el último producto comprado reduce la edición de 25% a 15%. La batería pasó, la edición bajó a 16% en 3 semanas. Se quedó."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos: panel, tarjeta de hipótesis y revisión semanal",
+      "sub": "Copia a una hoja de cálculo o a un archivo en el repositorio.",
+      "blocos": [
+        {
+          "rot": "Panel de 3 indicadores — seguimiento",
+          "icone": "grafico",
+          "conteudo": "PANEL · herramienta: seguimiento de presupuestos · responsable: Patrícia · período: semana del <dd/mm>\n\n| Indicador | Fórmula (con denominador) | Línea de base | Meta | Semana actual |\n|---|---|---|---|---|\n| 1. Uso y resultado | presupuestos con respuesta en 48 h ÷ presupuestos elegibles | 25/42 = 60% (<fecha>) | 85% | <x/y> |\n| 2. Calidad | borradores aprobados sin edición ÷ borradores generados | — (no había) | 80% | <x/y> |\n|    traba | límites violados en la semana | — | 0 | <n> |\n| 3. Costo por seguimiento | (costo de IA + hosting) ÷ seguimientos + minutos de revisión | 6 min de persona | <= 2 min + R$ <x> | <valor> |\n\nAlerta: el uso cayó 20% en la semana · edición por encima de 30% · cualquier límite violado -> pausa y revisión."
+        },
+        {
+          "rot": "Tarjeta de hipótesis (un cambio a la vez)",
+          "icone": "lupa",
+          "conteudo": "## H<n> — <título corto>\nSI        <un único cambio concreto>\nENTONCES  <indicador> va de <actual> a <esperado>\nPORQUE    <evidencia: casos, excepciones, comentarios de la gerente>\nSIN EMPEORAR <indicadores vigilados y tolerancia>\nPRUEBA    batería v<x> (mismos casos) + <n> semanas de operación\nRESULTADO <antes -> después, con denominador>\nDECISIÓN  [ se queda ]  [ se vuelve atrás ]  [ esperar más datos ]   por: <nombre>  el: <fecha>"
+        },
+        {
+          "rot": "Revisión semanal del gerente (15 min)",
+          "icone": "calendario",
+          "conteudo": "1. ¿El resultado mejoró frente a la línea de base, en el mismo período?\n2. ¿Cambiaron la calidad, los límites violados y las excepciones?\n3. ¿Cuánto trabajo humano hizo falta, y dónde?\n4. ¿Cuál fue el costo completo, incluyendo el retrabajo?\n5. ¿Alguna acción necesita pausa o menos autonomía?\n6. ¿Qué hipótesis merece una prueba esta semana?\n7. ¿Quién hace cada acción y cuándo revisamos?"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Panel de la semana 3",
+            "html": "<ol><li><b>Uso y resultado</b>: 36/40 = 90% (base 60%).</li><li><b>Calidad</b>: 31/40 aprobados sin edición = 78%; límites violados: 0.</li><li><b>Costo</b>: 1,5 min de revisión + costo de IA por seguimiento.</li></ol><p>Datos ficticios del laboratorio.</p>"
+          },
+          {
+            "rot": "Errores comunes",
+            "html": "<ul><li><b>Número sin denominador</b>: \"30 seguimientos\" no dice si mejoró.</li><li><b>Costo sin la persona</b>: esconde la revisión que creció.</li><li><b>Meta sola</b>: \"más mensajes\" enseña a mandar demasiados mensajes.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica: panel y una mejora",
+      "sub": "Con el gerente, a lo largo de tres semanas.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Línea de base",
+          "min": "30 min",
+          "texto": "Con los casos de la clase 2, escribe el número de antes de cada indicador, con período y denominador.",
+          "pronto": "los tres indicadores tienen valor de antes, o están marcados como \"no había\" con el motivo."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Panel y revisiones",
+          "min": "15 min por semana",
+          "dias": 21,
+          "texto": "Llena el panel y haz la revisión semanal durante tres semanas.",
+          "pronto": "hay tres semanas llenas y una acción anotada en cada revisión."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Una mejora",
+          "min": "60 min",
+          "texto": "Escribe una hipótesis, aplica un cambio, corre la batería y decide.",
+          "pronto": "la tarjeta de hipótesis está llena con resultado, decisión (se queda o se vuelve atrás) y nombre de quien decidió."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Pon a prueba lo que aprendiste",
+      "sub": "La explicación aparece después de tu respuesta.",
+      "perguntas": [
+        {
+          "p": "El panel de Horizonte no tiene línea de base. ¿Cuál es el problema?",
+          "opcoes": [
+            "Ninguno, el número actual basta.",
+            "Nadie puede decir si la herramienta ayudó.",
+            "El panel se ve feo.",
+            "TI no lo aprueba."
+          ],
+          "certa": 1,
+          "explica": "Es la falla F11 del laboratorio. Sin el antes, el después no prueba nada.",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "La versión nueva redujo la edición, pero se violó un límite en la batería. ¿Qué hacer?",
+          "opcoes": [
+            "Mantenerla, porque el objetivo mejoró.",
+            "Volver a la versión anterior: mejorar el objetivo no puede empeorar lo que se vigila.",
+            "Sacar el caso de la batería.",
+            "Esperar a que el cliente reclame."
+          ],
+          "certa": 1,
+          "explica": "Mejorar X sin empeorar Y. Un límite violado tumba el cambio, por mejor que esté el objetivo.",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "¿Por qué revisar la elección de modelo cada trimestre?",
+          "opcoes": [
+            "Por moda.",
+            "Porque el precio por tarea baja rápido y la misma batería muestra si un modelo más barato mantiene la calidad.",
+            "Porque la ley lo exige.",
+            "Para cambiar de proveedor siempre."
+          ],
+          "certa": 1,
+          "explica": "El costo por tarea baja con cada generación. Correr la batería con el modelo nuevo da la respuesta con evidencia.",
+          "ref": "passos"
+        },
+        {
+          "p": "¿Cuál de estos es un indicador bien escrito?",
+          "opcoes": [
+            "\"Muchos seguimientos.\"",
+            "\"Presupuestos con respuesta en 48 h ÷ presupuestos elegibles, por semana.\"",
+            "\"Clientes felices.\"",
+            "\"Uso de la IA.\""
+          ],
+          "certa": 1,
+          "explica": "Tiene numerador, denominador y período. Los otros no se pueden contar.",
+          "ref": "codigo"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "La clase en cuatro frases",
+      "itens": [
+        {
+          "t": "Antes de todo",
+          "texto": "Línea de base con período y denominador."
+        },
+        {
+          "t": "Tres números",
+          "texto": "Uso y resultado, calidad con cero límites violados, costo por tarea con el tiempo de la persona."
+        },
+        {
+          "t": "Cada semana",
+          "texto": "Quince minutos, siete preguntas, una acción con responsable."
+        },
+        {
+          "t": "Mejorar con prueba",
+          "texto": "Un cambio, la misma batería, y se queda solo si nada empeora."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "LOOP-R: mejora continua con evidencia (guía)",
+          "href": "https://inematds.github.io/loop-r/guia/",
+          "icone": "voltar"
+        },
+        {
+          "t": "LOOP-R: curso",
+          "href": "https://inematds.github.io/loop-r/curso/",
+          "icone": "lista"
+        },
+        {
+          "t": "Gestión de IA: plan de la formación (módulos 9 y 10)",
+          "href": "https://inematds.github.io/curso-gestao-ia/",
+          "icone": "grafico"
+        },
+        {
+          "t": "Fuente: Anthropic — Claude Opus 5.5, costo 40 % menor (22/09/2026)",
+          "href": "https://www.anthropic.com/claude-opus-5-5",
+          "icone": "seta"
+        },
+        {
+          "t": "Laboratorio Horizonte: Panel de indicadores (F11)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/painel/",
+          "icone": "lupa"
+        }
+      ]
+    }
+  ]
+}

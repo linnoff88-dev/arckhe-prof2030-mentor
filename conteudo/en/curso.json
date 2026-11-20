@@ -1,0 +1,186 @@
+{
+  "id": "prof2030-mentor",
+  "lang": "en",
+  "url": "https://inematds.github.io/prof2030-mentor/en/",
+  "nome": "AI Mentor",
+  "sub": "Professional 2030 Program",
+  "volta": {
+    "t": "Professional 2030 Area",
+    "href": "https://inematds.github.io/profissional-2030/"
+  },
+  "lado_card": {
+    "rot": "Lab company",
+    "t": "Horizonte Distribuidora",
+    "texto": "The same fictional company across all five programs. Here you follow Patrícia from the prototype to the handoff to Rafael.",
+    "link": "Open the lab",
+    "href": "https://inematds.github.io/prof2030-lab/"
+  },
+  "rodape": "INEMA.CLUB · open and free content · INEMA Learning v7.2 format · <a href=\"https://inematds.github.io/profissional-2030/\">Professional 2030</a> · <a href=\"https://inema.club/\">inema.club</a> · <a href=\"https://www.inema.club/cursos/339-profissional-2030-mentor-de-ia-do-prototipo-do-gestor-a-passagem-para-a-ti-8-aulas/\">This course's page on INEMA.CLUB</a> · <a href=\"https://www.inema.club/aprender-inteligencia-artificial/\">Guide: how to learn AI</a>",
+  "videos": {},
+  "inicio": {
+    "kicker": "Professional 2030 · AI Mentor program · 8 lessons",
+    "titulo": "AI Mentor: support the builder manager, from prototype to a safe handoff to IT",
+    "lead": "Managers are already building their own tools with AI. What's missing is someone to guide them with a method: choose what is worth building, prototype, set limits, test, and hand off to IT with a named owner and a cost. In eight lessons you build that method and leave with a 90-day program plan.",
+    "cta": "Start with lesson 1",
+    "cta2": {
+      "t": "See Professional 2030",
+      "href": "https://inematds.github.io/profissional-2030/"
+    },
+    "capa_alt": "AI Mentor: a mentor and a sales manager review a prototype on a laptop; the IT technician in the background.",
+    "numeros": [
+      {
+        "v": "8",
+        "t": "short lessons"
+      },
+      {
+        "v": "8",
+        "t": "templates to copy"
+      },
+      {
+        "v": "1",
+        "t": "continuous case at Horizonte"
+      },
+      {
+        "v": "90",
+        "t": "program days"
+      }
+    ],
+    "aulas_titulo": "The lessons",
+    "aulas_sub": "One case from start to finish: sales manager Patrícia Lima wants a customer follow-up tool. You guide her through the handoff to Rafael, from IT.",
+    "blocos": [
+      {
+        "t": "Who it's for",
+        "itens": [
+          "People who want to work helping companies adopt AI, guiding managers who build their own tools.",
+          "Area managers and IT leaders who will organize this movement inside the company.",
+          "You don't need to code. You need to know the process, ask good questions, and keep the pace."
+        ]
+      },
+      {
+        "t": "What you'll be able to do",
+        "itens": [
+          "Filter ideas and turn a process into a one-page spec, with permissions.",
+          "Run a prototyping session and write the agent constitution.",
+          "Build the test suite, run acceptance testing with the user, and deliver the handoff package to IT.",
+          "Measure with three indicators and build a 90-day program with meetings and milestones."
+        ]
+      },
+      {
+        "t": "Part of Professional 2030",
+        "itens": [
+          "This program is one of the four in <a href=\"https://inematds.github.io/profissional-2030/\">Professional 2030</a>. Each program will have an INEMA qualification certificate (not a regulated profession); details soon.",
+          "Recommended prerequisite, not required: <a href=\"https://inematds.github.io/prof2030-base/\">Common Core — Trusting what AI builds</a>.",
+          "Other programs: <a href=\"https://inematds.github.io/prof2030-consultor/\">Consultant</a> · <a href=\"https://inematds.github.io/prof2030-auditor/\">Auditor</a> · <a href=\"https://inematds.github.io/prof2030-treinador/\">Trainer</a> · <a href=\"https://inematds.github.io/prof2030-mentor/\">Mentor (this one)</a>.",
+          "Lab company used in all five: <a href=\"https://inematds.github.io/prof2030-lab/\">Horizonte Distribuidora</a>."
+        ]
+      }
+    ]
+  },
+  "ui": {
+    "pular": "Skip to content",
+    "aulas": "Lessons",
+    "concluido": "completed",
+    "aula": "Lesson",
+    "nesta_aula": "In this lesson, you will learn:",
+    "objetivo": "Goal:",
+    "proxima_aula": "Next lesson",
+    "aula_anterior": "Previous lesson",
+    "voltar_inicio": "Back to course start",
+    "marcar_concluida": "Mark lesson as completed",
+    "dg_dica": "Click each block in the diagram to see what it does.",
+    "copiar": "Copy",
+    "copiado": "Copied",
+    "selo_simulacao": "Simulation: illustrative example",
+    "selo_real": "Example from the repository",
+    "pronto_quando": "Done when:",
+    "fiz": "I did this exercise",
+    "video_pagina": "Video page with script",
+    "pergunta": "Question",
+    "de": "of",
+    "cert_tag": "skill",
+    "correto": "Correct",
+    "errado": "Not that one",
+    "quiz_aguarda": "Pick an answer. The explanation appears after you try.",
+    "proxima_pergunta": "Next question",
+    "quiz_ver": "See result",
+    "quiz_fim": "Quiz complete",
+    "quiz_total": "You got {a} of {n} right. Get them all right and the lesson is marked as complete.",
+    "aparencia": "Appearance",
+    "tamanho_texto": "Text size",
+    "tema": "Theme",
+    "tema_escuro": "Dark",
+    "tema_papel": "Light paper",
+    "role_dica": "Scroll the page: each step below lights up its part of the diagram.",
+    "pre_requisito": "requires",
+    "ver_aula": "View the lesson",
+    "mapa_dica": "Tap an exercise to see what to do and the \"done when\" criteria.",
+    "etapas": "Steps",
+    "exercicios": "exercises",
+    "rever": "Review:",
+    "revisar_erradas": "Review the ones you missed",
+    "refazer": "Retake the quiz",
+    "h_semana": "h per week",
+    "data_inicio": "Start date",
+    "ritmo": "Time available",
+    "gerar_plano": "Generate my plan",
+    "baixar_md": "Download plan.md",
+    "baixar_ics": "Download to your calendar (.ics)",
+    "ind_estudo": "Study (lessons)",
+    "ind_pratica": "Declared practice",
+    "ind_nota": "Practice = exercises you marked as done. Proof comes in the certification exam.",
+    "estudo": {
+      "titulo": "Your study",
+      "continuar": "Pick up where I left off",
+      "comecar": "Start with lesson 1",
+      "cta_continuar": "Continue lesson {n}",
+      "hoje": "today",
+      "ontem": "yesterday",
+      "ha_dias": "{n} days ago",
+      "desempenho": "Test performance",
+      "notas": "My notes",
+      "dados": "Copy my data",
+      "sem_testes": "No tests taken yet. The test is at the end of each lesson.",
+      "nao_fez": "test not taken yet",
+      "ultimo": "Latest",
+      "melhor": "Best",
+      "tentativas": "attempts",
+      "tentativa": "attempt",
+      "tudo_certo": "You got everything right on the latest test.",
+      "rever": "To review",
+      "resposta": "Correct answer:",
+      "ir_teste": "Retake the quiz",
+      "sem_notas": "No notes yet. In the lesson, select part of the text and tap Highlight or Note.",
+      "so_marcado": "(highlight only)",
+      "marcar": "Highlight",
+      "anotar": "Note",
+      "salvar": "Save",
+      "apagar": "Remove highlight",
+      "fechar": "Close",
+      "nota_ph": "Write your note about this passage…",
+      "um_bloco": "Highlight within a single paragraph only.",
+      "nao_marca": "This passage can't be highlighted.",
+      "dados_exp": "Your progress, your notes, and your test scores stay in this browser only. Download a copy (.json) to keep it or to continue on another computer or browser; there, load the copy. Loading adds to what already exists and doesn't erase anything.",
+      "exportar": "Download copy",
+      "importar": "Load copy",
+      "import_ok": "Copy loaded ({n} items). Refreshing the page…",
+      "import_erro": "File not recognized. Nothing was changed.",
+      "import_outro": "This copy is from a different course. Nothing was changed.",
+      "export_ok": "Copy downloaded."
+    },
+    "conv_dica": "Choose your answer. The comment appears right after, and the conversation continues based on your choice.",
+    "conv_voce": "You",
+    "conv_escolha": "Your answer",
+    "conv_boa": "Good choice",
+    "conv_meio": "Could be better",
+    "conv_ruim": "Weak choice",
+    "conv_fim": "End of the conversation",
+    "conv_placar": "You scored {p} of {m} possible points.",
+    "conv_licao": "Lesson:",
+    "conv_recomecar": "Restart the conversation",
+    "conv_feita": "Your best score: {p} of {m} points.",
+    "comecar": "Start the lesson",
+    "nesta_vai": "In this lesson you will",
+    "trocar_tema": "Switch light/dark theme"
+  },
+  "icone": "camadas"
+}

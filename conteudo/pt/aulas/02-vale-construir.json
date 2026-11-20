@@ -1,0 +1,142 @@
+{
+  "slug": "vale-construir",
+  "num": 2,
+  "menu": "Spec",
+  "titulo": "Vale a pena construir?",
+  "titulo_curto": "Vale a pena construir?",
+  "minutos": 18,
+  "lead": "Hoje dá para construir quase tudo numa tarde. Por isso \"dá para fazer\" deixou de ser motivo. Antes do protótipo, o mentor passa a ideia por um filtro curto e, se ela sobreviver, ajuda o gestor a escrevê-la numa página: o processo, o resultado, o que a ferramenta pode fazer e o que nunca faz.",
+  "objetivo": "filtrar a ideia do gestor e escrever a spec de uma página, com permissões, dono e dados que ficam fora.",
+  "competencias": ["filtrar-ideia", "mapear-processo", "escrever-spec", "definir-permissoes"],
+  "aprende": [
+    {"icone": "lupa", "t": "Filtrar a ideia em cinco perguntas"},
+    {"icone": "camadas", "t": "Ver o processo em seis elos"},
+    {"icone": "cadeado", "t": "Decidir as sete ações e os dados"},
+    {"icone": "arquivo", "t": "Escrever a spec de uma página"}
+  ],
+  "hero_alt": "Duas pessoas decidem sobre uma página impressa; uma risca linhas com a caneta.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Do desejo à spec de uma página",
+      "sub": "A ideia passa por quatro filtros. Só o que passa vira spec. Clique em cada bloco.",
+      "nos": [
+        {"icone": "alvo", "titulo": "Dor real", "sub": "Alguém sofre com isso?", "itens": [{"icone": "relogio", "t": "Frequência e tempo"}, {"icone": "usuario", "t": "Quem sofre"}], "detalhe": "Sem dor, ninguém muda de hábito. Pergunte quantas vezes por semana acontece, quanto tempo leva e o que se perde quando falha. Resposta em adjetivo (\"é muita coisa\") ainda não é dor medida."},
+        {"icone": "relogio", "titulo": "Prazo de validade", "sub": "Ainda vale em 3, 6, 12 meses?", "itens": [{"icone": "nuvem", "t": "Já existe no sistema pago?"}, {"icone": "chat", "t": "Resolve com um pedido no chat?"}], "detalhe": "Se o CRM ou o chat que a empresa já paga vai ter isso como recurso em poucos meses, construir é gastar com prazo curto. Às vezes a resposta certa é \"use o recurso que já existe\"."},
+        {"icone": "fila", "titulo": "Uso recorrente", "sub": "Entra na rotina?", "itens": [{"icone": "calendario", "t": "Toda semana, pelo menos"}], "detalhe": "Ferramenta usada uma vez por mês não compensa manutenção. O primeiro projeto do programa precisa entrar na rotina do gestor para gerar resultado medível."},
+        {"icone": "escudo", "titulo": "Risco", "sub": "Que dado e que ação?", "itens": [{"icone": "cadeado", "t": "Dado pessoal?"}, {"icone": "enviar", "t": "Sai da empresa?"}], "detalhe": "Quanto mais dado pessoal e mais ação para fora, mais a TI precisa entrar cedo. Risco alto não mata a ideia: muda o tamanho do primeiro protótipo."},
+        {"icone": "arquivo", "titulo": "Spec de 1 página", "sub": "O que passa vira documento", "itens": [{"icone": "lista", "t": "Processo, elos, permissões"}, {"icone": "usuario", "t": "Dono com nome"}], "detalhe": "Uma página que o gestor, o mentor, o dono da empresa e a TI leem inteira. É o que o protótipo vai seguir e o que a TI vai receber.", "forte": true}
+      ],
+      "legenda": "Cortar ideia aqui é sucesso: custa uma conversa, não um mês de manutenção.",
+      "rolagem": true,
+      "rolagem_fim": {"titulo": "O filtro inteiro", "texto": "Dor medida, prazo de validade longo, uso recorrente e risco conhecido. O que passa pelos quatro vira uma página."}
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Como conduzir o filtro e a spec",
+      "sub": "Clique em cada etapa.",
+      "passos": [
+        {
+          "titulo": "Medir a dor",
+          "sub": "Número, não adjetivo",
+          "texto": [
+            "Peça cinco casos reais da última semana. Quantos orçamentos ficaram sem retorno? Quanto tempo a Patrícia gasta montando cada mensagem?",
+            "Esses números viram a linha de base da aula 7. Sem eles, ninguém saberá depois se a ferramenta ajudou."
+          ],
+          "exemplo": {"rot": "Na Horizonte", "texto": "Em uma semana, 42 orçamentos abertos; 17 sem nenhum retorno em 48 horas. Cada follow-up leva uns 6 minutos (números fictícios do laboratório)."}
+        },
+        {
+          "titulo": "Testar o prazo de validade",
+          "sub": "Já existe? Vai existir?",
+          "texto": [
+            "Pergunte: o CRM ou o chat que a empresa já paga faz isso, ou vai fazer em breve? Se uma versão 80% boa aparecer dentro de algo que todos já usam, o gestor não precisa da dele.",
+            "Construir o que é fácil demais também é alerta: se levou meia hora, o fornecedor faz igual. O valor está nas regras do negócio que só a Patrícia conhece."
+          ],
+          "exemplo": {"rot": "Pergunta", "texto": "\"Se amanhã o CRM lançar um botão de follow-up, o que a sua ferramenta ainda faz que ele não faz?\""}
+        },
+        {
+          "titulo": "Ver o processo em seis elos",
+          "sub": "Entrada, decisão, ação, verificação, exceção, resultado",
+          "texto": [
+            "Todo processo cabe em seis elos. Entrada e ação costumam ser delegáveis. Decisão se divide em duas: a que segue regra (delegável) e a que exige julgamento (fica com a pessoa).",
+            "Exceção sempre tem destino humano com nome. O mapa mostra onde a ferramenta entra e onde ela para."
+          ],
+          "exemplo": {"rot": "Follow-up", "texto": "Entrada: orçamento aberto há 2 dias. Decisão (regra): cliente ativo? Ação: sugerir mensagem. Verificação: Patrícia aprova. Exceção: cliente reclamou → Patrícia liga. Resultado: retorno registrado."}
+        },
+        {
+          "titulo": "Decidir as sete ações e os dados",
+          "sub": "Pode, com aprovação, não pode",
+          "texto": [
+            "Para cada ação, uma resposta: ler, escrever em rascunho, alterar, enviar, comprar (gastar margem), apagar e aprovar. Na primeira versão, ler e rascunho costumam ser \"pode\"; alterar e enviar, \"com aprovação\"; comprar, apagar e aprovar, \"não pode\".",
+            "Para os dados, uma pergunta: o trabalho sai igual sem isso? Se sim, o dado fica fora. Para sugerir um follow-up, a ferramenta não precisa do CPF."
+          ],
+          "exemplo": {"rot": "Regra que resolve", "texto": "Cada linha da matriz tem um dono com nome. Permissão sem dono ninguém revisa, e ela cresce sozinha."}
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos: filtro e spec de uma página",
+      "sub": "O filtro cabe em cinco minutos. A spec cabe numa página.",
+      "blocos": [
+        {
+          "rot": "Filtro da ideia (5 perguntas)",
+          "icone": "lupa",
+          "conteudo": "IDEIA: <nome>   GESTOR: <nome>   DATA: <dd/mm>\n\n1. Dor: quantas vezes por semana? quanto tempo por vez? o que se perde?\n   -> <números da última semana>\n2. Validade: o sistema que já pagamos faz isso ou vai fazer em 3–6 meses?\n   -> <sim / não / não sei: perguntar à TI>\n3. Recorrência: será usada pelo menos toda semana?\n   -> <sim / não>\n4. Risco: usa dado pessoal? envia algo para fora? mexe em dinheiro, preço ou pedido?\n   -> <verde / amarelo / vermelho>\n5. Diferencial: que regra do negócio só nós sabemos e a ferramenta vai seguir?\n   -> <1 frase>\n\nDECISÃO: <seguir para a spec / usar recurso existente / arquivar>  MOTIVO: <1 frase>"
+        },
+        {
+          "rot": "Spec de uma página — ferramenta de follow-up (Horizonte)",
+          "icone": "arquivo",
+          "conteudo": "# Spec — Follow-up de orçamentos · v0.1\nDona do processo: Patrícia Lima (gerente comercial) · Mentor: <seu nome> · TI: Rafael\n\n## 1. Processo e resultado\nTodo orçamento aberto há 2 dias úteis recebe um retorno ao cliente, aprovado pela Patrícia.\nLinha de base: 17 de 42 orçamentos sem retorno em 48 h (semana de <data>).\n\n## 2. Seis elos\n- Entrada: lista de orçamentos abertos (exportação do sistema de vendas)\n- Decisão por regra: cliente ativo e orçamento < 15 dias -> sugerir follow-up\n- Decisão por julgamento: cliente com reclamação aberta -> Patrícia decide\n- Ação: rascunho de mensagem (WhatsApp ou e-mail), citando só produtos do catálogo atual\n- Verificação: Patrícia lê, edita e aprova\n- Exceção: pedido de desconto, reclamação, dado faltando -> fila da Patrícia\n- Resultado: data do retorno registrada na planilha de controle\n\n## 3. Permissões (primeira versão)\n| Ação | Resposta | Dono |\n|---|---|---|\n| Ler orçamentos e histórico de compras | pode | Patrícia |\n| Escrever rascunho de mensagem | pode | Patrícia |\n| Alterar status do orçamento | com aprovação | Patrícia |\n| Enviar mensagem ao cliente | com aprovação | Patrícia |\n| Dar desconto / mudar preço | NÃO PODE | Carlos (dono) |\n| Apagar cliente ou orçamento | NÃO PODE | Rafael (TI) |\n| Aprovar a própria mensagem | NÃO PODE | — |\n\n## 4. Dados que ficam fora\nCPF, dados bancários, limite de crédito de terceiros, conversas antigas inteiras.\n\n## 5. Fora do escopo da v0.1\nEnvio automático, ligação com o WhatsApp oficial, qualquer desconto.\n\n## 6. Como saberemos que deu certo\n% de orçamentos com retorno em 48 h · mensagens aprovadas sem edição · zero limite violado."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {"rot": "Como conferir", "html": "<ol><li>Nenhuma linha da spec está em branco.</li><li>Pelo menos duas ações estão em \"não pode\".</li><li>Cada linha de permissão tem um dono com nome.</li><li>Há uma lista de dados que ficam fora.</li><li>A linha de base tem número e data.</li></ol>"},
+          {"rot": "Erros comuns", "html": "<ul><li><b>Spec de vinte páginas</b>: ninguém lê. Uma página, frente e verso no máximo.</li><li><b>\"Acesso ao sistema de vendas\"</b> numa frase só: não distingue ler, alterar e enviar.</li><li><b>Dado \"porque pode ser útil\"</b>: se o trabalho sai igual sem ele, fica fora.</li></ul>"}
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática: filtrar e escrever a spec",
+      "sub": "Com o seu gestor ou com a Patrícia.",
+      "exercicios": [
+        {"id": "e1", "titulo": "E1 · Filtro da ideia", "min": "20 min", "texto": "Passe a ideia escolhida na aula 1 pelas cinco perguntas, com números da última semana.", "pronto": "o filtro tem as cinco respostas e uma decisão com motivo."},
+        {"id": "e2", "titulo": "E2 · Seis elos", "min": "20 min", "texto": "Reescreva o processo em entrada, decisão (regra e julgamento), ação, verificação, exceção e resultado.", "pronto": "cada elo tem uma linha e toda exceção tem destino humano com nome."},
+        {"id": "e3", "titulo": "E3 · Spec com permissões", "min": "40 min", "texto": "Preencha a spec de uma página com o gestor: as sete ações, os donos e os dados fora.", "pronto": "a spec cabe numa página, tem pelo menos duas ações em \"não pode\" e um dono por linha."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste o que aprendeu",
+      "sub": "A explicação aparece depois da sua resposta.",
+      "perguntas": [
+        {"p": "O CRM da empresa vai lançar um botão de follow-up no próximo trimestre. O que o filtro sugere?", "opcoes": ["Construir mesmo assim, mais rápido.", "Verificar o que a ferramenta própria faria além do recurso nativo; se nada, usar o recurso.", "Trocar de CRM.", "Ignorar: o filtro só olha a dor."], "certa": 1, "explica": "É o prazo de validade. Se o recurso nativo resolve 80%, a ferramenta própria precisa de um diferencial claro, como regras do negócio que só a gestora conhece.", "ref": "passos", "cert": true},
+        {"p": "Para sugerir um follow-up, a ferramenta precisa do CPF do cliente?", "opcoes": ["Sim, para identificar o cliente.", "Não: o trabalho sai igual sem ele, então ele fica fora.", "Só com aprovação.", "Depende do modelo de IA."], "certa": 1, "explica": "A pergunta é \"o trabalho sai igual sem isso?\". Dado sensível não é caso de aprovação: se não é necessário, fica fora do alcance.", "ref": "passos", "cert": true},
+        {"p": "Na primeira versão, \"enviar mensagem ao cliente\" deve ser:", "opcoes": ["Pode.", "Com aprovação.", "Não pode, nunca.", "Decidido pela IA."], "certa": 1, "explica": "Enviar tira algo da empresa e não volta. Na primeira versão, prepara e uma pessoa libera. Afrouxa só depois de testes e registro limpo.", "ref": "codigo"},
+        {"p": "Qual destes é um elo de exceção bem escrito?", "opcoes": ["\"Casos estranhos a ferramenta resolve.\"", "\"Pedido de desconto ou reclamação vai para a fila da Patrícia.\"", "\"Exceções são raras.\"", "\"A TI olha depois.\""], "certa": 1, "explica": "Exceção precisa de gatilho concreto e destino humano com nome.", "ref": "passos"}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "A aula em quatro frases",
+      "itens": [
+        {"t": "Filtro antes", "texto": "Dor medida, prazo de validade, uso recorrente e risco. Cortar ideia aqui é barato."},
+        {"t": "Seis elos", "texto": "Entrada e ação se delegam; julgamento e exceção ficam com uma pessoa com nome."},
+        {"t": "Sete ações", "texto": "Ler, escrever, alterar, enviar, comprar, apagar e aprovar: pode, com aprovação ou não pode."},
+        {"t": "Uma página", "texto": "A spec cabe numa página que o dono, o gestor e a TI leem inteira."}
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {"t": "Arquiteto de Trabalho com IA (processo → spec com permissões)", "href": "https://inematds.github.io/pffia/", "icone": "lista"},
+        {"t": "Produtos na era da IA: vale a pena construir?", "href": "https://inematds.github.io/produtos-era-ia/", "icone": "lupa"},
+        {"t": "Gestão de Agentes: os 7 princípios", "href": "https://inematds.github.io/curso-7pa/", "icone": "camadas"}
+      ]
+    }
+  ]
+}

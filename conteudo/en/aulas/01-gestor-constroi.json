@@ -1,0 +1,355 @@
+{
+  "slug": "gestor-constroi",
+  "num": 1,
+  "menu": "Paper",
+  "titulo": "The builder manager",
+  "titulo_curto": "The builder manager",
+  "minutos": 15,
+  "lead": "The manager who knows the process can now build her own tool with AI. That is good, and it is risky. The mentor is there so her idea becomes something useful, tested, and handed off to IT, without turning into one more hidden tool with exposed customer data.",
+  "objetivo": "explain the mentor's role and map out with the manager 3 tools they want, each with its own risk.",
+  "competencias": [
+    "papel-do-mentor",
+    "mapear-ferramentas",
+    "classificar-risco-inicial"
+  ],
+  "aprende": [
+    {
+      "icone": "usuario",
+      "t": "What changes when the manager builds"
+    },
+    {
+      "icone": "alvo",
+      "t": "What the mentor does and does not do"
+    },
+    {
+      "icone": "escudo",
+      "t": "Where AI tends to fail"
+    },
+    {
+      "icone": "lista",
+      "t": "Map 3 tools with risk"
+    }
+  ],
+  "hero_alt": "A sales manager sketches tool ideas in a notebook, with the stock of cleaning products in the background.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Who does what in the new model",
+      "sub": "The manager builds with AI. The mentor guides. IT validates. Click each block.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Manager",
+          "sub": "Knows the process",
+          "itens": [
+            {
+              "icone": "chat",
+              "t": "Patrícia, sales manager"
+            },
+            {
+              "icone": "alvo",
+              "t": "Knows where it hurts"
+            }
+          ],
+          "detalhe": "The person who knows the problem is the person who lives the process. Patrícia knows a customer goes cold when no one follows up on a quote within two days. No programmer knows that better than she does.",
+          "forte": true
+        },
+        {
+          "icone": "robo",
+          "titulo": "AI",
+          "sub": "Speeds up the build",
+          "itens": [
+            {
+              "icone": "terminal",
+              "t": "Code agent"
+            },
+            {
+              "icone": "chat",
+              "t": "Work agent in the chat"
+            }
+          ],
+          "detalhe": "Today an agent builds a prototype in hours. Building got cheap. What is still expensive is trusting what was built: data, permissions, tests, and maintenance."
+        },
+        {
+          "icone": "foco",
+          "titulo": "Mentor",
+          "sub": "Guides with a method",
+          "itens": [
+            {
+              "icone": "lista",
+              "t": "Spec, limits, tests"
+            },
+            {
+              "icone": "calendario",
+              "t": "90-day program"
+            }
+          ],
+          "detalhe": "You. You don't build for the manager: you make the manager able to build with a method. You ask the right questions, hold the pace, and prepare the handoff to IT."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "IT",
+          "sub": "Validates and takes over",
+          "itens": [
+            {
+              "icone": "cadeado",
+              "t": "Rafael, outsourced IT"
+            },
+            {
+              "icone": "check",
+              "t": "Access, security, maintenance"
+            }
+          ],
+          "detalhe": "IT is still essential. It validates anything that will touch data and critical operations, takes care of access and security, and takes over maintenance. The mentor delivers the package; IT decides whether it goes into production."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Governance",
+          "sub": "Sustains it over time",
+          "itens": [
+            {
+              "icone": "grafico",
+              "t": "Indicators"
+            },
+            {
+              "icone": "arquivo",
+              "t": "Inventory and log"
+            }
+          ],
+          "detalhe": "A named owner, a log of actions, periodic review, and an inventory of tools. It's what keeps the tool from becoming 'that thing Patrícia made that nobody knows how it works'."
+        }
+      ],
+      "volta": "What IT and the indicators show comes back to the manager as improvement",
+      "legenda": "Before: the manager asked IT and waited. Now: the manager prototypes, the mentor guides, and IT validates before anything goes into production.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "The whole combination",
+        "texto": "A manager who knows the process, AI that speeds things up, a mentor who guides, IT that validates, and governance that sustains. Take away any piece and the rest breaks."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The mentor's role in four ideas",
+      "sub": "Click each step.",
+      "passos": [
+        {
+          "titulo": "Building got cheap",
+          "sub": "Trusting got expensive",
+          "texto": [
+            "A manager with no programming experience can now build an app or an agent in one afternoon. The bottleneck moved from 'knowing how to do it' to 'knowing what to do, and what not to do'.",
+            "This is where the mentor comes in: turning the desire to build into a process with a beginning, a middle, and a delivery.",
+            "The market already feels the shift. According to Stanford's Digital Economy Lab (revised 08/12/2026), employment for ages 22 to 25 in the occupations most exposed to AI is 19% lower than it would have been if it had kept pace with their peers in less exposed occupations (the study does not claim a cause). Those who are starting out need mentoring; those who manage need to learn to manage agents."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Patrícia saw a colleague build an order app in two days. She wants the same for customer follow-up."
+          }
+        },
+        {
+          "titulo": "You don't build it for them",
+          "sub": "You make them capable",
+          "texto": [
+            "The mentor's service has four parts: training the manager, following their project, supporting architecture and integration, and organizing tests, documentation, and access with IT.",
+            "If you type the code in their place, the tool has no owner the day you leave."
+          ],
+          "exemplo": {
+            "rot": "Rule of thumb",
+            "texto": "The manager drives the keyboard. You ask, point, and check."
+          }
+        },
+        {
+          "titulo": "AI makes mistakes in predictable places",
+          "sub": "Jagged frontier",
+          "texto": [
+            "AI is great at one task and fails badly at the one next to it. The mistakes that show up most in tools built by managers: secrets in the code, data open to anyone, too many permissions, made-up numbers, and forgotten exception cases.",
+            "In the Horizonte lab there are real examples of this: an API key in the browser of the order app and a WhatsApp agent that gives discounts with no cap."
+          ],
+          "exemplo": {
+            "rot": "A question that saves you",
+            "texto": "\"If this goes wrong at 10 p.m. on a Friday, who finds out and how do they shut it off?\""
+          }
+        },
+        {
+          "titulo": "Start with the map",
+          "sub": "3 tools, each with its risk",
+          "texto": [
+            "In the first conversation, ask the manager for the three tools they want most. For each one: what data it uses, what action it takes, and who receives the output. This already separates what is easy from what needs IT from the start.",
+            "Also ask what the team already uses on their own. At Horizonte, the inventory found four AI tools that IT didn't know about."
+          ],
+          "exemplo": {
+            "rot": "Risk in three colors",
+            "texto": "Green: only reads internal data, no personal data. Yellow: uses customer data. Red: sends outside, touches money or orders."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates for the first session",
+      "sub": "Copy and adapt. Replace the text between < > with your own.",
+      "blocos": [
+        {
+          "rot": "First mentoring session script (60 min)",
+          "icone": "calendario",
+          "conteudo": "SESSION 1 — Tool map · manager: <name, area> · date: <mm/dd>\n\n0–10 min  Set the ground rules\n  - I guide; you build. IT validates before anything is used with real data.\n  - Nothing runs with customer data until the handoff lesson.\n\n10–30 min  Listen to the pain\n  - Which task in your week would you most like to take off your hands?\n  - How many times a week does it happen? How long does it take?\n  - Who else takes part in it?\n\n30–45 min  Map of the 3 tools (fill in together, table below)\n\n45–55 min  What already exists\n  - Which AI tools do you or your team already use today?\n  - Does any of them receive customer data? Who in IT knows about this?\n\n55–60 min  Agreements\n  - Which of the 3 will we filter in the next session?\n  - Next meeting: <date>. Task: write down 5 real cases from the process."
+        },
+        {
+          "rot": "Map of 3 tools with risk",
+          "icone": "lista",
+          "conteudo": "| # | Tool the manager wants | Data it uses | Action it takes | Who receives the output | Risk (green/yellow/red) | Why |\n|---|---|---|---|---|---|---|\n| 1 | <e.g.: quote follow-up> | <customers, quotes> | <suggests message> | <customer, after approval> | <yellow> | <customer data; sending only with approval> |\n| 2 | | | | | | |\n| 3 | | | | | | |\n\nColor rules:\n- green: only reads internal data, no personal data, output stays inside the company\n- yellow: uses personal data of customers or employees (LGPD)\n- red: sends outside, touches money, price, orders, or deletes something\n\nAI already in use in the area (quick inventory): <tool · who uses it · what data goes in>"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Patrícia's map",
+            "html": "<ol><li><b>Quote follow-up</b> — customers and open quotes; suggests a message; sent after approval. <b>Yellow.</b></li><li><b>Weekly sales summary</b> — internal report with no personal data. <b>Green.</b></li><li><b>Win back an inactive customer with a discount</b> — touches price and talks to the customer. <b>Red.</b></li></ol>"
+          },
+          {
+            "rot": "Common mistakes",
+            "html": "<ul><li><b>Skipping the inventory</b>: the new tool is born next to others that nobody knows about.</li><li><b>Starting with the red one</b>: it's the most wanted and the worst for learning. Start with a yellow or a green one.</li><li><b>Promising a date</b> before filtering the idea in lesson 2.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: your manager's map",
+      "sub": "Do it with a real manager. If you don't have one yet, use Patrícia and the lab.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Map session",
+          "min": "60 min",
+          "texto": "Lead session 1 with a manager using the script. They talk; you take notes.",
+          "pronto": "you have the table with 3 tools, each with data, action, destination, and risk color."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · AI already in use",
+          "min": "15 min",
+          "texto": "Ask what the area already uses AI for on its own and what data goes into each tool.",
+          "pronto": "you have a list (even if empty) with tool, who uses it, and what data goes in."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Choose the first one",
+          "min": "10 min",
+          "texto": "Agree with the manager on which of the three goes to the lesson 2 filter. Prefer the yellow or the green one.",
+          "pronto": "the choice is noted with the reason in one sentence."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "sub": "The explanation appears after your answer.",
+      "perguntas": [
+        {
+          "p": "Patrícia asks: \"you build the tool, it's faster.\" What does the mentor do?",
+          "opcoes": [
+            "Builds it, because the client asked.",
+            "Explains that she drives the keyboard and the mentor guides, so the tool has an owner when the mentor leaves.",
+            "Passes the request straight to IT.",
+            "Turns down the project."
+          ],
+          "certa": 1,
+          "explica": "The mentor makes the manager capable. If the mentor builds it, the tool has no owner. Passing it straight to IT goes back to the old model.",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "Which tool is red on the map?",
+          "opcoes": [
+            "Internal weekly sales summary.",
+            "Message suggestion that the manager approves before sending.",
+            "Agent that applies discounts and closes orders on its own.",
+            "Team goals spreadsheet."
+          ],
+          "certa": 2,
+          "explica": "It changes prices and orders, with no person in the loop. The suggestion approved before sending is yellow: it has customer data, but a person decides.",
+          "ref": "codigo",
+          "cert": true
+        },
+        {
+          "p": "Why ask what AI the team already uses?",
+          "opcoes": [
+            "To charge for licenses.",
+            "Because hidden tools with customer data are a risk IT doesn't know about.",
+            "To choose the best model.",
+            "It's not needed in the first session."
+          ],
+          "certa": 1,
+          "explica": "That's \"shadow AI\". At Horizonte there were four tools like this. Finding them early keeps you from building the fifth.",
+          "ref": "passos"
+        },
+        {
+          "p": "What stays expensive when building gets cheap?",
+          "opcoes": [
+            "The computer.",
+            "Trusting what was built: data, permissions, tests, and maintenance.",
+            "The chat subscription.",
+            "Learning to type."
+          ],
+          "certa": 1,
+          "explica": "That's the thesis of the program. The mentor's value lies in giving confidence to what the manager builds.",
+          "ref": "diagrama"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "The lesson in four sentences",
+      "itens": [
+        {
+          "t": "New model",
+          "texto": "The manager builds with AI, the mentor guides, IT validates, governance sustains."
+        },
+        {
+          "t": "Your role",
+          "texto": "Make the manager capable, don't build for them. The manager is the one driving the keyboard."
+        },
+        {
+          "t": "Where AI fails",
+          "texto": "Secrets in code, open data, too many permissions, made-up numbers, and forgotten exceptions."
+        },
+        {
+          "t": "First step",
+          "texto": "A map of 3 tools with data, action, destination, and risk color, plus the inventory of what is already in use."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Video: from technical expert to agent manager",
+          "href": "https://inematds.github.io/gestor-de-agentes/videos/",
+          "icone": "video"
+        },
+        {
+          "t": "Video: the manager who doesn't master agents",
+          "href": "https://inematds.github.io/gerente-de-agentes/videos/",
+          "icone": "video"
+        },
+        {
+          "t": "AI and Agent Management Area",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Lab company: Horizonte Distribuidora",
+          "href": "https://inematds.github.io/prof2030-lab/",
+          "icone": "pasta"
+        },
+        {
+          "t": "Source: Stanford Digital Economy Lab — young people in AI-exposed occupations (Aug 2026)",
+          "href": "https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/",
+          "icone": "grafico"
+        }
+      ]
+    }
+  ]
+}

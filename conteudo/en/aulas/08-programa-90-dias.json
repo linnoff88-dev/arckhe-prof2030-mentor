@@ -1,0 +1,423 @@
+{
+  "slug": "programa-90-dias",
+  "num": 8,
+  "menu": "90 days",
+  "titulo": "The 90-day program and what changed",
+  "titulo_curto": "90-day program",
+  "minutos": 20,
+  "lead": "The seven lessons become a program: in 90 days, one to three managers take one tool each from the map to the handoff to IT, with fixed meetings and milestones you can check. At the end, the final project at Horizonte and the dashboard of what changed in the market this quarter.",
+  "objetivo": "build the 90-day plan with meetings, milestones, and indicators for a real manager and deliver the final project.",
+  "competencias": [
+    "planejar-programa-de-mentoria",
+    "definir-marcos-verificaveis",
+    "acompanhar-mudancas-do-mercado"
+  ],
+  "aprende": [
+    {
+      "icone": "calendario",
+      "t": "The five phases of the program"
+    },
+    {
+      "icone": "portao",
+      "t": "Milestones you can check"
+    },
+    {
+      "icone": "alvo",
+      "t": "The final project at Horizonte"
+    },
+    {
+      "icone": "megafone",
+      "t": "What changed this quarter"
+    }
+  ],
+  "hero_alt": "A mentor sticks colored notes on a twelve-week calendar on the wall while the manager watches.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The 90 days in five phases",
+      "sub": "Each phase ends with a milestone. Click each block.",
+      "nos": [
+        {
+          "icone": "lupa",
+          "titulo": "Days 1–15",
+          "sub": "Kickoff and map",
+          "itens": [
+            {
+              "icone": "usuario",
+              "t": "Workshop with leadership"
+            },
+            {
+              "icone": "lista",
+              "t": "Map of 3 tools per manager"
+            }
+          ],
+          "detalhe": "Kickoff workshop with the owner and the managers, an inventory of what's already in use, and a mapping session with each manager (lesson 1). Milestone: each manager has chosen one tool, with its risk."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Days 16–35",
+          "sub": "Spec and prototype",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "One-page spec"
+            },
+            {
+              "icone": "terminal",
+              "t": "Prototyping session"
+            }
+          ],
+          "detalhe": "Filter and spec (lesson 2), prototyping session with fictional data (lesson 3). Milestone: prototype running on the manager's computer, with gaps noted."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Days 36–55",
+          "sub": "Limits and tests",
+          "itens": [
+            {
+              "icone": "caneta",
+              "t": "Constitution"
+            },
+            {
+              "icone": "check",
+              "t": "Suite of 15 cases"
+            }
+          ],
+          "detalhe": "Constitution applied (lesson 4), test suite and rounds (lesson 5). Milestone: test suite at 85% or higher and no limit violated.",
+          "forte": true
+        },
+        {
+          "icone": "pasta",
+          "titulo": "Days 56–70",
+          "sub": "User acceptance testing and handoff",
+          "itens": [
+            {
+              "icone": "usuario",
+              "t": "Manager runs acceptance testing"
+            },
+            {
+              "icone": "escudo",
+              "t": "IT reviews"
+            }
+          ],
+          "detalhe": "User acceptance testing and handoff package with IT review (lessons 5 and 6). Milestone: IT decision recorded and shutdown test done."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Days 71–90",
+          "sub": "Measure and decide",
+          "itens": [
+            {
+              "icone": "grafico",
+              "t": "Dashboard with 3 indicators"
+            },
+            {
+              "icone": "voltar",
+              "t": "One improvement"
+            }
+          ],
+          "detalhe": "Dashboard with baseline, weekly reviews, and one tested improvement (lesson 7). Milestone: closing meeting with the owner, with numbers and the decision on the next cycle."
+        }
+      ],
+      "volta": "Next cycle: new tool or new manager",
+      "legenda": "One manager per tool. One to three managers per program, so the mentor can deliver with quality.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "The whole program",
+        "texto": "Map, spec and prototype, limits and tests, acceptance testing and handoff, measure and decide. Five milestones, one every two or three weeks."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "How to set up and run the program",
+      "sub": "Click each step.",
+      "passos": [
+        {
+          "titulo": "Roles before dates",
+          "sub": "Who sponsors, who builds, who validates",
+          "texto": [
+            "Sponsor: the owner (Carlos) opens doors and decides at the end. Managers: build and own the processes. IT: validates and takes over. Mentor: leads the method and the pace.",
+            "Also choose one reference user per tool, who will use it every day and say whether it feels comfortable."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Patrícia (follow-up), Juliana (ready-made customer service replies), and Rafael in IT."
+          }
+        },
+        {
+          "titulo": "Fixed rhythm",
+          "sub": "Weekly meeting + work sessions",
+          "texto": [
+            "One 60-minute weekly meeting per manager, always on the same day. Plus the long prototyping and acceptance testing sessions on the right dates.",
+            "Between meetings, the manager has a task with a \"done when\". Without a task, the program turns into conversation."
+          ],
+          "exemplo": {
+            "rot": "Rule",
+            "texto": "A missed milestone changes the date of the next one, never the criterion."
+          }
+        },
+        {
+          "titulo": "Verifiable milestones",
+          "sub": "Five gates",
+          "texto": [
+            "Each phase closes with something anyone can check: the map table, the prototype opening, the test suite with a score, the IT decision, the dashboard with a baseline.",
+            "On day 90, a meeting with the owner: what changed in the numbers, what it costs, what comes in the next cycle."
+          ],
+          "exemplo": {
+            "rot": "Day 90 question",
+            "texto": "\"Do we continue, expand, or stop? Based on what?\""
+          }
+        },
+        {
+          "titulo": "Final project",
+          "sub": "The whole Horizonte",
+          "texto": [
+            "Build the 90-day plan for Horizonte for Patrícia and Juliana, and deliver the eight completed templates for the follow-up tool.",
+            "Use the lab pieces to show what the program prevents: each failure F1 to F12 must appear in some control in your plan."
+          ],
+          "exemplo": {
+            "rot": "About certification",
+            "texto": "The INEMA certification for each program is coming soon. It is a qualification, not a regulated profession."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates: 90-day plan and final project",
+      "sub": "Copy and adjust the dates to your manager.",
+      "blocos": [
+        {
+          "rot": "90-day plan — meetings and milestones",
+          "icone": "calendario",
+          "conteudo": "# 90-day program · company: <name> · start: <dd/mm>\nSponsor: <owner> · Mentor: <name> · IT: <name>\nManagers and tools: <manager 1 → tool> · <manager 2 → tool> · <manager 3 → tool>\nWeekly meeting: <day and time>, 60 min per manager\n\n| Week | Meeting / session | Manager deliverable | Milestone (done when) |\n|---|---|---|---|\n| 1 | Kickoff workshop (leadership) + AI inventory | list of what is already in use | inventory with an owner and the data for each tool |\n| 2 | Session 1: map (lesson 1) | map of 3 tools | tool chosen, with risk |\n| 3 | Filter and six links (lesson 2) | 5 real cases noted | filter with a decision |\n| 4 | Spec with permissions (lesson 2) | spec v0.1 | one-page spec, an owner on each line |\n| 5 | PROTOTYPING SESSION (lesson 3, full day) | prototype + lacunas.md | opens on the manager's computer, fictional data |\n| 6 | Constitution (lesson 4) | constitution v1.0 | 9 sections, 3 hard cases |\n| 7 | Test suite (lesson 5) | 15 cases with expected answers | answer written before running |\n| 8 | Rounds | versions with a reason | >= 85% and zero limits violated |\n| 9 | ACCEPTANCE TESTING with the user (lesson 5) | signed permissions | 5-item gate |\n| 10 | Handoff package (lesson 6) | completed package | no blank fields |\n| 11 | IT review + shutdown test | — | IT decision recorded |\n| 12 | Dashboard and weekly review (lesson 7) | baseline + week 1 | 3 indicators with a denominator |\n| 13 | Wrap-up with the owner (day 90) | 1 tested improvement | decision: continue, expand, or stop |\n\nAlerts: milestone 2 weeks late -> meeting with the sponsor · limit violated -> pause."
+        },
+        {
+          "rot": "Final project — Horizonte Distribuidora",
+          "icone": "alvo",
+          "conteudo": "FINAL PROJECT · AI Mentor · lab company: Horizonte Distribuidora\n\nSubmit in one folder (or repository) with:\n1. Map of Patrícia's 3 tools, with risk (lesson 1)\n2. One-page spec for the follow-up, with permissions and excluded data (lesson 2)\n3. Prototyping session script + AGENTS.md + lacunas.md (lesson 3)\n4. Constitution for the follow-up agent (lesson 4)\n5. Test suite of 15 cases with expected answers and one scored round (lesson 5)\n6. Handoff package for Rafael + IT review checklist (lesson 6)\n7. Dashboard of 3 indicators with a baseline + 1 hypothesis card (lesson 7)\n8. 90-day plan for Patrícia and Juliana (this lesson)\n\nDone when:\n- no template has a field between < > left blank\n- each lab failure (F1 to F12) appears in at least one control\n  in your templates, with the line indicated\n- customer data used: fictional only"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Where each failure appears",
+            "html": "<ul><li><b>F1–F4</b>: IT review checklist (lesson 6).</li><li><b>F5–F7</b>: limits and permissions in the constitution (lesson 4) and critical cases in the test suite (lesson 5).</li><li><b>F8, F10</b>: fictional data in the prototype (lesson 3) and the data block of the package (lesson 6).</li><li><b>F9</b>: least permission in the integrations (lesson 6).</li><li><b>F11</b>: dashboard baseline (lesson 7).</li><li><b>F12</b>: week 1 inventory (lessons 1 and 8).</li></ul>"
+          },
+          {
+            "rot": "Common mistakes",
+            "html": "<ul><li><b>Five managers in the first program</b>: the mentor can't follow along with quality.</li><li><b>Milestone with no criterion</b>: \"prototype almost ready\" is not a milestone.</li><li><b>Skipping day 90</b>: without a decision from the owner, the program fades out with no result.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: the plan and the final project",
+      "sub": "A real manager, if you have one; otherwise, Horizonte.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · 90-day plan",
+          "min": "60 min",
+          "texto": "Fill in the plan for a real manager (or for Patrícia and Juliana), with dates, meetings, and milestones.",
+          "pronto": "all 13 weeks have a date, a meeting, a deliverable, and a milestone that someone else can check."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Final project",
+          "min": "4 h",
+          "texto": "Put together the eight completed templates for Horizonte's follow-up tool.",
+          "pronto": "the folder has all 8 items and each failure F1 to F12 is linked to a control."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · What changed for your manager",
+          "min": "20 min",
+          "texto": "Read the dashboard below and pick two changes that affect your manager's plan.",
+          "pronto": "for each one, you wrote in one sentence what changes in the plan."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "What changed (Oct/2026)",
+      "sub": "Dashboard updated every quarter. The tool changes; the method from lessons 1 to 7 stays.",
+      "itens": [
+        {
+          "t": "A work agent for everyone",
+          "texto": "Oct/2026: OpenAI brought GPT-6 to everyone in ChatGPT, on free and paid plans. The manager can prototype without a new license; the care with real data stays the same. <a href=\"https://deploymentsafety.openai.com/gpt-6-october\">OpenAI, Deployment Safety Hub</a>"
+        },
+        {
+          "t": "An agent that uses the computer",
+          "texto": "Sep/2026: Claude Code started using the computer in the background in the desktop app (beta, Pro and Max plans). More power calls for more limits: per-action permissions matter even more. <a href=\"https://code.claude.com/docs/en/whats-new/2026-w36\">Claude Code, week 36 news</a>"
+        },
+        {
+          "t": "Cost per task falling",
+          "texto": "09/22/2026: Anthropic launched Opus 5.5, which it says costs 40% less than Opus 5 on typical tasks. Run the test suite with the new model before switching. <a href=\"https://www.anthropic.com/claude-opus-5-5\">Anthropic</a>"
+        },
+        {
+          "t": "A tool being retired",
+          "texto": "Announced on 06/03/2026: OpenAI's Agent Builder goes offline on 11/30/2026. That is why the handoff package keeps rules, code, and access outside the tool. <a href=\"https://platform.openai.com/docs/deprecations\">OpenAI, deprecations</a>"
+        },
+        {
+          "t": "Security scanning in the coding agent",
+          "texto": "2026: the Codex documentation now includes repository security scanning. It helps Rafael, but it does not replace the IT review or the penetration test. <a href=\"https://developers.openai.com/codex/changelog\">Codex changelog</a>"
+        },
+        {
+          "t": "A harder entry into a career",
+          "texto": "08/12/2026: Stanford estimates that employment for ages 22 to 25 in the occupations most exposed to AI is 19% lower than it would have been had it tracked that of peers in less exposed occupations; the study does not claim a cause. Mentoring and programs like this one gain weight. <a href=\"https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/\">Stanford Digital Economy Lab</a>"
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Final test",
+      "sub": "Four questions about the whole program.",
+      "perguntas": [
+        {
+          "p": "At what phase of the program does IT decide whether the tool goes into production?",
+          "opcoes": [
+            "Days 1–15.",
+            "Days 16–35.",
+            "Days 56–70, after acceptance testing and the handoff package.",
+            "Never, the manager decides."
+          ],
+          "certa": 2,
+          "explica": "IT reviews the package after the user runs acceptance testing. The decision is recorded and the shutdown test is done before going live.",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "A milestone slipped. What changes?",
+          "opcoes": [
+            "The criterion, to fit the deadline.",
+            "The date of the next milestone; the criterion stays.",
+            "Nothing, carry on.",
+            "The milestone is skipped."
+          ],
+          "certa": 1,
+          "explica": "A missed milestone changes dates, never the criterion. A two-week delay goes to the sponsor.",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "A tool the manager uses is discontinued at the end of the quarter. What protects the company?",
+          "opcoes": [
+            "Hoping it doesn't go away.",
+            "The handoff package with rules, code and access kept outside the tool.",
+            "Switching mentors.",
+            "Nothing."
+          ],
+          "certa": 1,
+          "explica": "Method and documents survive a change of tool. That is why the tool of the month stays only in this panel.",
+          "ref": "resumo"
+        },
+        {
+          "p": "How many managers fit in the first program?",
+          "opcoes": [
+            "One to three, one per tool.",
+            "All the managers in the company.",
+            "Only the owner.",
+            "Ten, to scale."
+          ],
+          "certa": 0,
+          "explica": "One to three lets you follow each session and each milestone with quality.",
+          "ref": "diagrama"
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Keep going here",
+      "links": [
+        {
+          "t": "Professional 2030: program area",
+          "href": "https://inematds.github.io/profissional-2030/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Lab company: Horizonte Distribuidora",
+          "href": "https://inematds.github.io/prof2030-lab/",
+          "icone": "pasta"
+        },
+        {
+          "t": "Professional 2030 Common Core",
+          "href": "https://inematds.github.io/prof2030-base/",
+          "icone": "lista"
+        },
+        {
+          "t": "AI Management: the full syllabus",
+          "href": "https://inematds.github.io/curso-gestao-ia/",
+          "icone": "grafico"
+        },
+        {
+          "t": "Source: OpenAI — GPT-6 for everyone (Oct 2026)",
+          "href": "https://deploymentsafety.openai.com/gpt-6-october",
+          "icone": "seta"
+        },
+        {
+          "t": "Source: Claude Code — what's new, week 36/2026",
+          "href": "https://code.claude.com/docs/en/whats-new/2026-w36",
+          "icone": "seta"
+        },
+        {
+          "t": "Source: Anthropic — Opus 5.5 (Sep 22, 2026)",
+          "href": "https://www.anthropic.com/claude-opus-5-5",
+          "icone": "seta"
+        },
+        {
+          "t": "Source: OpenAI — deprecations (Agent Builder)",
+          "href": "https://platform.openai.com/docs/deprecations",
+          "icone": "seta"
+        },
+        {
+          "t": "Source: Codex changelog",
+          "href": "https://developers.openai.com/codex/changelog",
+          "icone": "seta"
+        },
+        {
+          "t": "Source: Stanford Digital Economy Lab (Aug 2026)",
+          "href": "https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/",
+          "icone": "seta"
+        },
+        {
+          "t": "Horizonte Lab: Orders app (F1–F4)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/app-pedidos/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Horizonte Lab: WhatsApp agent (F5–F7)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Horizonte Lab: Customer spreadsheet (F8)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/planilha-clientes/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Horizonte Lab: MCP Integration with email (F9)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/mcp-email/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Horizonte Lab: Support summary (F10)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Horizonte Lab: Indicator dashboard (F11)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/painel/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Horizonte Lab: Inventory and Shadow AI (F12)",
+          "href": "https://inematds.github.io/prof2030-lab/inventario.html",
+          "icone": "lupa"
+        }
+      ]
+    }
+  ]
+}

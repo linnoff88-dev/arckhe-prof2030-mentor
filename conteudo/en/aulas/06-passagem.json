@@ -1,0 +1,378 @@
+{
+  "slug": "passagem",
+  "num": 6,
+  "menu": "Handoff",
+  "titulo": "Safe handoff to IT",
+  "titulo_curto": "Handoff to IT",
+  "minutos": 20,
+  "lead": "Approved in testing doesn't mean ready for production. The prototype runs on Patrícia's laptop, with made-up data. To become a company tool, it goes to Rafael in IT, with everything he needs to validate, connect, and maintain it: code, rules, tests, access, owner, cost, and a way to turn it off.",
+  "objetivo": "build the handoff package for IT with access, documentation, owner, cost, LGPD (Brazil's data protection law), and a shutdown plan.",
+  "competencias": [
+    "montar-pacote-de-passagem",
+    "organizar-acessos-e-segredos",
+    "aplicar-lgpd-ao-projeto",
+    "planejar-rollback"
+  ],
+  "aprende": [
+    {
+      "icone": "camadas",
+      "t": "What changes from prototype to production"
+    },
+    {
+      "icone": "cadeado",
+      "t": "Access and secrets in the company account"
+    },
+    {
+      "icone": "escudo",
+      "t": "LGPD (Brazil's data protection law) applied to the tool"
+    },
+    {
+      "icone": "arquivo",
+      "t": "The complete handoff package"
+    }
+  ],
+  "hero_alt": "The manager hands a folder to the IT technician, with the mentor beside them.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "From the manager's laptop to production",
+      "sub": "Who hands off, what goes in the package, and who decides. Click each block.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Manager",
+          "sub": "Process owner",
+          "itens": [
+            {
+              "icone": "check",
+              "t": "Ran acceptance testing"
+            },
+            {
+              "icone": "caneta",
+              "t": "Signs off on permissions"
+            }
+          ],
+          "detalhe": "Patrícia remains the owner of the process and the rules. She doesn't become the owner of the server, the passwords, or the updates: those go to IT."
+        },
+        {
+          "icone": "pasta",
+          "titulo": "Handoff package",
+          "sub": "Everything in one place",
+          "itens": [
+            {
+              "icone": "git",
+              "t": "Code and versions"
+            },
+            {
+              "icone": "arquivo",
+              "t": "Spec, constitution, test suite"
+            },
+            {
+              "icone": "cadeado",
+              "t": "Access and data"
+            },
+            {
+              "icone": "grafico",
+              "t": "Cost and owner"
+            }
+          ],
+          "detalhe": "A repository with the code, the spec, the constitution, the test suite with results, the list of required access, the data map, the estimated cost, the owners, and the shutdown plan.",
+          "forte": true
+        },
+        {
+          "icone": "escudo",
+          "titulo": "IT review",
+          "sub": "Rafael validates",
+          "itens": [
+            {
+              "icone": "lupa",
+              "t": "Secrets, data access, admin, dependencies"
+            }
+          ],
+          "detalhe": "IT checks what the mentor doesn't: secrets in the code, table access rules, an admin route without login, outdated dependencies. These are failures F1 to F4 from the lab. IT decides whether it goes into production."
+        },
+        {
+          "icone": "nuvem",
+          "titulo": "Production",
+          "sub": "Company account",
+          "itens": [
+            {
+              "icone": "voltar",
+              "t": "Shut down in minutes"
+            },
+            {
+              "icone": "relogio",
+              "t": "Supervised start"
+            }
+          ],
+          "detalhe": "It runs on a company account, with production keys kept by IT, an action log, and a pause button the manager knows how to use."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Owner and maintenance",
+          "sub": "Who takes care of it afterward",
+          "itens": [
+            {
+              "icone": "usuario",
+              "t": "Owner in the business area and in IT"
+            },
+            {
+              "icone": "grafico",
+              "t": "Monthly review"
+            }
+          ],
+          "detalhe": "Two names: process owner (Patrícia) and technical owner (Rafael). Plus the date of the first review and who pays the monthly cost."
+        }
+      ],
+      "legenda": "Honest scope: the mentor organizes the handoff; technical security assessment and penetration testing stay with IT or a qualified specialist.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "The whole handoff",
+        "texto": "A manager who owns the process, a complete package, technical review by IT, production on a company account with a shutdown that takes minutes, and two named owners."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Four handoff safeguards",
+      "sub": "Click each step.",
+      "passos": [
+        {
+          "titulo": "Access and secrets",
+          "sub": "Company account, never personal",
+          "texto": [
+            "Every account (agent, database, AI provider, WhatsApp) is in the company's name, with IT as administrator. No key in a text file, in the code, or in the browser.",
+            "Each access gets the lowest permission that does the job: read-only where reading is enough. A list of who accesses sensitive data, in writing."
+          ],
+          "exemplo": {
+            "rot": "Warning sign",
+            "texto": "\"The key is in my personal email\" or \"the database is on my free account.\""
+          }
+        },
+        {
+          "titulo": "Data and LGPD (Brazil's data protection law)",
+          "sub": "Who is the controller, where it goes",
+          "texto": [
+            "The company is the controller of its customers' data. The AI provider and whoever deploys the tool act as processors: they use the data only for the project, under a contract.",
+            "Write down where each piece of data goes, including outside the country, on what legal basis, and how long it is kept. The lab's failure F10 is customer conversations going to a foreign API with no contract."
+          ],
+          "exemplo": {
+            "rot": "Short document",
+            "texto": "A lean impact report of about two pages: what data, for what purpose, with whom, for how long, what risks, and what measures."
+          }
+        },
+        {
+          "titulo": "Shutting down and rolling back",
+          "sub": "Tested rollback",
+          "texto": [
+            "Before you switch it on, agree how to shut it down in minutes and go back to doing the process by hand. Test this once, for real.",
+            "Start with part of the volume and watch it closely for the first few days. Never switch it on on a Friday afternoon."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Patrícia knows how to pause it from the dashboard; Rafael knows how to roll back to the previous version. Both tested it on a Tuesday morning."
+          }
+        },
+        {
+          "titulo": "Owner, cost, and exit",
+          "sub": "No dependence on one person",
+          "texto": [
+            "Write down the estimated monthly cost (AI, hosting, messages) and who pays. Write down who owns the process and who owns the technical side.",
+            "If the mentor or a vendor leaves, the company receives everything: versioned rules, knowledge base, exported code, access on its own account, documentation, and a shutdown plan."
+          ],
+          "exemplo": {
+            "rot": "Carlos's question",
+            "texto": "\"If you disappeared tomorrow, could Rafael keep it running?\" The package must let you answer yes."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates: handoff package and IT review",
+      "sub": "The completed package for the follow-up tool, and the checklist Rafael works through.",
+      "blocos": [
+        {
+          "rot": "Handoff package for IT",
+          "icone": "pasta",
+          "conteudo": "# Handoff package — Quote follow-up · v1.1\nDate: <dd/mm> · Process owner: Patrícia Lima · Technical owner: Rafael (IT) · Mentor: <name>\n\n## 1. What it is\nSuggests a follow-up for quotes open for 2 business days; Patrícia approves before it is sent.\n\n## 2. Where it lives\nRepository: <address, on a company account> · version accepted: v1.1 (<commit>)\nFiles: spec.md · AGENTS.md (constitution) · bateria.md (15 cases + results) · lacunas.md\n\n## 3. Access needed (IT creates it on a company account)\n| System | Minimum permission | Who administers |\n|---|---|---|\n| Quote export | read | Rafael |\n| Tracking spreadsheet | write only in the \"follow-up on\" column | Rafael |\n| AI provider | production key held by IT | Rafael |\n| Message sending | only after approval on screen | Rafael |\n\n## 4. Data\nUses: customer company name, contact, purchase history, open quotes.\nDoes not use: CPF, bank details, whole old conversations.\nWhere it goes: <AI provider, country, contract/DPA> · Kept for: <period> · Legal basis: <define with the company>\n\n## 5. Tests\nTest suite v1.1: 13/15, no critical case failed. Accepted by Patrícia on <date>.\nBefore production: expand to 30+ real, anonymized cases (IT + Patrícia).\n\n## 6. Operation\nLog of every action: <where> · Pause: <how> · Shut down and go back to manual: <steps, tested on dd/mm>\nStart: 30% of quotes in week 1, daily monitoring.\n\n## 7. Estimated cost\nAI: R$ <x>/month · hosting: R$ <y>/month · messages: R$ <z>/month · who pays: <cost center>\n\n## 8. Owners and review\nProcess: Patrícia · Technical: Rafael · Backup: Carlos Mendes · 1st review: <date + 30 days>\n\n## 9. Exit without dependence\nEverything is on a company account. If the mentor or a vendor leaves: rules, code, access, documentation, and the shutdown plan stay with IT."
+        },
+        {
+          "rot": "IT review checklist (Rafael works through it)",
+          "icone": "escudo",
+          "conteudo": "TECHNICAL REVIEW · tool: <name> · reviewer: <IT name> · date: <dd/mm>\n\n[ ] No key, password, or token in the code, in the HTML, or in the Git history   (F1)\n[ ] Every table has an access rule: users read only what they may                 (F2)\n[ ] Every admin page requires login                                               (F3)\n[ ] Dependencies with no known vulnerability (package manager audit)              (F4)\n[ ] Critical limits enforced by permission, not just by instruction               (F5, F6)\n[ ] Action log and human approval on the defined amounts and actions              (F7)\n[ ] No personal data in an open spreadsheet or link                               (F8)\n[ ] Integrations with the lowest permission; no deleting or sending without approval (F9)\n[ ] AI provider under contract; data destination recorded                         (F10)\n[ ] Accounts in the company's name; backup and restore tested\n[ ] Shutting down and going back to manual tested once\n\nDecision: [ ] approves  [ ] approves with caveats: <which>  [ ] does not approve: <reason>\nThis review does not replace a penetration test or legal advice."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "How to check",
+            "html": "<ol><li>No field in the package left blank or with &lt; &gt;.</li><li>Two named owners: process and technical.</li><li>Estimated monthly cost and who pays.</li><li>Shutdown tested once, with a date.</li><li>IT signed the review decision.</li></ol>"
+          },
+          {
+            "rot": "Common mistakes",
+            "html": "<ul><li><b>The manager's personal account</b>: when they leave, the tool leaves with them.</li><li><b>\"IT will look at it later\"</b>: the review comes before production, not after the incident.</li><li><b>A mentor who promises total security</b>: the mentor organizes; technical validation belongs to IT.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: the completed package",
+      "sub": "With the manager and the company's IT. With no IT, simulate it with Rafael and the lab.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Handoff package",
+          "min": "60 min",
+          "texto": "Fill in the package with the manager, using the spec, the constitution, and the test suite.",
+          "pronto": "all 9 blocks are filled in, with no field left between < >."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Review in the lab",
+          "min": "40 min",
+          "texto": "Use the review checklist on Horizonte's order app and WhatsApp agent pieces.",
+          "pronto": "you found at least 4 of the failures F1 to F7 and can say which line of the checklist catches each one."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Handoff meeting",
+          "min": "45 min",
+          "texto": "Present the package to IT. Agree on the shutdown test and the first review.",
+          "pronto": "IT recorded the decision (approves, caveats, or does not approve) and there is a date for the shutdown test."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "sub": "The explanation appears after your answer.",
+      "perguntas": [
+        {
+          "p": "The AI provider key is on Patrícia's personal account. What do you do at handoff?",
+          "opcoes": [
+            "Nothing, it works.",
+            "Create the account in the company's name, with IT administering it and the key kept out of the code.",
+            "Email the key to Rafael.",
+            "Put the key in AGENTS.md."
+          ],
+          "certa": 1,
+          "explica": "Company account, key held by IT, never in plain text. A personal account leaves with the person.",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "Who decides whether the tool goes into production?",
+          "opcoes": [
+            "The mentor.",
+            "The manager alone.",
+            "IT, after the technical review, with the manager as the process owner.",
+            "The AI provider."
+          ],
+          "certa": 2,
+          "explica": "The manager runs acceptance testing on the behavior; IT validates access and security and makes the call. The mentor organizes the handoff.",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "Under the LGPD (Brazil's data protection law), who is the controller of Horizonte's customer data?",
+          "opcoes": [
+            "The AI provider.",
+            "The mentor.",
+            "Horizonte itself.",
+            "No one, because it's AI."
+          ],
+          "certa": 2,
+          "explica": "The company is the controller. The provider and whoever deploys the tool act as operators, with a contract and use limited to the project.",
+          "ref": "passos"
+        },
+        {
+          "p": "IT's review found flaw F3. What is it?",
+          "opcoes": [
+            "Discount with no cap.",
+            "Admin page with no login.",
+            "Spreadsheet with an open link.",
+            "Missing baseline."
+          ],
+          "certa": 1,
+          "explica": "F3 is the admin route with no login in the orders app. The review checklist has one line for each flaw in the lab.",
+          "ref": "codigo"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "The lesson in four sentences",
+      "itens": [
+        {
+          "t": "Accepted is not production",
+          "texto": "From the manager to IT, with a package that lets them validate, turn on, and maintain it."
+        },
+        {
+          "t": "Company account",
+          "texto": "Minimum access, keys with IT, nothing in plain text."
+        },
+        {
+          "t": "Data with a destination",
+          "texto": "Company as controller, provider under contract, destination and retention period noted."
+        },
+        {
+          "t": "Shut down and owner",
+          "texto": "Tested rollback, two named owners, cost, and an exit with no dependency."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "LGPD — Law 13,709/2018 (official text)",
+          "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+          "icone": "escudo"
+        },
+        {
+          "t": "ANPD — National Data Protection Authority",
+          "href": "https://www.gov.br/anpd/pt-br",
+          "icone": "cadeado"
+        },
+        {
+          "t": "OWASP Top 10 for LLM Applications",
+          "href": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+          "icone": "lista"
+        },
+        {
+          "t": "Lab company: the pieces with flaws",
+          "href": "https://inematds.github.io/prof2030-lab/",
+          "icone": "pasta"
+        },
+        {
+          "t": "Horizonte Lab: Orders app (F1–F4)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/app-pedidos/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Horizonte Lab: WhatsApp agent (F5–F7)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Horizonte Lab: Customer spreadsheet (F8)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/planilha-clientes/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Horizonte Lab: MCP Integration with email (F9)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/mcp-email/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Horizonte Lab: Support summary (F10)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/",
+          "icone": "lupa"
+        }
+      ]
+    }
+  ]
+}

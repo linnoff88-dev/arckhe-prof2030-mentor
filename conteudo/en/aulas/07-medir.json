@@ -1,0 +1,353 @@
+{
+  "slug": "medir",
+  "num": 7,
+  "menu": "Measure",
+  "titulo": "Measure and improve",
+  "titulo_curto": "Measure and improve",
+  "minutos": 18,
+  "lead": "A tool turned on without a baseline is a bet: no one knows whether it helped. That's lab flaw F11. In this lesson, you and the manager build a dashboard with three indicators, a short weekly review, and a way to improve without breaking what already works.",
+  "objetivo": "build the 3-indicator dashboard with a baseline and apply 1 tested improvement, with a decision to keep it or roll back.",
+  "competencias": [
+    "definir-linha-de-base",
+    "montar-painel-de-indicadores",
+    "conduzir-revisao-semanal",
+    "testar-melhoria-sem-regressao"
+  ],
+  "aprende": [
+    {
+      "icone": "grafico",
+      "t": "Three indicators with a denominator"
+    },
+    {
+      "icone": "calendario",
+      "t": "The 15-minute weekly review"
+    },
+    {
+      "icone": "lupa",
+      "t": "One hypothesis, one change"
+    },
+    {
+      "icone": "voltar",
+      "t": "Keep it or roll it back, with evidence"
+    }
+  ],
+  "hero_alt": "A mentor and a manager look at a dashboard with three simple charts on a monitor.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The improvement cycle",
+      "sub": "Measure first, track, change one thing, and decide. Click each block.",
+      "nos": [
+        {
+          "icone": "marca",
+          "titulo": "Baseline",
+          "sub": "How it was before",
+          "itens": [
+            {
+              "icone": "relogio",
+              "t": "The week before the tool"
+            }
+          ],
+          "detalhe": "The number from before, with the period and the denominator. At Horizonte: 17 of 42 quotes with no reply within 48 hours in one week. Without this, any improvement is just opinion."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "3 indicators",
+          "sub": "Result, quality, cost",
+          "itens": [
+            {
+              "icone": "alvo",
+              "t": "Usage and result"
+            },
+            {
+              "icone": "check",
+              "t": "Quality"
+            },
+            {
+              "icone": "grafico",
+              "t": "Cost per task"
+            }
+          ],
+          "detalhe": "Three numbers, no more. Business result with usage, quality with zero limits violated, and cost per task including the person's time.",
+          "forte": true
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Weekly review",
+          "sub": "15 minutes",
+          "itens": [
+            {
+              "icone": "lista",
+              "t": "Seven questions"
+            }
+          ],
+          "detalhe": "Every week, the manager and the mentor look at the three numbers and the list of exceptions. Usage dropping, edits rising, or a limit violated sets off an alert."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Hypothesis",
+          "sub": "One change",
+          "itens": [
+            {
+              "icone": "caneta",
+              "t": "If... then... because..."
+            }
+          ],
+          "detalhe": "One concrete change, with the number it should move and the evidence behind it. Make two changes at once and nobody knows which one worked."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Test and decide",
+          "sub": "Same test suite, no getting worse",
+          "itens": [
+            {
+              "icone": "check",
+              "t": "Keep"
+            },
+            {
+              "icone": "voltar",
+              "t": "Roll back"
+            }
+          ],
+          "detalhe": "The new version runs the same test suite. It stays only if it improves the target without making the others worse. Otherwise, it goes back to the previous one, which you saved."
+        }
+      ],
+      "volta": "Decided? Next week you measure again",
+      "legenda": "A target on its own teaches people to cheat: the target is always \"improve X without making Y and Z worse.\"",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "The whole cycle",
+        "texto": "Baseline, three indicators, weekly review, one hypothesis at a time, and a decision to keep or roll back using the same test suite."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "How to measure without fooling yourself",
+      "sub": "Click each step.",
+      "passos": [
+        {
+          "titulo": "Always the denominator",
+          "sub": "X out of how many, in what period",
+          "texto": [
+            "\"We did 30 follow-ups\" tells you nothing. \"30 of 41 eligible quotes this week got a reply within 48 h\" does.",
+            "Keep test, pilot, and production separate: a test suite number is not an operations number."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Before: 25 of 42 (60%) with a reply within 48 h. Week 3 with the tool: 36 of 40 (90%). Fictional lab data."
+          }
+        },
+        {
+          "titulo": "Cost includes the person",
+          "sub": "Cost per task, in full",
+          "texto": [
+            "Cost per follow-up = AI and hosting cost + the manager's minutes reviewing and handling exceptions. A cheap tool that doubles the review saves nothing.",
+            "AI prices fall fast. Example: on 09/22/2026, Anthropic released a model that, according to the company, costs 40% less than the previous one for typical tasks. So review your model choice every quarter by running the test suite."
+          ],
+          "exemplo": {
+            "rot": "Simple math",
+            "texto": "Before: 6 min per follow-up. Now: 1.5 min of review + R$ <x> of AI. The difference becomes Patrícia's time with customers."
+          }
+        },
+        {
+          "titulo": "Weekly review",
+          "sub": "15 minutes, seven questions",
+          "texto": [
+            "Did it improve against the baseline? Did quality and exceptions change? How much human work was needed? What was the full cost? Does anything need a pause or less autonomy? What hypothesis is worth testing? Who does it, and when?",
+            "Warning signs: usage drops from one week to the next, the team goes back to the old way, edits to the drafts go up."
+          ],
+          "exemplo": {
+            "rot": "Rule",
+            "texto": "With fewer than 30 observations, note the trend, but don't decide."
+          }
+        },
+        {
+          "titulo": "Improve without regression",
+          "sub": "One change, same test suite",
+          "texto": [
+            "Write the hypothesis: if we change this, then this number goes from A to B, because we saw this evidence. Apply only that change in a new version.",
+            "Run the test suite from lesson 5. It stays if it improves the target and nothing else gets worse beyond the tolerance; otherwise, roll back. The previous version stays saved in Git."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Hypothesis: mentioning the last product purchased cuts editing from 25% to 15%. The test suite passed, and editing dropped to 16% in 3 weeks. It stayed."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates: dashboard, hypothesis card, and weekly review",
+      "sub": "Copy to a spreadsheet or a file in the repository.",
+      "blocos": [
+        {
+          "rot": "3-indicator dashboard — follow-up",
+          "icone": "grafico",
+          "conteudo": "DASHBOARD · tool: quote follow-up · owner: Patrícia · period: week of <mm/dd>\n\n| Indicator | Formula (with denominator) | Baseline | Target | Current week |\n|---|---|---|---|---|\n| 1. Usage and result | quotes with a reply within 48 h ÷ eligible quotes | 25/42 = 60% (<date>) | 85% | <x/y> |\n| 2. Quality | drafts approved without edits ÷ drafts generated | — (none existed) | 80% | <x/y> |\n|    gate | limits violated during the week | — | 0 | <n> |\n| 3. Cost per follow-up | (AI cost + hosting) ÷ follow-ups + review minutes | 6 min of a person's time | <= 2 min + R$ <x> | <value> |\n\nAlert: usage fell 20% in the week · editing above 30% · any limit violated -> pause and review."
+        },
+        {
+          "rot": "Hypothesis card (one change at a time)",
+          "icone": "lupa",
+          "conteudo": "## H<n> — <short title>\nIF        <a single concrete change>\nTHEN      <indicator> goes from <current> to <expected>\nBECAUSE   <evidence: cases, exceptions, manager comments>\nWITHOUT WORSENING <watched indicators and tolerance>\nTEST      suite v<x> (same cases) + <n> weeks of operation\nRESULT    <before -> after, with denominator>\nDECISION  [ stays ]  [ rolled back ]  [ wait for more data ]   by: <name>  on: <date>"
+        },
+        {
+          "rot": "Manager's weekly review (15 min)",
+          "icone": "calendario",
+          "conteudo": "1. Did the result improve compared to the baseline, over the same period?\n2. Did quality, violated limits, and exceptions change?\n3. How much human work was needed, and where?\n4. What was the full cost, including rework?\n5. Does any action need a pause or less autonomy?\n6. Which hypothesis deserves a test this week?\n7. Who does each action, and when do we review?"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Week 3 dashboard",
+            "html": "<ol><li><b>Usage and result</b>: 36/40 = 90% (baseline 60%).</li><li><b>Quality</b>: 31/40 approved without edits = 78%; limits violated: 0.</li><li><b>Cost</b>: 1.5 min of review + AI cost per follow-up.</li></ol><p>Fictional lab data.</p>"
+          },
+          {
+            "rot": "Common mistakes",
+            "html": "<ul><li><b>Number without a denominator</b>: \"30 follow-ups\" doesn't tell you whether things improved.</li><li><b>Cost without the person</b>: hides the review time that grew.</li><li><b>Target alone</b>: \"more messages\" teaches you to send too many messages.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: dashboard and one improvement",
+      "sub": "With the manager, over three weeks.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Baseline",
+          "min": "30 min",
+          "texto": "Using the cases from lesson 2, write the \"before\" number for each indicator, with the period and denominator.",
+          "pronto": "all three indicators have a \"before\" value, or are marked \"none existed\" with the reason."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Dashboard and reviews",
+          "min": "15 min per week",
+          "dias": 21,
+          "texto": "Fill in the dashboard and do the weekly review for three weeks.",
+          "pronto": "three weeks are filled in, and one action is noted in each review."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · One improvement",
+          "min": "60 min",
+          "texto": "Write one hypothesis, apply one change, run the test suite, and decide.",
+          "pronto": "the hypothesis card is filled in with the result, the decision (stays or rolled back), and the name of who decided."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "sub": "The explanation appears after your answer.",
+      "perguntas": [
+        {
+          "p": "Horizonte's dashboard has no baseline. What is the problem?",
+          "opcoes": [
+            "None, the current number is enough.",
+            "No one can say whether the tool helped.",
+            "The dashboard looks ugly.",
+            "IT won't approve it."
+          ],
+          "certa": 1,
+          "explica": "It's lab failure F11. Without the \"before,\" the \"after\" proves nothing.",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "The new version reduced editing, but a limit was violated in the test suite. What should you do?",
+          "opcoes": [
+            "Keep it, because the target improved.",
+            "Roll back to the previous version: improving the target can't make anything you're watching worse.",
+            "Remove the case from the test suite.",
+            "Wait for the customer to complain."
+          ],
+          "certa": 1,
+          "explica": "Improve X without worsening Y. A violated limit sinks the change, no matter how well the target is doing.",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "Why revisit the model choice every quarter?",
+          "opcoes": [
+            "Because it's trendy.",
+            "Because the price per task drops fast, and the same test suite shows whether a cheaper model keeps the quality.",
+            "Because the law requires it.",
+            "To switch vendors every time."
+          ],
+          "certa": 1,
+          "explica": "Cost per task drops with each generation. Running the test suite on the new model gives you the answer with evidence.",
+          "ref": "passos"
+        },
+        {
+          "p": "Which of these is a well-written indicator?",
+          "opcoes": [
+            "\"Lots of follow-ups.\"",
+            "\"Quotes with a reply within 48 h ÷ eligible quotes, per week.\"",
+            "\"Happy customers.\"",
+            "\"AI usage.\""
+          ],
+          "certa": 1,
+          "explica": "It has a numerator, a denominator, and a period. You can't count the others.",
+          "ref": "codigo"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "The lesson in four sentences",
+      "itens": [
+        {
+          "t": "First of all",
+          "texto": "Baseline with a period and a denominator."
+        },
+        {
+          "t": "Three numbers",
+          "texto": "Usage and results, quality with zero limits violated, cost per task including the person's time."
+        },
+        {
+          "t": "Every week",
+          "texto": "Fifteen minutes, seven questions, one action with a named owner."
+        },
+        {
+          "t": "Improve with proof",
+          "texto": "One change, the same test suite, and it stays only if nothing gets worse."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "LOOP-R: continuous improvement with evidence (guide)",
+          "href": "https://inematds.github.io/loop-r/guia/",
+          "icone": "voltar"
+        },
+        {
+          "t": "LOOP-R: course",
+          "href": "https://inematds.github.io/loop-r/curso/",
+          "icone": "lista"
+        },
+        {
+          "t": "AI Management: Program plan (modules 9 and 10)",
+          "href": "https://inematds.github.io/curso-gestao-ia/",
+          "icone": "grafico"
+        },
+        {
+          "t": "Source: Anthropic — Claude Opus 5.5, 40% lower cost (09/22/2026)",
+          "href": "https://www.anthropic.com/claude-opus-5-5",
+          "icone": "seta"
+        },
+        {
+          "t": "Horizonte Lab: Indicator dashboard (F11)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/painel/",
+          "icone": "lupa"
+        }
+      ]
+    }
+  ]
+}

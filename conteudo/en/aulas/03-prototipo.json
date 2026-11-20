@@ -1,0 +1,511 @@
+{
+  "slug": "prototipo",
+  "num": 3,
+  "menu": "Prototype",
+  "titulo": "Prototype in one day",
+  "titulo_curto": "Prototype in one day",
+  "minutos": 20,
+  "lead": "With the spec approved, the manager builds the first prototype in a working session with you. They drive the keyboard; you hold the scope, the fictional data, and the checking. By the end of the day there is a tool running on their computer and an honest list of what's missing.",
+  "objetivo": "lead the session in which the manager builds the prototype with an agent, using fictional data, Git, and a gap list.",
+  "competencias": [
+    "conduzir-sessao-prototipo",
+    "preparar-ambiente-seguro",
+    "escrever-prompt-prototipo",
+    "registrar-lacunas"
+  ],
+  "aprende": [
+    {
+      "icone": "pasta",
+      "t": "Prepare the folder with rules and fictional data"
+    },
+    {
+      "icone": "chat",
+      "t": "Ask only for what's in the spec"
+    },
+    {
+      "icone": "check",
+      "t": "Check with three cases"
+    },
+    {
+      "icone": "git",
+      "t": "Save, undo, and note gaps"
+    }
+  ],
+  "hero_alt": "The mentor and the sales manager work together on a notebook, with a flow drawn in the notebook.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The prototype session cycle",
+      "sub": "Five steps, repeated until the end of the day. Click each block.",
+      "nos": [
+        {
+          "icone": "pasta",
+          "titulo": "Prepare",
+          "sub": "Folder, rules, fictional data",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "AGENTS.md with the spec"
+            },
+            {
+              "icone": "arquivo",
+              "t": "fictional orcamentos.csv"
+            }
+          ],
+          "detalhe": "A single folder just for the prototype, with AGENTS.md (the manual the agent reads before working), the spec, and a spreadsheet of made-up data. No real customer data comes in today."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Ask",
+          "sub": "One task at a time",
+          "itens": [
+            {
+              "icone": "lista",
+              "t": "Only what's in the spec"
+            }
+          ],
+          "detalhe": "The manager asks the agent for just one thing, with the expected result. A request that's too big produces changes nobody can check.",
+          "forte": true
+        },
+        {
+          "icone": "robo",
+          "titulo": "Agent builds",
+          "sub": "Coding agent or work agent",
+          "itens": [
+            {
+              "icone": "terminal",
+              "t": "Creates and edits files"
+            }
+          ],
+          "detalhe": "A coding agent in the terminal or the work agent in the chat app. Which one to use depends on what the company already has; this month's list is in lesson 8. The method is the same."
+        },
+        {
+          "icone": "check",
+          "titulo": "Check",
+          "sub": "Three cases",
+          "itens": [
+            {
+              "icone": "usuario",
+              "t": "Common, exception, missing data"
+            }
+          ],
+          "detalhe": "Open it and test with a common case, an exception, and a missing piece of data. \"It opened and looks nice\" is not checking."
+        },
+        {
+          "icone": "git",
+          "titulo": "Save or undo",
+          "sub": "And note the gap",
+          "itens": [
+            {
+              "icone": "git",
+              "t": "commit or restore"
+            },
+            {
+              "icone": "lista",
+              "t": "lacunas.md"
+            }
+          ],
+          "detalhe": "Liked it: commit. Didn't like it: git restore. Everything the agent did that the spec didn't tell it to do becomes a line in lacunas.md, which feeds the agent constitution (lesson 4) and the test suite (lesson 5)."
+        }
+      ],
+      "volta": "Next request, with the gap noted",
+      "legenda": "The manager does the typing. The mentor asks, points, and checks.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "One day, several rounds",
+        "texto": "Set up once; then ask, build, check, and save as many times as needed. What's left at the end is a prototype that runs and a list of gaps."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The session in four blocks",
+      "sub": "One working day, or two half mornings.",
+      "passos": [
+        {
+          "titulo": "Before the session",
+          "sub": "The mentor prepares",
+          "texto": [
+            "Agree on the equipment: the manager's laptop, the company account on the chosen agent, Git installed. Generate with them a spreadsheet of 20 made-up customers, with fictional names and amounts.",
+            "Before building, a rehearsal is worth it: paste the spec into a chat and ask it to play the role of the tool in one case. The questions it asks reveal gaps in the spec."
+          ],
+          "exemplo": {
+            "rot": "Rule of the day",
+            "texto": "No real customer data. No API key in the browser."
+          }
+        },
+        {
+          "titulo": "Morning",
+          "sub": "Folder and first version",
+          "texto": [
+            "The manager creates the folder, AGENTS.md, and makes the first commit. First request: read-only (\"read AGENTS.md and the spec and tell me what you understood\").",
+            "Second request: the list of open quotes with the rule from the spec. Open it, check it, save it."
+          ],
+          "exemplo": {
+            "rot": "Sign that it's going well",
+            "texto": "By lunchtime the manager is making requests alone and knows how to go back a version with git restore."
+          }
+        },
+        {
+          "titulo": "Afternoon",
+          "sub": "Draft and approval",
+          "texto": [
+            "Third request: the draft message for each quote, citing only products from the catalog. Fourth: the approve button and the export of what was approved.",
+            "Automatic sending, official WhatsApp, and discounts are out: they're not in spec v0.1."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Patrícia approved 12 fictional drafts in 10 minutes and edited 3. That's already a number for lesson 7."
+          }
+        },
+        {
+          "titulo": "Wrap-up",
+          "sub": "Check and note",
+          "texto": [
+            "Run the three check cases. Everything that surprised you goes into lacunas.md with the date, what happened, and what should have happened.",
+            "Set up the next session: write the constitution based on the gaps."
+          ],
+          "exemplo": {
+            "rot": "Deliverable of the day",
+            "texto": "Prototype running + history in Git + lacunas.md with at least three lines."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates: script, AGENTS.md, and prototype prompt",
+      "sub": "Copy, swap what is between < > and use it in the session.",
+      "blocos": [
+        {
+          "rot": "Prototyping session script",
+          "icone": "calendario",
+          "conteudo": "PROTOTYPING SESSION · manager: <name> · tool: <name> · date: <mm/dd>\n\nBEFORE (mentor, 30 min)\n[ ] spec v0.1 approved by the manager\n[ ] manager's laptop with Git and the agent on the COMPANY account\n[ ] 20 fictitious records generated (no real data)\n[ ] dry run in the chat: spec pasted + 1 case -> gaps noted\n\nMORNING (manager at the keyboard)\n1. Create folder, AGENTS.md, dados-ficticios/, git init, first commit\n2. Reading request: \"read AGENTS.md and spec.md and tell me what you understood\"\n3. Request 1: <first part of the spec>  -> open, check, commit\n\nAFTERNOON\n4. Request 2: <second part>  -> check, commit\n5. Request 3: <third part> -> check, commit\n\nWRAP-UP (30 min)\n6. Three cases: common · exception · missing data\n7. lacunas.md: date | what happened | what should have happened\n8. Next session: constitution (lesson 4) on <date>"
+        },
+        {
+          "rot": "AGENTS.md for the prototype",
+          "icone": "arquivo",
+          "conteudo": "# Project: quote follow-up (prototype v0.1)\nOwner: Patrícia Lima, sales manager · Mentor: <name> · IT: Rafael\n\n## Rules\n- Follow spec.md. If something is not in it, ASK before doing it.\n- Use only the data in the dados-ficticios/ folder. Never ask for or use real data.\n- Do not put an API key, password or token in any file.\n- Do not create automatic message sending, discounts or price changes.\n- Simple HTML page that opens in the browser, no server.\n- When you finish each task: tell me what changed and how I check it.\n\n## What is here\n- spec.md: the one-page spec\n- dados-ficticios/orcamentos.csv: 20 made-up quotes\n- lacunas.md: what the prototype does not solve yet"
+        },
+        {
+          "rot": "Prototype prompt (first build request)",
+          "icone": "chat",
+          "conteudo": "Read AGENTS.md and spec.md before you start.\n\nTask: create index.html, a page that opens in the browser and:\n1. loads dados-ficticios/orcamentos.csv;\n2. shows only quotes open for 2 business days or more, from active customers;\n3. for each one, shows a short draft message (up to 5 lines) that mentions the last\n   product purchased and ends with a question;\n4. has an \"Approve\" button per row and an \"Export approved\" button that downloads a CSV.\n\nDo not: send messages, give discounts, change prices, use an API key.\nIf a rule is missing to decide, stop and ask me, citing the spec section.\nAt the end, tell me what you created and how I check it with 3 cases."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "How to check",
+            "html": "<ol><li>The page opens in the manager's browser with no server and no key.</li><li>Only quotes that the spec's rule says to show appear.</li><li>No draft mentions a product outside the catalog or a discount.</li><li><code>git log</code> shows one commit per request.</li></ol>"
+          },
+          {
+            "rot": "Common mistakes",
+            "html": "<ul><li><b>Real data \"just to see\"</b>: once it is inside the chat, it has already left the company.</li><li><b>Mentor at the keyboard</b>: the prototype ends up with no owner.</li><li><b>Asking for everything at once</b>: changes nobody checks and a scope that blows up.</li><li><b>API key in the HTML</b>: this is failure F1 from the lab.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Simulated session: Patrícia at the keyboard",
+      "sub": "Simulated conversation for practice. Choose the answer you would give; the comment appears right after.",
+      "personagem": {
+        "nome": "Patrícia Lima",
+        "papel": "sales manager · Horizonte Distribuidora"
+      },
+      "inicio": "abre",
+      "licao": "In the session, the mentor protects three things: fictional data, the manager at the keyboard, and the scope of the spec. Whatever slips through becomes a noted gap, not a hidden patch.",
+      "falas": {
+        "abre": {
+          "cliente": "Since it's quick, let's connect it straight to the real customer spreadsheet? That way I can already see it working.",
+          "opcoes": [
+            {
+              "t": "Not today. We use the 20 fictional customers. Real data only after the tests and IT.",
+              "vai": "teclado",
+              "nota": 2,
+              "comenta": "Right. The real spreadsheet has CPF numbers and phone numbers and is already shared by an open link in the lab (failure F8). A prototype is no place for real data."
+            },
+            {
+              "t": "Let's use a copy of the real spreadsheet, but only on your computer.",
+              "vai": "teclado",
+              "nota": 1,
+              "comenta": "Better than the original, but the copy still has CPF numbers and phone numbers, and whatever goes to the agent leaves the computer."
+            },
+            {
+              "t": "Sure, just don't share it with anyone.",
+              "vai": "fim-dados",
+              "nota": 0,
+              "comenta": "Customer personal data going to an AI service with no contract and no legal basis. This is failure F10 from the lab."
+            }
+          ]
+        },
+        "teclado": {
+          "cliente": "OK, fictional. So you type the commands and I'll just watch, it's faster.",
+          "opcoes": [
+            {
+              "t": "You type and I guide. In one hour you'll be making requests on your own.",
+              "vai": "escopo",
+              "nota": 2,
+              "comenta": "The tool needs an owner. Whoever typed the first request knows how to do the second."
+            },
+            {
+              "t": "I'll do the first task so you can see it, and you do the rest.",
+              "vai": "escopo",
+              "nota": 1,
+              "comenta": "Acceptable as a short demo, but be careful: the first time is the one that teaches the most."
+            },
+            {
+              "t": "That's fine, I'll do it and explain it to you afterward.",
+              "vai": "escopo",
+              "nota": 0,
+              "comenta": "You became the builder. When you leave the project, nobody knows how to change it."
+            }
+          ]
+        },
+        "escopo": {
+          "cliente": "I'll ask like this: \"build a complete follow-up app, with automatic WhatsApp and a discount for customers who went quiet\".",
+          "opcoes": [
+            {
+              "t": "Let's ask only for what is in spec v0.1: list, draft, and approval. The rest goes on the later list.",
+              "vai": "conferir",
+              "nota": 2,
+              "comenta": "Scope protected. Automatic sending and discounts are the spec's red actions."
+            },
+            {
+              "t": "Take out just the discount; automatic WhatsApp is fine.",
+              "vai": "conferir",
+              "nota": 1,
+              "comenta": "Half right. Automatic sending is also out of v0.1: sending is \"with approval\"."
+            },
+            {
+              "t": "Good, ask for everything at once, the agent can handle it.",
+              "vai": "fim-tudo",
+              "nota": 0,
+              "comenta": "The agent will even do it. The problem is that nobody can check it, and it creates permissions that nobody decided on."
+            }
+          ]
+        },
+        "conferir": {
+          "cliente": "It opened! It looks great. Can we use it on Monday?",
+          "opcoes": [
+            {
+              "t": "First, three cases: a common one, a customer asking for a discount, and a quote with no phone number.",
+              "vai": "lacuna",
+              "nota": 2,
+              "comenta": "Checking means testing the common case, the exception, and missing data. Pretty is not a criterion."
+            },
+            {
+              "t": "Let's show it to Carlos and see if he likes it.",
+              "vai": "lacuna",
+              "nota": 1,
+              "comenta": "Showing it to the owner is good, but liking it is not a test. The three cases come first."
+            },
+            {
+              "t": "If it opened, it works. You can use it.",
+              "vai": "fim-pressa",
+              "nota": 0,
+              "comenta": "A prototype with fictional data is not ready for a real customer. It still needs a constitution, tests, and IT."
+            }
+          ]
+        },
+        "lacuna": {
+          "cliente": "In the discount case, the draft says \"I can offer 10%.\" Nobody told it to do that!",
+          "opcoes": [
+            {
+              "t": "Great finding. It goes into lacunas.md: it becomes a limit in the constitution and a test case in lesson 5.",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "The gap became a rule and a test. That is how the prototype matures."
+            },
+            {
+              "t": "Delete that sentence by hand and move on.",
+              "vai": "fim-meio",
+              "nota": 1,
+              "comenta": "You fix it today and it comes back tomorrow. Without a written rule, the agent repeats it."
+            },
+            {
+              "t": "That's normal, AI is like that. Let it go.",
+              "vai": "fim-dados",
+              "nota": 0,
+              "comenta": "It's exactly failure F5 from the lab: an agent that offers a discount with no cap."
+            }
+          ]
+        },
+        "fim-dados": {
+          "fim": true,
+          "titulo": "Open risk",
+          "texto": "Real data or a discount with no rule got into the prototype. Go back and protect the data and the limit before anything else."
+        },
+        "fim-tudo": {
+          "fim": true,
+          "titulo": "Scope blew up",
+          "texto": "The tool does more than the spec allows, and nobody knows how to check it. Go back to spec v0.1."
+        },
+        "fim-pressa": {
+          "fim": true,
+          "titulo": "Too much hurry",
+          "texto": "A pretty prototype was treated as a product. It still needs a constitution, a test suite, and the handoff to IT."
+        },
+        "fim-meio": {
+          "fim": true,
+          "titulo": "Almost there",
+          "texto": "Data and scope are protected, but the gap was patched instead of becoming a rule. Note it in lacunas.md."
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "Well-run session",
+          "texto": "Fictional data, the manager at the keyboard, scope from the spec, and the gap noted. The prototype is ready to receive limits."
+        }
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: the prototype running with the manager",
+      "sub": "One real session. If you don't have a manager yet, do it in Patrícia's role.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Folder and fictional data",
+          "min": "30 min",
+          "texto": "With the manager, create the folder, AGENTS.md, spec.md, and 20 made-up records. Make the first commit.",
+          "pronto": "git log shows the first commit and there is no real data in the folder."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Prototyping session",
+          "min": "4 h",
+          "texto": "Run the session with the script. The manager types every request.",
+          "pronto": "the prototype opens on the manager's computer and there is one commit per request."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Three cases and gaps",
+          "min": "30 min",
+          "texto": "Run a common case, an exception, and a missing piece of data. Note what surprised you.",
+          "pronto": "lacunas.md has at least three lines with the date, what happened, and what should have happened."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "sub": "The explanation appears after your answer.",
+      "perguntas": [
+        {
+          "p": "What data goes into the prototype?",
+          "opcoes": [
+            "A copy of the real database, to be safe.",
+            "Only fictional data, generated for the test.",
+            "The real data, but without showing it to anyone.",
+            "Doesn't matter, it's just a prototype."
+          ],
+          "certa": 1,
+          "explica": "A prototype uses made-up data. Real data only after the tests and IT's validation, with a legal basis and a contract.",
+          "ref": "simconversa",
+          "cert": true
+        },
+        {
+          "p": "The prototype needs to call an AI model. Where does the API key go?",
+          "opcoes": [
+            "In index.html, which is simpler.",
+            "Nowhere in the browser: prototype v0.1 with no external call, and the real integration is left to IT.",
+            "In AGENTS.md.",
+            "In a code comment."
+          ],
+          "certa": 1,
+          "explica": "A key in the browser's JavaScript is failure F1: any visitor can copy it. In the prototype, rules and text templates are enough; the integration goes with IT.",
+          "ref": "codigo",
+          "cert": true
+        },
+        {
+          "p": "The agent added a 10% discount that nobody asked for. What is the best response?",
+          "opcoes": [
+            "Delete the sentence and move on.",
+            "Note it in lacunas.md so it becomes a limit in the constitution and a test case.",
+            "Switch agents.",
+            "Ignore it."
+          ],
+          "certa": 1,
+          "explica": "A noted gap becomes a rule (lesson 4) and a test (lesson 5). A hand patch comes back the next day.",
+          "ref": "simconversa"
+        },
+        {
+          "p": "Who types the requests in the session?",
+          "opcoes": [
+            "The mentor, who is faster.",
+            "The manager; the mentor guides and checks.",
+            "IT.",
+            "They take turns with each request."
+          ],
+          "certa": 1,
+          "explica": "The manager needs to leave the session knowing how to ask, check, and undo. That is what ensures the tool has an owner.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "The lesson in four sentences",
+      "itens": [
+        {
+          "t": "Prepare",
+          "texto": "Folder, AGENTS.md, spec, and 20 fictional records. No real data, no keys."
+        },
+        {
+          "t": "Manager on the keyboard",
+          "texto": "They ask; you question, point, and check."
+        },
+        {
+          "t": "Spec scope",
+          "texto": "One request at a time, only what is in v0.1. The rest goes to later."
+        },
+        {
+          "t": "Check and note",
+          "texto": "Three cases and lacunas.md. The gap becomes a limit and a test."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "OSWork Quick: terminal, folder, and AGENTS.md in 7 lessons",
+          "href": "https://inematds.github.io/oswork-quick/",
+          "icone": "terminal"
+        },
+        {
+          "t": "OSWork: AI as a work system",
+          "href": "https://inematds.github.io/oswork/",
+          "icone": "pasta"
+        },
+        {
+          "t": "From chat to agent (v7.2 format)",
+          "href": "https://inematds.github.io/do-chat-ao-agente-v72/en/",
+          "icone": "robo"
+        },
+        {
+          "t": "Horizonte Lab: Orders app (F1–F4)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/app-pedidos/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Horizonte Lab: WhatsApp agent (F5–F7)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Horizonte Lab: Customer spreadsheet (F8)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/planilha-clientes/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Horizonte Lab: Support summary (F10)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/",
+          "icone": "lupa"
+        }
+      ]
+    }
+  ]
+}

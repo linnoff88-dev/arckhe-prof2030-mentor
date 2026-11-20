@@ -1,0 +1,378 @@
+{
+  "slug": "passagem",
+  "num": 6,
+  "menu": "Traspaso",
+  "titulo": "Traspaso seguro a TI",
+  "titulo_curto": "Traspaso a TI",
+  "minutos": 20,
+  "lead": "Aprobado en la prueba de aceptación no quiere decir listo para producción. El prototipo corre en el notebook de Patrícia, con datos ficticios. Para convertirse en una herramienta de la empresa, pasa a Rafael, de TI, con todo lo que necesita para validar, conectar y mantener: código, reglas, pruebas, accesos, responsable, costo y una forma de apagarlo.",
+  "objetivo": "armar el paquete de traspaso a TI con accesos, documentación, responsable, costo, LGPD y plan de apagado.",
+  "competencias": [
+    "montar-pacote-de-passagem",
+    "organizar-acessos-e-segredos",
+    "aplicar-lgpd-ao-projeto",
+    "planejar-rollback"
+  ],
+  "aprende": [
+    {
+      "icone": "camadas",
+      "t": "Qué cambia del prototipo a la producción"
+    },
+    {
+      "icone": "cadeado",
+      "t": "Accesos y secretos en la cuenta de la empresa"
+    },
+    {
+      "icone": "escudo",
+      "t": "LGPD aplicada a la herramienta"
+    },
+    {
+      "icone": "arquivo",
+      "t": "El paquete de traspaso completo"
+    }
+  ],
+  "hero_alt": "La gerente entrega una carpeta al técnico de TI, con la mentora a su lado.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Del notebook de la gerente a la producción",
+      "sub": "Quién entrega, qué va en el paquete y quién decide. Haz clic en cada bloque.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Gerente",
+          "sub": "Responsable del proceso",
+          "itens": [
+            {
+              "icone": "check",
+              "t": "Hizo la prueba de aceptación"
+            },
+            {
+              "icone": "caneta",
+              "t": "Firma los permisos"
+            }
+          ],
+          "detalhe": "Patrícia sigue siendo la responsable del proceso y de las reglas. No pasa a ser responsable del servidor, de las contraseñas ni de las actualizaciones: eso pasa a TI."
+        },
+        {
+          "icone": "pasta",
+          "titulo": "Paquete de traspaso",
+          "sub": "Todo en un solo lugar",
+          "itens": [
+            {
+              "icone": "git",
+              "t": "Código y versiones"
+            },
+            {
+              "icone": "arquivo",
+              "t": "Spec, constitución, batería"
+            },
+            {
+              "icone": "cadeado",
+              "t": "Accesos y datos"
+            },
+            {
+              "icone": "grafico",
+              "t": "Costo y responsable"
+            }
+          ],
+          "detalhe": "Un repositorio con el código, la spec, la constitución, la batería con resultados, la lista de accesos necesarios, el mapa de datos, el costo estimado, los responsables y el plan de apagado.",
+          "forte": true
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Revisión de TI",
+          "sub": "Rafael valida",
+          "itens": [
+            {
+              "icone": "lupa",
+              "t": "Secretos, acceso a los datos, admin, dependencias"
+            }
+          ],
+          "detalhe": "TI revisa lo que el mentor no revisa: secreto en el código, regla de acceso a la tabla, ruta de administración sin login, dependencia vieja. Son las fallas F1 a F4 del laboratorio. TI decide si entra en producción."
+        },
+        {
+          "icone": "nuvem",
+          "titulo": "Producción",
+          "sub": "Cuenta de la empresa",
+          "itens": [
+            {
+              "icone": "voltar",
+              "t": "Apagar en minutos"
+            },
+            {
+              "icone": "relogio",
+              "t": "Inicio acompañado"
+            }
+          ],
+          "detalhe": "Corre en una cuenta de la empresa, con llaves de producción guardadas por TI, registro de las acciones y un botón de pausa que la gerente sabe usar."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Responsable y mantenimiento",
+          "sub": "Quién cuida después",
+          "itens": [
+            {
+              "icone": "usuario",
+              "t": "Responsable en el área y en TI"
+            },
+            {
+              "icone": "grafico",
+              "t": "Revisión mensual"
+            }
+          ],
+          "detalhe": "Dos nombres: responsable del proceso (Patrícia) y responsable técnico (Rafael). Más la fecha de la primera revisión y quién paga el costo mensual."
+        }
+      ],
+      "legenda": "Alcance honesto: el mentor organiza el traspaso; la evaluación técnica de seguridad y la prueba de intrusión quedan con TI o un especialista habilitado.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "El traspaso completo",
+        "texto": "La gerente responsable del proceso, paquete completo, revisión técnica de TI, producción en una cuenta de la empresa con apagado en minutos, y dos responsables con nombre."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cuatro cuidados del traspaso",
+      "sub": "Haz clic en cada etapa.",
+      "passos": [
+        {
+          "titulo": "Accesos y secretos",
+          "sub": "Cuenta de la empresa, nunca personal",
+          "texto": [
+            "Toda cuenta (agente, base de datos, proveedor de IA, WhatsApp) queda a nombre de la empresa, con TI como administradora. Ninguna clave en un archivo de texto, en el código ni en el navegador.",
+            "Cada acceso con el menor permiso que permite hacer el trabajo: lectura donde basta con leer. Una lista de quién accede a datos sensibles, por escrito."
+          ],
+          "exemplo": {
+            "rot": "Señal de alerta",
+            "texto": "\"La clave está en mi correo personal\" o \"la base de datos está en mi cuenta gratis\"."
+          }
+        },
+        {
+          "titulo": "Datos y LGPD",
+          "sub": "Quién es el controlador, a dónde van",
+          "texto": [
+            "La empresa es la controladora de los datos de los clientes. El proveedor de IA y quien implementa actúan como operadores: usan el dato solo para el proyecto, con contrato.",
+            "Anota a dónde va cada dato, incluso fuera del país, con qué base legal y por cuánto tiempo se guarda. La falla F10 del laboratorio es una conversación de cliente que va a una API extranjera sin contrato."
+          ],
+          "exemplo": {
+            "rot": "Documento corto",
+            "texto": "Un informe de impacto breve, de unas dos páginas: qué dato, para qué, con quién, por cuánto tiempo, qué riesgos y qué medidas."
+          }
+        },
+        {
+          "titulo": "Apagar y volver atrás",
+          "sub": "Rollback probado",
+          "texto": [
+            "Antes de encender, acuerda cómo apagar en minutos y volver a hacer el proceso a mano. Pruébalo una vez, de verdad.",
+            "Empieza con una parte del volumen y haz un seguimiento cercano los primeros días. Nada de encender un viernes por la tarde."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Patrícia sabe pausar desde el panel; Rafael sabe volver a la versión anterior. Los dos lo probaron un martes por la mañana."
+          }
+        },
+        {
+          "titulo": "Responsable, costo y salida",
+          "sub": "Sin depender de una sola persona",
+          "texto": [
+            "Escribe el costo mensual estimado (IA, hospedaje, mensajes) y quién lo paga. Escribe quién es el responsable del proceso y quién es el responsable técnico.",
+            "Si el mentor o un proveedor se va, la empresa recibe todo: reglas versionadas, base de conocimiento, código exportado, accesos en su cuenta, documentación y plan de apagado."
+          ],
+          "exemplo": {
+            "rot": "Pregunta de Carlos",
+            "texto": "\"Si desaparecieras mañana, ¿Rafael podría mantenerlo?\" El paquete debe permitir responder que sí."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Plantillas: paquete de traspaso y revisión de TI",
+      "sub": "El paquete completado de la herramienta de seguimiento y la lista que Rafael revisa.",
+      "blocos": [
+        {
+          "rot": "Paquete de traspaso a TI",
+          "icone": "pasta",
+          "conteudo": "# Paquete de traspaso — Seguimiento de presupuestos · v1.1\nFecha: <dd/mm> · Responsable del proceso: Patrícia Lima · Responsable técnico: Rafael (TI) · Mentor: <nombre>\n\n## 1. Qué es\nSugiere un contacto para presupuestos abiertos hace 2 días hábiles; Patrícia aprueba antes de enviar.\n\n## 2. Dónde está\nRepositorio: <dirección, en cuenta de la empresa> · versión con prueba de aceptación: v1.1 (<commit>)\nArchivos: spec.md · AGENTS.md (constitución) · bateria.md (15 casos + resultados) · lacunas.md\n\n## 3. Accesos necesarios (TI los crea en cuenta de la empresa)\n| Sistema | Permiso mínimo | Quién administra |\n|---|---|---|\n| Exportación de presupuestos | lectura | Rafael |\n| Hoja de control | escritura solo en la columna \"retorno em\" | Rafael |\n| Proveedor de IA | clave de producción guardada por TI | Rafael |\n| Envío de mensajes | solo tras la aprobación en pantalla | Rafael |\n\n## 4. Datos\nUsa: nombre de la empresa cliente, contacto, historial de compras, presupuestos abiertos.\nNo usa: CPF, datos bancarios, conversaciones antiguas completas.\nA dónde van: <proveedor de IA, país, contrato/DPA> · Se guardan por: <plazo> · Base legal: <definir con la empresa>\n\n## 5. Pruebas\nBatería v1.1: 13/15, ninguna crítica falló. Prueba de aceptación hecha por Patrícia el <fecha>.\nAntes de la producción: ampliar a 30+ casos reales anonimizados (TI + Patrícia).\n\n## 6. Operación\nRegistro de toda acción: <dónde> · Pausa: <cómo> · Apagar y volver a lo manual: <pasos, probado el dd/mm>\nInicio: 30% de los presupuestos en la 1.ª semana, seguimiento diario.\n\n## 7. Costo estimado\nIA: R$ <x>/mes · hospedaje: R$ <y>/mes · mensajes: R$ <z>/mes · quién paga: <centro de costo>\n\n## 8. Responsables y revisión\nProceso: Patrícia · Técnico: Rafael · Suplente: Carlos Mendes · 1.ª revisión: <fecha + 30 días>\n\n## 9. Salida sin dependencia\nTodo en cuenta de la empresa. Si el mentor o el proveedor se va: reglas, código, accesos, documentación y plan de apagado quedan con TI."
+        },
+        {
+          "rot": "Lista de revisión de TI (Rafael la revisa)",
+          "icone": "escudo",
+          "conteudo": "REVISIÓN TÉCNICA · herramienta: <nombre> · revisor: <nombre de TI> · fecha: <dd/mm>\n\n[ ] Ninguna clave, contraseña o token en el código, en el HTML ni en el historial de Git   (F1)\n[ ] Cada tabla con regla de acceso: el usuario solo lee lo que puede                       (F2)\n[ ] Toda página de administración exige inicio de sesión                                   (F3)\n[ ] Dependencias sin vulnerabilidad conocida (auditoría del gestor de paquetes)            (F4)\n[ ] Límites críticos garantizados por permiso, no solo por instrucción                     (F5, F6)\n[ ] Registro de acciones y aprobación humana en los valores y acciones definidos           (F7)\n[ ] Ningún dato personal en hoja de cálculo o enlace abierto                               (F8)\n[ ] Integraciones con el menor permiso; nada de borrar o enviar sin aprobación            (F9)\n[ ] Proveedor de IA con contrato; destino de los datos registrado                          (F10)\n[ ] Cuentas a nombre de la empresa; respaldo y restauración probados\n[ ] Apagar y volver a lo manual probado una vez\n\nDecisión: [ ] aprueba  [ ] aprueba con reservas: <cuáles>  [ ] no aprueba: <motivo>\nEsta revisión no sustituye una prueba de intrusión ni un dictamen jurídico."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Cómo verificar",
+            "html": "<ol><li>Ningún campo del paquete en blanco ni con &lt; &gt;.</li><li>Dos responsables con nombre: proceso y técnico.</li><li>Costo mensual estimado y quién paga.</li><li>Apagado probado una vez, con fecha.</li><li>TI firmó la decisión de la revisión.</li></ol>"
+          },
+          {
+            "rot": "Errores comunes",
+            "html": "<ul><li><b>Cuenta personal de la gerente</b>: cuando ella se va, la herramienta se va con ella.</li><li><b>\"TI lo revisa después\"</b>: la revisión va antes de la producción, no después del incidente.</li><li><b>Mentor que promete seguridad total</b>: el mentor organiza; la validación técnica es de TI.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica: el paquete completado",
+      "sub": "Con la gerente y TI de la empresa. Sin TI, simula con Rafael y el laboratorio.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Paquete de traspaso",
+          "min": "60 min",
+          "texto": "Completa el paquete con la gerente, a partir de la spec, de la constitución y de la batería.",
+          "pronto": "los 9 bloques están completos, sin ningún campo entre < >."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Revisión en el laboratorio",
+          "min": "40 min",
+          "texto": "Usa la lista de revisión en las piezas de la app de pedidos y del agente de WhatsApp de Horizonte.",
+          "pronto": "encontraste al menos 4 de las fallas F1 a F7 y sabes decir qué línea de la lista detecta cada una."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Reunión de traspaso",
+          "min": "45 min",
+          "texto": "Presenta el paquete a TI. Acuerden la prueba de apagado y la primera revisión.",
+          "pronto": "TI registró la decisión (aprueba, reservas o no aprueba) y hay una fecha para la prueba de apagado."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Pon a prueba lo que aprendiste",
+      "sub": "La explicación aparece después de tu respuesta.",
+      "perguntas": [
+        {
+          "p": "La clave del proveedor de IA está en la cuenta personal de Patrícia. ¿Qué hacer en el traspaso?",
+          "opcoes": [
+            "Nada, funciona.",
+            "Crear la cuenta a nombre de la empresa, con TI administrándola y la clave fuera del código.",
+            "Mandar la clave por correo a Rafael.",
+            "Poner la clave en el AGENTS.md."
+          ],
+          "certa": 1,
+          "explica": "Cuenta de la empresa, clave guardada por TI, nunca en texto. La cuenta personal se va junto con la persona.",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "¿Quién decide si la herramienta entra en producción?",
+          "opcoes": [
+            "El mentor.",
+            "La gerente sola.",
+            "TI, después de la revisión técnica, con la gerente como responsable del proceso.",
+            "El proveedor de IA."
+          ],
+          "certa": 2,
+          "explica": "La gerente hace la prueba de aceptación del comportamiento; TI valida accesos y seguridad y decide. El mentor organiza el traspaso.",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "En la LGPD (ley brasileña de protección de datos), ¿quién es el controlador de los datos de los clientes de Horizonte?",
+          "opcoes": [
+            "El proveedor de IA.",
+            "El mentor.",
+            "La propia Horizonte.",
+            "Nadie, porque es IA."
+          ],
+          "certa": 2,
+          "explica": "La empresa es la controladora. El proveedor y quien implementa actúan como operadores, con contrato y uso restringido al proyecto.",
+          "ref": "passos"
+        },
+        {
+          "p": "La revisión de TI encontró la falla F3. ¿Qué es?",
+          "opcoes": [
+            "Descuento sin tope.",
+            "Página de administración sin login.",
+            "Planilla con enlace abierto.",
+            "Falta de línea de base."
+          ],
+          "certa": 1,
+          "explica": "F3 es la ruta de admin sin login en la app de pedidos. La lista de revisión tiene una línea para cada falla del laboratorio.",
+          "ref": "codigo"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "La clase en cuatro frases",
+      "itens": [
+        {
+          "t": "Aprobado en la prueba de aceptación no es producción",
+          "texto": "De la gerente a TI, con un paquete que permite validar, activar y mantener."
+        },
+        {
+          "t": "Cuenta de la empresa",
+          "texto": "Accesos mínimos, claves con TI, nada en texto."
+        },
+        {
+          "t": "Datos con destino",
+          "texto": "Empresa controladora, proveedor con contrato, destino y plazo anotados."
+        },
+        {
+          "t": "Apagar y responsable",
+          "texto": "Rollback probado, dos responsables con nombre, costo y salida sin dependencia."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "LGPD — Ley 13.709/2018 (texto oficial)",
+          "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+          "icone": "escudo"
+        },
+        {
+          "t": "ANPD — Autoridad Nacional de Protección de Datos",
+          "href": "https://www.gov.br/anpd/pt-br",
+          "icone": "cadeado"
+        },
+        {
+          "t": "OWASP Top 10 para aplicaciones con LLM",
+          "href": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+          "icone": "lista"
+        },
+        {
+          "t": "Empresa-laboratorio: las piezas con fallas",
+          "href": "https://inematds.github.io/prof2030-lab/",
+          "icone": "pasta"
+        },
+        {
+          "t": "Laboratorio Horizonte: App de pedidos (F1–F4)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/app-pedidos/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Laboratorio Horizonte: Agente de WhatsApp (F5–F7)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Laboratorio Horizonte: Planilla de clientes (F8)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/planilha-clientes/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Laboratorio Horizonte: Integración MCP con el correo electrónico (F9)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/mcp-email/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Laboratorio Horizonte: Resumen de atención (F10)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/",
+          "icone": "lupa"
+        }
+      ]
+    }
+  ]
+}

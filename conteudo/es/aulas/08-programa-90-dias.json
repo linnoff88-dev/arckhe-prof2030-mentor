@@ -1,0 +1,423 @@
+{
+  "slug": "programa-90-dias",
+  "num": 8,
+  "menu": "90 días",
+  "titulo": "El programa de 90 días y lo que cambió",
+  "titulo_curto": "Programa de 90 días",
+  "minutos": 20,
+  "lead": "Las siete clases se vuelven un programa: en 90 días, de uno a tres gerentes llevan cada uno una herramienta desde el mapa hasta el traspaso a TI, con encuentros fijos e hitos que se pueden verificar. Al final, el proyecto final en Horizonte y el panel de lo que cambió en el mercado en este trimestre.",
+  "objetivo": "armar el plan de 90 días con encuentros, hitos e indicadores para un gerente real y entregar el proyecto final.",
+  "competencias": [
+    "planejar-programa-de-mentoria",
+    "definir-marcos-verificaveis",
+    "acompanhar-mudancas-do-mercado"
+  ],
+  "aprende": [
+    {
+      "icone": "calendario",
+      "t": "Las cinco fases del programa"
+    },
+    {
+      "icone": "portao",
+      "t": "Hitos que se pueden verificar"
+    },
+    {
+      "icone": "alvo",
+      "t": "El proyecto final en Horizonte"
+    },
+    {
+      "icone": "megafone",
+      "t": "Lo que cambió en el trimestre"
+    }
+  ],
+  "hero_alt": "Una mentora pega notas de colores en un calendario de doce semanas en la pared mientras la gerente observa.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Los 90 días en cinco fases",
+      "sub": "Cada fase termina en un hito. Haz clic en cada bloque.",
+      "nos": [
+        {
+          "icone": "lupa",
+          "titulo": "Días 1–15",
+          "sub": "Apertura y mapa",
+          "itens": [
+            {
+              "icone": "usuario",
+              "t": "Taller con el liderazgo"
+            },
+            {
+              "icone": "lista",
+              "t": "Mapa de 3 herramientas por gerente"
+            }
+          ],
+          "detalhe": "Taller de apertura con el dueño y los gerentes, inventario de lo que ya se usa y sesión de mapa con cada gerente (clase 1). Hito: cada gerente eligió una herramienta, con su riesgo."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Días 16–35",
+          "sub": "Spec y prototipo",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "Spec de 1 página"
+            },
+            {
+              "icone": "terminal",
+              "t": "Sesión de prototipo"
+            }
+          ],
+          "detalhe": "Filtro y spec (clase 2), sesión de prototipo con datos ficticios (clase 3). Hito: prototipo funcionando en el computador del gerente, con brechas anotadas."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Días 36–55",
+          "sub": "Límites y pruebas",
+          "itens": [
+            {
+              "icone": "caneta",
+              "t": "Constitución"
+            },
+            {
+              "icone": "check",
+              "t": "Batería de 15 casos"
+            }
+          ],
+          "detalhe": "Constitución aplicada (clase 4), batería y rondas (clase 5). Hito: batería con 85 % o más y ningún límite violado.",
+          "forte": true
+        },
+        {
+          "icone": "pasta",
+          "titulo": "Días 56–70",
+          "sub": "Prueba de aceptación y traspaso",
+          "itens": [
+            {
+              "icone": "usuario",
+              "t": "El gerente hace la prueba de aceptación"
+            },
+            {
+              "icone": "escudo",
+              "t": "TI revisa"
+            }
+          ],
+          "detalhe": "Prueba de aceptación con el usuario y paquete de traspaso con revisión de TI (clases 5 y 6). Hito: decisión de TI registrada y prueba de apagado hecha."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Días 71–90",
+          "sub": "Medir y decidir",
+          "itens": [
+            {
+              "icone": "grafico",
+              "t": "Panel de 3 indicadores"
+            },
+            {
+              "icone": "voltar",
+              "t": "Una mejora"
+            }
+          ],
+          "detalhe": "Panel con línea de base, revisiones semanales y una mejora probada (clase 7). Hito: reunión de cierre con el dueño, con números y la decisión del próximo ciclo."
+        }
+      ],
+      "volta": "Próximo ciclo: nueva herramienta o nuevo gerente",
+      "legenda": "Un gerente por herramienta. De uno a tres gerentes por programa, para que el mentor pueda atenderlos con calidad.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "El programa completo",
+        "texto": "Mapa, spec y prototipo, límites y pruebas, prueba de aceptación y traspaso, medir y decidir. Cinco hitos, uno cada dos o tres semanas."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cómo armar y conducir el programa",
+      "sub": "Haz clic en cada etapa.",
+      "passos": [
+        {
+          "titulo": "Roles antes que fechas",
+          "sub": "Quién patrocina, quién construye, quién valida",
+          "texto": [
+            "Patrocinador: el dueño (Carlos) abre puertas y decide al final. Gerentes: construyen y son responsables de los procesos. TI: valida y asume. Mentor: conduce el método y el ritmo.",
+            "Elige también un usuario de referencia por herramienta, que la usará todos los días y dirá si se siente cómodo."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Patrícia (seguimiento), Juliana (respuestas listas de atención al cliente) y Rafael en TI."
+          }
+        },
+        {
+          "titulo": "Ritmo fijo",
+          "sub": "Encuentro semanal + sesiones de trabajo",
+          "texto": [
+            "Un encuentro semanal de 60 minutos por gerente, siempre el mismo día. Más las sesiones largas de prototipo y de prueba de aceptación en las fechas correctas.",
+            "Entre encuentros, el gerente tiene una tarea con \"listo cuando\". Sin tarea, el programa se vuelve conversación."
+          ],
+          "exemplo": {
+            "rot": "Regla",
+            "texto": "Un hito no cumplido cambia la fecha del siguiente, nunca el criterio."
+          }
+        },
+        {
+          "titulo": "Hitos verificables",
+          "sub": "Cinco compuertas",
+          "texto": [
+            "Cada fase cierra con algo que cualquier persona puede comprobar: la tabla del mapa, el prototipo abriendo, la batería con nota, la decisión de TI, el panel con línea de base.",
+            "El día 90, una reunión con el dueño: qué cambió en los números, cuánto cuesta, qué viene en el próximo ciclo."
+          ],
+          "exemplo": {
+            "rot": "Pregunta del día 90",
+            "texto": "\"¿Continuamos, ampliamos o paramos? ¿Con base en qué?\""
+          }
+        },
+        {
+          "titulo": "Proyecto final",
+          "sub": "Toda la Horizonte",
+          "texto": [
+            "Arma el plan de 90 días de la Horizonte para Patrícia y Juliana y entrega los ocho modelos completos para la herramienta de seguimiento.",
+            "Usa las piezas del laboratorio para mostrar lo que el programa evita: cada falla F1 a F12 debe aparecer en algún control de tu plan."
+          ],
+          "exemplo": {
+            "rot": "Sobre la certificación",
+            "texto": "La certificación INEMA de cada formación llegará pronto. Es una calificación, no una profesión regulada."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos: plan de 90 días y proyecto final",
+      "sub": "Copia y ajusta las fechas a tu gerente.",
+      "blocos": [
+        {
+          "rot": "Plan de 90 días — encuentros e hitos",
+          "icone": "calendario",
+          "conteudo": "# Programa de 90 días · empresa: <nombre> · inicio: <dd/mm>\nPatrocinador: <responsable> · Mentor: <nombre> · TI: <nombre>\nGerentes y herramientas: <gerente 1 → herramienta> · <gerente 2 → herramienta> · <gerente 3 → herramienta>\nEncuentro semanal: <día y hora>, 60 min por gerente\n\n| Semana | Encuentro / sesión | Entrega del gerente | Hito (listo cuando) |\n|---|---|---|---|\n| 1 | Workshop de apertura (liderazgo) + inventario de IA | lista de lo que ya se usa | inventario con responsable y datos de cada herramienta |\n| 2 | Sesión 1: mapa (clase 1) | mapa de 3 herramientas | herramienta elegida, con riesgo |\n| 3 | Filtro y seis eslabones (clase 2) | 5 casos reales anotados | filtro con decisión |\n| 4 | Spec con permisos (clase 2) | spec v0.1 | spec en una página, responsable por línea |\n| 5 | SESIÓN DE PROTOTIPO (clase 3, día completo) | prototipo + lacunas.md | abre en la computadora del gerente, datos ficticios |\n| 6 | Constitución (clase 4) | constitución v1.0 | 9 secciones, 3 casos difíciles |\n| 7 | Batería (clase 5) | 15 casos con respuesta esperada | respuesta escrita antes de ejecutar |\n| 8 | Rondas | versiones con motivo | >= 85% y cero límites violados |\n| 9 | PRUEBA DE ACEPTACIÓN con el usuario (clase 5) | permisos firmados | compuerta de 5 ítems |\n| 10 | Paquete de traspaso (clase 6) | paquete completo | sin campos en blanco |\n| 11 | Revisión de TI + prueba de apagado | — | decisión de TI registrada |\n| 12 | Panel y revisión semanal (clase 7) | línea de base + semana 1 | 3 indicadores con denominador |\n| 13 | Cierre con el responsable (día 90) | 1 mejora probada | decisión: continuar, ampliar o detener |\n\nAlertas: hito atrasado 2 semanas -> reunión con el patrocinador · límite violado -> pausa."
+        },
+        {
+          "rot": "Proyecto final — Horizonte Distribuidora",
+          "icone": "alvo",
+          "conteudo": "PROYECTO FINAL · Mentor de IA · empresa-laboratorio: Horizonte Distribuidora\n\nEntrega en una carpeta (o repositorio) con:\n1. Mapa de 3 herramientas de Patrícia, con riesgo (clase 1)\n2. Spec de una página del seguimiento, con permisos y datos excluidos (clase 2)\n3. Guion de la sesión de prototipo + AGENTS.md + lacunas.md (clase 3)\n4. Constitución del agente de seguimiento (clase 4)\n5. Batería de 15 casos con respuesta esperada y una ronda con nota (clase 5)\n6. Paquete de traspaso para Rafael + lista de revisión de TI (clase 6)\n7. Panel de 3 indicadores con línea de base + 1 tarjeta de hipótesis (clase 7)\n8. Plan de 90 días para Patrícia y Juliana (esta clase)\n\nListo cuando:\n- ningún modelo con campo entre < > en blanco\n- cada falla del laboratorio (F1 a F12) aparece en al menos un control\n  de tus modelos, con la línea indicada\n- datos de clientes usados: solo ficticios"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Dónde aparece cada falla",
+            "html": "<ul><li><b>F1–F4</b>: lista de revisión de TI (clase 6).</li><li><b>F5–F7</b>: límites y permisos de la constitución (clase 4) y casos críticos de la batería (clase 5).</li><li><b>F8, F10</b>: datos ficticios en el prototipo (clase 3) y bloque de datos del paquete (clase 6).</li><li><b>F9</b>: mínimo permiso en las integraciones (clase 6).</li><li><b>F11</b>: línea de base del panel (clase 7).</li><li><b>F12</b>: inventario de la semana 1 (clases 1 y 8).</li></ul>"
+          },
+          {
+            "rot": "Errores comunes",
+            "html": "<ul><li><b>Cinco gerentes en el primer programa</b>: el mentor no los acompaña con calidad.</li><li><b>Hito sin criterio</b>: \"prototipo casi listo\" no es un hito.</li><li><b>Saltarse el día 90</b>: sin la decisión del responsable, el programa se desvanece sin resultado.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica: el plan y el proyecto final",
+      "sub": "Un gerente real, si tienes; si no, Horizonte.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Plan de 90 días",
+          "min": "60 min",
+          "texto": "Completa el plan para un gerente real (o para Patrícia y Juliana), con fechas, encuentros y hitos.",
+          "pronto": "las 13 semanas tienen fecha, encuentro, entrega y un hito que otra persona puede verificar."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Proyecto final",
+          "min": "4 h",
+          "texto": "Reúne los ocho modelos completados para la herramienta de seguimiento de Horizonte.",
+          "pronto": "la carpeta tiene los 8 ítems y cada falla F1 a F12 está vinculada a un control."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Qué cambió para tu gerente",
+          "min": "20 min",
+          "texto": "Lee el panel de abajo y elige dos cambios que afecten el plan de tu gerente.",
+          "pronto": "escribiste, para cada uno, qué cambia en el plan en una frase."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Qué cambió (oct/2026)",
+      "sub": "Panel actualizado cada trimestre. La herramienta cambia; el método de las clases 1 a 7 sigue igual.",
+      "itens": [
+        {
+          "t": "Agente de trabajo para todos",
+          "texto": "Oct/2026: OpenAI llevó GPT-6 a todos en ChatGPT, en los planes gratuitos y de pago. El gerente puede prototipar sin una licencia nueva; el cuidado con los datos reales sigue siendo el mismo. <a href=\"https://deploymentsafety.openai.com/gpt-6-october\">OpenAI, Deployment Safety Hub</a>"
+        },
+        {
+          "t": "Agente que usa la computadora",
+          "texto": "Sep/2026: Claude Code empezó a usar la computadora en segundo plano en la app de escritorio (beta, planes Pro y Max). Más poder pide más límites: los permisos por acción valen todavía más. <a href=\"https://code.claude.com/docs/en/whats-new/2026-w36\">Claude Code, novedades de la semana 36</a>"
+        },
+        {
+          "t": "Costo por tarea a la baja",
+          "texto": "22/09/2026: Anthropic lanzó Opus 5.5, que según ella cuesta 40% menos que Opus 5 en tareas típicas. Ejecuta la batería con el modelo nuevo antes de cambiar. <a href=\"https://www.anthropic.com/claude-opus-5-5\">Anthropic</a>"
+        },
+        {
+          "t": "Herramienta que sale de servicio",
+          "texto": "Anunciado el 03/06/2026: el Agent Builder de OpenAI se apaga el 30/11/2026. Por eso el paquete de traspaso guarda reglas, código y accesos fuera de la herramienta. <a href=\"https://platform.openai.com/docs/deprecations\">OpenAI, deprecations</a>"
+        },
+        {
+          "t": "Escaneo de seguridad en el agente de código",
+          "texto": "2026: la documentación de Codex ya incluye escaneo de seguridad del repositorio. Ayuda a Rafael, pero no sustituye la revisión de TI ni la prueba de intrusión. <a href=\"https://developers.openai.com/codex/changelog\">Codex changelog</a>"
+        },
+        {
+          "t": "Entrada a la carrera más difícil",
+          "texto": "12/08/2026: Stanford estima que el empleo de personas de 22 a 25 años en las ocupaciones más expuestas a la IA está 19% por debajo de lo que estaría si hubiera seguido el de sus colegas en ocupaciones menos expuestas; el estudio no afirma causa. La mentoría y programas como este ganan peso. <a href=\"https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/\">Stanford Digital Economy Lab</a>"
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba final",
+      "sub": "Cuatro preguntas sobre toda la formación.",
+      "perguntas": [
+        {
+          "p": "¿En qué fase del programa decide TI si la herramienta entra en producción?",
+          "opcoes": [
+            "Días 1–15.",
+            "Días 16–35.",
+            "Días 56–70, después de la prueba de aceptación y del paquete de traspaso.",
+            "Nunca, lo decide el gerente."
+          ],
+          "certa": 2,
+          "explica": "TI revisa el paquete después de que el usuario hace la prueba de aceptación. La decisión queda registrada y la prueba de apagado se hace antes de encender.",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "Un hito se atrasó. ¿Qué cambia?",
+          "opcoes": [
+            "El criterio, para que quepa en el plazo.",
+            "La fecha del próximo hito; el criterio se mantiene.",
+            "Nada, se sigue.",
+            "Se salta el hito."
+          ],
+          "certa": 1,
+          "explica": "Un hito no cumplido cambia fechas, nunca el criterio. Un atraso de dos semanas va al patrocinador.",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "Una herramienta que usa el gerente sale de circulación al final del trimestre. ¿Qué protege a la empresa?",
+          "opcoes": [
+            "Cruzar los dedos para que no salga.",
+            "El paquete de traspaso con reglas, código y accesos guardados fuera de la herramienta.",
+            "Cambiar de mentor.",
+            "Nada."
+          ],
+          "certa": 1,
+          "explica": "El método y los documentos sobreviven al cambio de herramienta. Por eso la herramienta del mes queda solo en este panel.",
+          "ref": "resumo"
+        },
+        {
+          "p": "¿Cuántos gerentes caben en el primer programa?",
+          "opcoes": [
+            "De uno a tres, uno por herramienta.",
+            "Todos los gerentes de la empresa.",
+            "Solo el dueño.",
+            "Diez, para escalar."
+          ],
+          "certa": 0,
+          "explica": "De uno a tres permite acompañar cada sesión y cada hito con calidad.",
+          "ref": "diagrama"
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Sigue por aquí",
+      "links": [
+        {
+          "t": "Profesional 2030: área del programa",
+          "href": "https://inematds.github.io/profissional-2030/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Empresa-laboratorio: Horizonte Distribuidora",
+          "href": "https://inematds.github.io/prof2030-lab/",
+          "icone": "pasta"
+        },
+        {
+          "t": "Base común del Profesional 2030",
+          "href": "https://inematds.github.io/prof2030-base/",
+          "icone": "lista"
+        },
+        {
+          "t": "Gestión de IA: el temario completo",
+          "href": "https://inematds.github.io/curso-gestao-ia/",
+          "icone": "grafico"
+        },
+        {
+          "t": "Fuente: OpenAI — GPT-6 para todos (oct/2026)",
+          "href": "https://deploymentsafety.openai.com/gpt-6-october",
+          "icone": "seta"
+        },
+        {
+          "t": "Fuente: Claude Code — novedades de la semana 36/2026",
+          "href": "https://code.claude.com/docs/en/whats-new/2026-w36",
+          "icone": "seta"
+        },
+        {
+          "t": "Fuente: Anthropic — Opus 5.5 (22/09/2026)",
+          "href": "https://www.anthropic.com/claude-opus-5-5",
+          "icone": "seta"
+        },
+        {
+          "t": "Fuente: OpenAI — deprecations (Agent Builder)",
+          "href": "https://platform.openai.com/docs/deprecations",
+          "icone": "seta"
+        },
+        {
+          "t": "Fuente: Codex changelog",
+          "href": "https://developers.openai.com/codex/changelog",
+          "icone": "seta"
+        },
+        {
+          "t": "Fuente: Stanford Digital Economy Lab (ago/2026)",
+          "href": "https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/",
+          "icone": "seta"
+        },
+        {
+          "t": "Laboratorio Horizonte: App de pedidos (F1–F4)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/app-pedidos/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Laboratorio Horizonte: Agente de WhatsApp (F5–F7)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Laboratorio Horizonte: Planilla de clientes (F8)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/planilha-clientes/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Laboratorio Horizonte: Integración MCP con el correo electrónico (F9)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/mcp-email/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Laboratorio Horizonte: Resumen de atención (F10)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Laboratorio Horizonte: Panel de indicadores (F11)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/painel/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Laboratorio Horizonte: Inventario e IA en la sombra (F12)",
+          "href": "https://inematds.github.io/prof2030-lab/inventario.html",
+          "icone": "lupa"
+        }
+      ]
+    }
+  ]
+}

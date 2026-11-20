@@ -1,0 +1,355 @@
+{
+  "slug": "gestor-constroi",
+  "num": 1,
+  "menu": "Papel",
+  "titulo": "El gerente que construye",
+  "titulo_curto": "El gerente que construye",
+  "minutos": 15,
+  "lead": "La gerente que conoce el proceso ahora puede construir su propia herramienta con IA. Eso es bueno y es riesgoso. El mentor existe para que su idea se convierta en algo útil, probado y entregado a TI, sin volverse una herramienta escondida más, con datos de clientes expuestos.",
+  "objetivo": "explicar el papel del mentor y mapear con el gerente 3 herramientas que quiere, cada una con su riesgo.",
+  "competencias": [
+    "papel-do-mentor",
+    "mapear-ferramentas",
+    "classificar-risco-inicial"
+  ],
+  "aprende": [
+    {
+      "icone": "usuario",
+      "t": "Qué cambia cuando el gerente construye"
+    },
+    {
+      "icone": "alvo",
+      "t": "Qué hace el mentor y qué no hace"
+    },
+    {
+      "icone": "escudo",
+      "t": "Dónde suele fallar la IA"
+    },
+    {
+      "icone": "lista",
+      "t": "Mapear 3 herramientas con riesgo"
+    }
+  ],
+  "hero_alt": "Una gerente comercial esboza ideas de herramientas en un cuaderno, con el inventario de productos de limpieza al fondo.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Quién hace qué en el modelo nuevo",
+      "sub": "El gerente construye con IA. El mentor orienta. TI valida. Haz clic en cada bloque.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Gerente",
+          "sub": "Conoce el proceso",
+          "itens": [
+            {
+              "icone": "chat",
+              "t": "Patrícia, gerente comercial"
+            },
+            {
+              "icone": "alvo",
+              "t": "Sabe dónde duele"
+            }
+          ],
+          "detalhe": "Quien conoce el problema es quien vive el proceso. Patrícia sabe que el cliente se enfría cuando nadie responde el presupuesto en dos días. Ningún programador sabe eso mejor que ella.",
+          "forte": true
+        },
+        {
+          "icone": "robo",
+          "titulo": "IA",
+          "sub": "Acelera la construcción",
+          "itens": [
+            {
+              "icone": "terminal",
+              "t": "Agente de código"
+            },
+            {
+              "icone": "chat",
+              "t": "Agente de trabajo en el chat"
+            }
+          ],
+          "detalhe": "Hoy un agente arma un prototipo en horas. Construir se volvió barato. Lo que sigue siendo caro es confiar en lo que se construyó: datos, permisos, pruebas y mantenimiento."
+        },
+        {
+          "icone": "foco",
+          "titulo": "Mentor",
+          "sub": "Orienta con método",
+          "itens": [
+            {
+              "icone": "lista",
+              "t": "Spec, límites, pruebas"
+            },
+            {
+              "icone": "calendario",
+              "t": "Programa de 90 días"
+            }
+          ],
+          "detalhe": "Tú. No construyes por el gerente: lo haces capaz de construir con método. Haces las preguntas correctas, mantienes el ritmo y preparas la entrega para TI."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "TI",
+          "sub": "Valida y asume",
+          "itens": [
+            {
+              "icone": "cadeado",
+              "t": "Rafael, TI tercerizada"
+            },
+            {
+              "icone": "check",
+              "t": "Accesos, seguridad, mantenimiento"
+            }
+          ],
+          "detalhe": "TI sigue siendo esencial. Valida lo que va a tocar datos y operaciones críticas, se encarga de los accesos y la seguridad, y asume el mantenimiento. El mentor entrega el paquete; TI decide si entra en producción."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Gobernanza",
+          "sub": "Sostiene en el tiempo",
+          "itens": [
+            {
+              "icone": "grafico",
+              "t": "Indicadores"
+            },
+            {
+              "icone": "arquivo",
+              "t": "Inventario y registro"
+            }
+          ],
+          "detalhe": "Responsable con nombre, registro de las acciones, revisión periódica e inventario de las herramientas. Es lo que impide que la herramienta se vuelva 'esa cosa que hizo Patrícia y nadie sabe cómo funciona'."
+        }
+      ],
+      "volta": "Lo que muestran TI y los indicadores vuelve al gerente como mejora",
+      "legenda": "Antes: el gerente le pedía a TI y esperaba. Ahora: el gerente prototipa, el mentor orienta y TI valida antes de entrar en producción.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "La combinación completa",
+        "texto": "Gerente que conoce el proceso, IA que acelera, mentor que orienta, TI que valida y gobernanza que sostiene. Quitar cualquier pieza rompe el resto."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "El papel del mentor en cuatro ideas",
+      "sub": "Haz clic en cada etapa.",
+      "passos": [
+        {
+          "titulo": "Construir se volvió barato",
+          "sub": "Confiar se volvió caro",
+          "texto": [
+            "Un gerente sin experiencia en programación ya arma una app o un agente en una tarde. El cuello de botella dejó de ser 'saber hacer' y pasó a ser 'saber qué hacer, y qué no hacer'.",
+            "Aquí entra el mentor: convertir las ganas de construir en un proceso con inicio, desarrollo y entrega.",
+            "El mercado ya siente el cambio. Según el Digital Economy Lab de Stanford (revisión del 12/08/2026), el empleo de personas de 22 a 25 años en las ocupaciones más expuestas a la IA está 19% por debajo de lo que estaría si hubiera acompañado al de sus colegas en ocupaciones menos expuestas (el estudio no afirma causa). Quien entra necesita mentoría; quien dirige necesita aprender a gestionar agentes."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Patrícia vio a un colega armar una app de pedidos en dos días. Ella quiere lo mismo para el seguimiento de clientes."
+          }
+        },
+        {
+          "titulo": "Tú no construyes por él",
+          "sub": "Tú lo vuelves capaz",
+          "texto": [
+            "El servicio del mentor tiene cuatro partes: capacitar al gerente, acompañar su proyecto, apoyar la arquitectura y la integración, y organizar pruebas, documentación y accesos con TI.",
+            "Si tú escribes el código en su lugar, la herramienta se queda sin dueño el día que te vayas."
+          ],
+          "exemplo": {
+            "rot": "Regla de bolsillo",
+            "texto": "Quien maneja el teclado es el gerente. Tú preguntas, señalas y verificas."
+          }
+        },
+        {
+          "titulo": "La IA se equivoca en lugares predecibles",
+          "sub": "Frontera irregular",
+          "texto": [
+            "La IA es excelente en una tarea y falla feo en la vecina. Los errores que más aparecen en herramientas hechas por gerentes: secretos en el código, datos abiertos para cualquiera, permisos de más, números inventados y casos de excepción olvidados.",
+            "En el laboratorio de Horizonte hay ejemplos reales de esto: una clave de API en el navegador de la app de pedidos y un agente de WhatsApp que da descuentos sin tope."
+          ],
+          "exemplo": {
+            "rot": "Una pregunta que salva",
+            "texto": "\"Si esto sale mal a las 22 h de un viernes, ¿quién se entera y cómo se apaga?\""
+          }
+        },
+        {
+          "titulo": "Empieza por el mapa",
+          "sub": "3 herramientas, cada una con su riesgo",
+          "texto": [
+            "En la primera conversación, pídele al gerente las tres herramientas que más quiere. Para cada una: qué datos usa, qué acción realiza y a quién va la salida. Eso ya separa lo fácil de lo que necesita a TI desde el principio.",
+            "Pregunta también qué usa el equipo por su cuenta. En Horizonte, el inventario encontró cuatro herramientas de IA que TI no conocía."
+          ],
+          "exemplo": {
+            "rot": "Riesgo en tres colores",
+            "texto": "Verde: solo lee datos internos, sin datos personales. Amarillo: usa datos de clientes. Rojo: envía hacia afuera, toca dinero o pedidos."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para la primera sesión",
+      "sub": "Copia y adapta. Cambia el texto entre < > por el tuyo.",
+      "blocos": [
+        {
+          "rot": "Guion de la 1.ª sesión de mentoría (60 min)",
+          "icone": "calendario",
+          "conteudo": "SESIÓN 1 — Mapa de herramientas · gerente: <nombre, área> · fecha: <dd/mm>\n\n0–10 min  Acordar las reglas del juego\n  - Yo oriento; tú construyes. TI valida antes de usar con datos reales.\n  - Nada corre con datos de clientes hasta la clase de traspaso.\n\n10–30 min  Escuchar el dolor\n  - ¿Qué tarea de tu semana más quisieras quitarte de encima?\n  - ¿Cuántas veces por semana ocurre? ¿Cuánto tiempo toma?\n  - ¿Quién más participa en ella?\n\n30–45 min  Mapa de las 3 herramientas (completar juntos, tabla abajo)\n\n45–55 min  Lo que ya existe\n  - ¿Qué herramientas de IA usan hoy tú o tu equipo?\n  - ¿Alguna recibe datos de clientes? ¿Quién lo sabe en TI?\n\n55–60 min  Acuerdos\n  - ¿Cuál de las 3 vamos a filtrar en la próxima sesión?\n  - Próximo encuentro: <fecha>. Tarea: anotar 5 casos reales del proceso."
+        },
+        {
+          "rot": "Mapa de 3 herramientas con riesgo",
+          "icone": "lista",
+          "conteudo": "| # | Herramienta que el gerente quiere | Datos que usa | Acción que realiza | A quién va la salida | Riesgo (verde/amarillo/rojo) | Por qué |\n|---|---|---|---|---|---|---|\n| 1 | <ej.: seguimiento de presupuestos> | <clientes, presupuestos> | <sugiere mensaje> | <cliente, tras aprobación> | <amarillo> | <datos de clientes; envío solo con aprobación> |\n| 2 | | | | | | |\n| 3 | | | | | | |\n\nRegla de los colores:\n- verde: solo lee datos internos, sin datos personales, la salida se queda dentro de la empresa\n- amarillo: usa datos personales de clientes o empleados (LGPD (ley brasileña de protección de datos))\n- rojo: envía hacia afuera, toca dinero, precios, pedidos o borra algo\n\nIA ya en uso en el área (inventario rápido): <herramienta · quién la usa · qué datos entran>"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Mapa de Patrícia",
+            "html": "<ol><li><b>Seguimiento de presupuestos</b> — clientes y presupuestos abiertos; sugiere mensaje; envío tras aprobación. <b>Amarillo.</b></li><li><b>Resumen semanal de ventas</b> — informe interno sin datos personales. <b>Verde.</b></li><li><b>Reactivar a un cliente inactivo con descuento</b> — toca precios y habla con el cliente. <b>Rojo.</b></li></ol>"
+          },
+          {
+            "rot": "Errores comunes",
+            "html": "<ul><li><b>Saltarse el inventario</b>: la herramienta nueva nace junto a otras que nadie conoce.</li><li><b>Empezar por la roja</b>: es la más deseada y la peor para aprender. Empieza por la amarilla o por la verde.</li><li><b>Prometer una fecha</b> antes de filtrar la idea en la clase 2.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica: el mapa de tu gerente",
+      "sub": "Hazlo con un gerente real. Si todavía no tienes uno, usa a Patrícia y el laboratorio.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Sesión de mapa",
+          "min": "60 min",
+          "texto": "Conduce la sesión 1 con un gerente usando el guion. Él habla; tú anotas.",
+          "pronto": "tienes la tabla con 3 herramientas, cada una con datos, acción, destino y color de riesgo."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · IA ya en uso",
+          "min": "15 min",
+          "texto": "Pregunta qué usa el área de IA por su cuenta y qué datos entran en cada herramienta.",
+          "pronto": "tienes una lista (aunque esté vacía) con herramienta, quién la usa y qué datos entran."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Elegir la primera",
+          "min": "10 min",
+          "texto": "Acuerda con el gerente cuál de las tres pasa al filtro de la clase 2. Prefiere la amarilla o la verde.",
+          "pronto": "la elección está anotada con el motivo en una frase."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Pon a prueba lo que aprendiste",
+      "sub": "La explicación aparece después de tu respuesta.",
+      "perguntas": [
+        {
+          "p": "Patrícia pide: \"arma tú la herramienta, que es más rápido\". ¿Qué hace el mentor?",
+          "opcoes": [
+            "La arma, porque el cliente lo pidió.",
+            "Explica que ella maneja el teclado y él orienta, para que la herramienta tenga responsable cuando él se vaya.",
+            "Pasa el pedido directo a TI.",
+            "Rechaza el proyecto."
+          ],
+          "certa": 1,
+          "explica": "El mentor hace al gerente capaz. Si el mentor construye, la herramienta queda sin responsable. Pasarla directo a TI vuelve al modelo antiguo.",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "¿Qué herramienta es roja en el mapa?",
+          "opcoes": [
+            "Resumen semanal interno de ventas.",
+            "Sugerencia de mensaje que la gerente aprueba antes de enviar.",
+            "Agente que aplica descuentos y cierra pedidos solo.",
+            "Planilla de metas del equipo."
+          ],
+          "certa": 2,
+          "explica": "Toca precios y pedidos, sin una persona de por medio. La sugerencia aprobada antes del envío es amarilla: tiene datos de clientes, pero una persona decide.",
+          "ref": "codigo",
+          "cert": true
+        },
+        {
+          "p": "¿Por qué preguntar qué IA ya usa el equipo?",
+          "opcoes": [
+            "Para cobrar licencias.",
+            "Porque las herramientas ocultas con datos de clientes son un riesgo que TI no conoce.",
+            "Para elegir el mejor modelo.",
+            "No es necesario en la primera sesión."
+          ],
+          "certa": 1,
+          "explica": "Es la 'IA en la sombra'. En Horizonte había cuatro herramientas así. Encontrarlas temprano evita construir la quinta.",
+          "ref": "passos"
+        },
+        {
+          "p": "¿Qué sigue siendo caro cuando construir se vuelve barato?",
+          "opcoes": [
+            "La computadora.",
+            "Confiar en lo que se construyó: datos, permisos, pruebas y mantenimiento.",
+            "La suscripción del chat.",
+            "Aprender a teclear."
+          ],
+          "certa": 1,
+          "explica": "Es la tesis de la formación. El valor del mentor está en darle confianza a lo que el gerente construye.",
+          "ref": "diagrama"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "La clase en cuatro frases",
+      "itens": [
+        {
+          "t": "Modelo nuevo",
+          "texto": "El gerente construye con IA, el mentor orienta, TI valida, la gobernanza sostiene."
+        },
+        {
+          "t": "Tu rol",
+          "texto": "Hacer al gerente capaz, no construir por él. Quien maneja el teclado es él."
+        },
+        {
+          "t": "Dónde falla la IA",
+          "texto": "Secretos en el código, datos abiertos, demasiados permisos, números inventados y excepciones olvidadas."
+        },
+        {
+          "t": "Primer paso",
+          "texto": "Mapa de 3 herramientas con datos, acción, destino y color de riesgo, más el inventario de lo que ya se usa."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Video: del técnico al gerente de agentes",
+          "href": "https://inematds.github.io/gestor-de-agentes/videos/",
+          "icone": "video"
+        },
+        {
+          "t": "Video: gerente que no domina agentes",
+          "href": "https://inematds.github.io/gerente-de-agentes/videos/",
+          "icone": "video"
+        },
+        {
+          "t": "Área Gestión de IA y Agentes",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Empresa-laboratorio: Horizonte Distribuidora",
+          "href": "https://inematds.github.io/prof2030-lab/",
+          "icone": "pasta"
+        },
+        {
+          "t": "Fuente: Stanford Digital Economy Lab — jóvenes en ocupaciones expuestas a la IA (ago/2026)",
+          "href": "https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/",
+          "icone": "grafico"
+        }
+      ]
+    }
+  ]
+}

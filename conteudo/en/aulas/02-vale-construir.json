@@ -1,0 +1,340 @@
+{
+  "slug": "vale-construir",
+  "num": 2,
+  "menu": "Spec",
+  "titulo": "Is it worth building?",
+  "titulo_curto": "Is it worth building?",
+  "minutos": 18,
+  "lead": "Today you can build almost anything in an afternoon. That is why \"it can be done\" is no longer a reason. Before the prototype, the mentor runs the idea through a short filter and, if it survives, helps the manager write it on one page: the process, the result, what the tool can do and what it never does.",
+  "objetivo": "filter the manager's idea and write the one-page spec, with permissions, owner and the data that stays out.",
+  "competencias": [
+    "filtrar-ideia",
+    "mapear-processo",
+    "escrever-spec",
+    "definir-permissoes"
+  ],
+  "aprende": [
+    {
+      "icone": "lupa",
+      "t": "Filter the idea in five questions"
+    },
+    {
+      "icone": "camadas",
+      "t": "See the process in six links"
+    },
+    {
+      "icone": "cadeado",
+      "t": "Decide the seven actions and the data"
+    },
+    {
+      "icone": "arquivo",
+      "t": "Write the one-page spec"
+    }
+  ],
+  "hero_alt": "Two people decide over a printed page; one crosses out lines with a pen.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "From wish to one-page spec",
+      "sub": "The idea goes through four filters. Only what passes becomes a spec. Click each block.",
+      "nos": [
+        {
+          "icone": "alvo",
+          "titulo": "Real pain",
+          "sub": "Does someone suffer from this?",
+          "itens": [
+            {
+              "icone": "relogio",
+              "t": "Frequency and time"
+            },
+            {
+              "icone": "usuario",
+              "t": "Who suffers"
+            }
+          ],
+          "detalhe": "Without pain, nobody changes habits. Ask how many times a week it happens, how long it takes and what is lost when it fails. An answer in adjectives (\"it's a lot\") is not measured pain yet."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Shelf life",
+          "sub": "Still worth it in 3, 6, 12 months?",
+          "itens": [
+            {
+              "icone": "nuvem",
+              "t": "Does the paid system already have it?"
+            },
+            {
+              "icone": "chat",
+              "t": "Can a request in the chat solve it?"
+            }
+          ],
+          "detalhe": "If the CRM or the chat the company already pays for will have this as a feature in a few months, building is spending on a short deadline. Sometimes the right answer is \"use the feature that already exists\"."
+        },
+        {
+          "icone": "fila",
+          "titulo": "Recurring use",
+          "sub": "Does it fit the routine?",
+          "itens": [
+            {
+              "icone": "calendario",
+              "t": "Every week, at least"
+            }
+          ],
+          "detalhe": "A tool used once a month isn't worth the maintenance. The first project of the program must fit into the manager's routine to produce measurable results."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Risk",
+          "sub": "What data and what action?",
+          "itens": [
+            {
+              "icone": "cadeado",
+              "t": "Personal data?"
+            },
+            {
+              "icone": "enviar",
+              "t": "Does it leave the company?"
+            }
+          ],
+          "detalhe": "The more personal data and the more outbound actions, the earlier IT needs to step in. High risk doesn't kill the idea: it changes the size of the first prototype."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "One-page spec",
+          "sub": "What passes becomes a document",
+          "itens": [
+            {
+              "icone": "lista",
+              "t": "Process, links, permissions"
+            },
+            {
+              "icone": "usuario",
+              "t": "Named owner"
+            }
+          ],
+          "detalhe": "One page that the manager, the mentor, the company owner and IT read in full. It is what the prototype will follow and what IT will receive.",
+          "forte": true
+        }
+      ],
+      "legenda": "Cutting an idea here is a success: it costs a conversation, not a month of maintenance.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "The whole filter",
+        "texto": "Measured pain, long shelf life, recurring use and known risk. What passes all four becomes one page."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "How to run the filter and the spec",
+      "sub": "Click each step.",
+      "passos": [
+        {
+          "titulo": "Measure the pain",
+          "sub": "A number, not an adjective",
+          "texto": [
+            "Ask for five real cases from last week. How many quotes went without a reply? How long does Patrícia spend putting together each message?",
+            "These numbers become the baseline for lesson 7. Without them, no one will know later whether the tool helped."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "In one week, 42 open quotes; 17 with no reply in 48 hours. Each follow-up takes about 6 minutes (made-up numbers from the lab)."
+          }
+        },
+        {
+          "titulo": "Test the expiration date",
+          "sub": "Does it already exist? Will it?",
+          "texto": [
+            "Ask: does the CRM or the chat the company already pays for do this, or will it soon? If an 80%-good version shows up inside something everyone already uses, the manager doesn't need their own.",
+            "Building something too easy is also a warning sign: if it took half an hour, the vendor can do the same. The value is in the business rules that only Patrícia knows."
+          ],
+          "exemplo": {
+            "rot": "Question",
+            "texto": "\"If the CRM launches a follow-up button tomorrow, what does your tool still do that it doesn't?\""
+          }
+        },
+        {
+          "titulo": "See the process in six links",
+          "sub": "Input, decision, action, verification, exception, result",
+          "texto": [
+            "Every process fits in six links. Input and action are usually delegable. Decision splits in two: the kind that follows a rule (delegable) and the kind that needs judgment (stays with the person).",
+            "An exception always goes to a named human. The map shows where the tool comes in and where it stops."
+          ],
+          "exemplo": {
+            "rot": "Follow-up",
+            "texto": "Input: quote open for 2 days. Decision (rule): active customer? Action: suggest a message. Verification: Patrícia approves. Exception: customer complained → Patrícia calls. Result: reply logged."
+          }
+        },
+        {
+          "titulo": "Decide the seven actions and the data",
+          "sub": "Allowed, with approval, not allowed",
+          "texto": [
+            "For each action, one answer: read, write a draft, change, send, buy (spend margin), delete, and approve. In the first version, reading and drafting are usually \"allowed\"; changing and sending, \"with approval\"; buying, deleting, and approving, \"not allowed\".",
+            "For data, one question: does the work come out the same without it? If yes, the data stays out. To suggest a follow-up, the tool doesn't need the CPF."
+          ],
+          "exemplo": {
+            "rot": "Rule that settles it",
+            "texto": "Every row of the matrix has a named owner. Nobody reviews a permission with no owner, and it grows on its own."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates: filter and one-page spec",
+      "sub": "The filter takes five minutes. The spec fits on one page.",
+      "blocos": [
+        {
+          "rot": "Idea filter (5 questions)",
+          "icone": "lupa",
+          "conteudo": "IDEA: <name>   MANAGER: <name>   DATE: <mm/dd>\n\n1. Pain: how many times a week? how long each time? what is lost?\n   -> <numbers from last week>\n2. Shelf life: does the system we already pay for do this, or will it in 3–6 months?\n   -> <yes / no / don't know: ask IT>\n3. Recurrence: will it be used at least every week?\n   -> <yes / no>\n4. Risk: does it use personal data? does it send anything outside? does it touch money, price, or orders?\n   -> <green / yellow / red>\n5. Differentiator: what business rule only we know will the tool follow?\n   -> <1 sentence>\n\nDECISION: <go to the spec / use existing feature / archive>  REASON: <1 sentence>"
+        },
+        {
+          "rot": "One-page spec — follow-up tool (Horizonte)",
+          "icone": "arquivo",
+          "conteudo": "# Spec — Quote follow-up · v0.1\nProcess owner: Patrícia Lima (sales manager) · Mentor: <your name> · IT: Rafael\n\n## 1. Process and result\nEvery quote open for 2 business days gets a reply to the customer, approved by Patrícia.\nBaseline: 17 of 42 quotes with no reply in 48 h (week of <date>).\n\n## 2. Six links\n- Input: list of open quotes (export from the sales system)\n- Decision by rule: active customer and quote < 15 days old -> suggest follow-up\n- Decision by judgment: customer with an open complaint -> Patrícia decides\n- Action: message draft (WhatsApp or email), citing only products in the current catalog\n- Verification: Patrícia reads, edits, and approves\n- Exception: discount request, complaint, missing data -> Patrícia's queue\n- Result: reply date logged in the tracking spreadsheet\n\n## 3. Permissions (first version)\n| Action | Answer | Owner |\n|---|---|---|\n| Read quotes and purchase history | allowed | Patrícia |\n| Write a message draft | allowed | Patrícia |\n| Change quote status | with approval | Patrícia |\n| Send message to customer | with approval | Patrícia |\n| Give discount / change price | NOT ALLOWED | Carlos (owner) |\n| Delete customer or quote | NOT ALLOWED | Rafael (IT) |\n| Approve its own message | NOT ALLOWED | — |\n\n## 4. Data that stays out\nCPF, bank details, third-party credit limits, entire old conversations.\n\n## 5. Out of scope for v0.1\nAutomatic sending, integration with official WhatsApp, any discount.\n\n## 6. How we will know it worked\n% of quotes with a reply in 48 h · messages approved without edits · zero limits violated."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "How to check",
+            "html": "<ol><li>No line of the spec is blank.</li><li>At least two actions are in \"not allowed\".</li><li>Every permission row has a named owner.</li><li>There is a list of data that stays out.</li><li>The baseline has a number and a date.</li></ol>"
+          },
+          {
+            "rot": "Common mistakes",
+            "html": "<ul><li><b>Twenty-page spec</b>: nobody reads it. One page, front and back at most.</li><li><b>\"Access to the sales system\"</b> in a single phrase: it doesn't tell reading, changing, and sending apart.</li><li><b>Data \"because it might be useful\"</b>: if the work comes out the same without it, it stays out.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: filter and write the spec",
+      "sub": "With your manager or with Patrícia.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Idea filter",
+          "min": "20 min",
+          "texto": "Run the idea you chose in lesson 1 through the five questions, with numbers from last week.",
+          "pronto": "the filter has all five answers and a decision with a reason."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Six links",
+          "min": "20 min",
+          "texto": "Rewrite the process as input, decision (rule and judgment), action, verification, exception, and result.",
+          "pronto": "each link has one line and every exception goes to a named human."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Spec with permissions",
+          "min": "40 min",
+          "texto": "Fill in the one-page spec with the manager: the seven actions, the owners, and the data that stays out.",
+          "pronto": "the spec fits on one page, has at least two actions in \"not allowed\", and one owner per row."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "sub": "The explanation appears after your answer.",
+      "perguntas": [
+        {
+          "p": "The company's CRM will launch a follow-up button next quarter. What does the filter suggest?",
+          "opcoes": [
+            "Build anyway, faster.",
+            "Check what the custom tool would do beyond the built-in feature; if nothing, use the feature.",
+            "Switch CRMs.",
+            "Ignore it: the filter only looks at pain."
+          ],
+          "certa": 1,
+          "explica": "It's the expiration date. If the built-in feature solves 80%, the custom tool needs a clear differentiator, such as business rules that only the manager knows.",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "To suggest a follow-up, does the tool need the customer's CPF (Brazilian taxpayer ID)?",
+          "opcoes": [
+            "Yes, to identify the customer.",
+            "No: the work comes out the same without it, so it stays out.",
+            "Only with approval.",
+            "It depends on the AI model."
+          ],
+          "certa": 1,
+          "explica": "The question is \"does the work come out the same without it?\" Sensitive data is not a case for approval: if it isn't needed, it stays out of reach.",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "In the first version, \"send message to the customer\" should be:",
+          "opcoes": [
+            "Allowed.",
+            "With approval.",
+            "Not allowed, ever.",
+            "Decided by the AI."
+          ],
+          "certa": 1,
+          "explica": "Sending takes something out of the company and can't be taken back. In the first version, the tool prepares it and a person releases it. Loosen it only after tests and a clean record.",
+          "ref": "codigo"
+        },
+        {
+          "p": "Which of these is a well-written exception link?",
+          "opcoes": [
+            "\"The tool handles strange cases.\"",
+            "\"Discount requests or complaints go to Patrícia's queue.\"",
+            "\"Exceptions are rare.\"",
+            "\"IT will look at it later.\""
+          ],
+          "certa": 1,
+          "explica": "An exception needs a concrete trigger and a named human destination.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "The lesson in four sentences",
+      "itens": [
+        {
+          "t": "Filter first",
+          "texto": "Measured pain, shelf life, recurring use, and risk. Cutting an idea here is cheap."
+        },
+        {
+          "t": "Six links",
+          "texto": "Input and action can be delegated; judgment and exceptions stay with a named person."
+        },
+        {
+          "t": "Seven actions",
+          "texto": "Read, write, change, send, buy, delete, and approve: allowed, with approval, or not allowed."
+        },
+        {
+          "t": "One page",
+          "texto": "The spec fits on one page that the owner, the manager, and IT read in full."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "AI Work Architect (process → spec with permissions)",
+          "href": "https://inematds.github.io/pffia/",
+          "icone": "lista"
+        },
+        {
+          "t": "Products in the AI era: is it worth building?",
+          "href": "https://inematds.github.io/produtos-era-ia/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Agent Management: the 7 principles",
+          "href": "https://inematds.github.io/curso-7pa/",
+          "icone": "camadas"
+        }
+      ]
+    }
+  ]
+}

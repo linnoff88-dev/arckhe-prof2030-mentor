@@ -1,0 +1,353 @@
+{
+  "slug": "medir",
+  "num": 7,
+  "menu": "Medir",
+  "titulo": "Medir e melhorar",
+  "titulo_curto": "Medir e melhorar",
+  "minutos": 18,
+  "lead": "Ferramenta ligada sem linha de base é aposta: ninguém sabe se ajudou. É a falha F11 do laboratório. Nesta aula você monta com o gestor um painel de três indicadores, uma revisão semanal curta e um jeito de melhorar sem quebrar o que já funciona.",
+  "objetivo": "montar o painel de 3 indicadores com linha de base e aplicar 1 melhoria testada, com decisão de manter ou voltar.",
+  "competencias": [
+    "definir-linha-de-base",
+    "montar-painel-de-indicadores",
+    "conduzir-revisao-semanal",
+    "testar-melhoria-sem-regressao"
+  ],
+  "aprende": [
+    {
+      "icone": "grafico",
+      "t": "Três indicadores com denominador"
+    },
+    {
+      "icone": "calendario",
+      "t": "A revisão semanal de 15 minutos"
+    },
+    {
+      "icone": "lupa",
+      "t": "Uma hipótese, uma mudança"
+    },
+    {
+      "icone": "voltar",
+      "t": "Manter ou voltar com evidência"
+    }
+  ],
+  "hero_alt": "Mentora e gerente olham um painel com três gráficos simples num monitor.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "O ciclo de melhoria",
+      "sub": "Medir antes, acompanhar, mudar uma coisa e decidir. Clique em cada bloco.",
+      "nos": [
+        {
+          "icone": "marca",
+          "titulo": "Linha de base",
+          "sub": "Como era antes",
+          "itens": [
+            {
+              "icone": "relogio",
+              "t": "Semana anterior à ferramenta"
+            }
+          ],
+          "detalhe": "O número de antes, com período e denominador. Na Horizonte: 17 de 42 orçamentos sem retorno em 48 horas numa semana. Sem isso, qualquer melhora é opinião."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "3 indicadores",
+          "sub": "Resultado, qualidade, custo",
+          "itens": [
+            {
+              "icone": "alvo",
+              "t": "Uso e resultado"
+            },
+            {
+              "icone": "check",
+              "t": "Qualidade"
+            },
+            {
+              "icone": "grafico",
+              "t": "Custo por tarefa"
+            }
+          ],
+          "detalhe": "Três números, nem mais. Resultado de negócio com uso, qualidade com zero limite violado e custo por tarefa incluindo o tempo da pessoa.",
+          "forte": true
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Revisão semanal",
+          "sub": "15 minutos",
+          "itens": [
+            {
+              "icone": "lista",
+              "t": "Sete perguntas"
+            }
+          ],
+          "detalhe": "Toda semana, gestora e mentor olham os três números e a lista de exceções. Uso caindo, edição subindo ou limite violado acendem alerta."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Hipótese",
+          "sub": "Uma mudança",
+          "itens": [
+            {
+              "icone": "caneta",
+              "t": "Se... então... porque..."
+            }
+          ],
+          "detalhe": "Uma mudança concreta, com o número que deve mexer e a evidência por trás. Duas mudanças juntas e ninguém sabe qual funcionou."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Testar e decidir",
+          "sub": "Mesma bateria, sem piorar",
+          "itens": [
+            {
+              "icone": "check",
+              "t": "Fica"
+            },
+            {
+              "icone": "voltar",
+              "t": "Volta"
+            }
+          ],
+          "detalhe": "A versão nova roda a mesma bateria. Só fica se melhora o alvo sem piorar os outros. Senão, volta para a anterior, que ficou guardada."
+        }
+      ],
+      "volta": "Decidiu? A próxima semana mede de novo",
+      "legenda": "Meta sozinha ensina a trapacear: a meta é sempre \"melhorar X sem piorar Y e Z\".",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "O ciclo inteiro",
+        "texto": "Linha de base, três indicadores, revisão semanal, uma hipótese por vez e decisão de manter ou voltar com a mesma bateria."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Como medir sem se enganar",
+      "sub": "Clique em cada etapa.",
+      "passos": [
+        {
+          "titulo": "Denominador sempre",
+          "sub": "X de quantos, em que período",
+          "texto": [
+            "\"Fizemos 30 follow-ups\" não diz nada. \"30 de 41 orçamentos elegíveis da semana tiveram retorno em 48 h\" diz.",
+            "Separe teste, piloto e produção: número de bateria não é número de operação."
+          ],
+          "exemplo": {
+            "rot": "Na Horizonte",
+            "texto": "Antes: 25 de 42 (60%) com retorno em 48 h. Semana 3 com a ferramenta: 36 de 40 (90%). Dados fictícios do laboratório."
+          }
+        },
+        {
+          "titulo": "Custo inclui a pessoa",
+          "sub": "Custo por tarefa, completo",
+          "texto": [
+            "Custo por follow-up = custo de IA e hospedagem + minutos da gestora revisando e tratando exceções. Ferramenta barata que dobra a revisão não economiza nada.",
+            "O preço da IA cai rápido. Exemplo: a Anthropic lançou em 22/09/2026 um modelo que, segundo ela, custa 40% menos que o anterior para tarefas típicas. Por isso, revise a escolha de modelo a cada trimestre, rodando a bateria."
+          ],
+          "exemplo": {
+            "rot": "Conta simples",
+            "texto": "Antes: 6 min por follow-up. Agora: 1,5 min de revisão + R$ <x> de IA. A diferença vira tempo da Patrícia com cliente."
+          }
+        },
+        {
+          "titulo": "Revisão semanal",
+          "sub": "15 minutos, sete perguntas",
+          "texto": [
+            "Melhorou frente à linha de base? Qualidade e exceções mudaram? Quanto trabalho humano foi preciso? Qual foi o custo completo? Algo precisa de pausa ou menos autonomia? Que hipótese vale testar? Quem faz e quando?",
+            "Sinais de alerta: uso cai de uma semana para outra, a equipe volta ao jeito antigo, a edição dos rascunhos sobe."
+          ],
+          "exemplo": {
+            "rot": "Regra",
+            "texto": "Com menos de 30 observações, anote a tendência, mas não decida."
+          }
+        },
+        {
+          "titulo": "Melhorar sem regressão",
+          "sub": "Uma mudança, mesma bateria",
+          "texto": [
+            "Escreva a hipótese: se mudar isto, então este número vai de A para B, porque vimos tal evidência. Aplique só essa mudança numa versão nova.",
+            "Rode a bateria da aula 5. Fica se melhora o alvo e nenhum outro piora além da tolerância; senão, volta. A versão anterior continua guardada no Git."
+          ],
+          "exemplo": {
+            "rot": "Na Horizonte",
+            "texto": "Hipótese: citar o último produto comprado reduz edição de 25% para 15%. Bateria passou, edição caiu para 16% em 3 semanas. Ficou."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos: painel, cartão de hipótese e revisão semanal",
+      "sub": "Copie para uma planilha ou um arquivo no repositório.",
+      "blocos": [
+        {
+          "rot": "Painel de 3 indicadores — follow-up",
+          "icone": "grafico",
+          "conteudo": "PAINEL · ferramenta: follow-up de orçamentos · dona: Patrícia · período: semana de <dd/mm>\n\n| Indicador | Fórmula (com denominador) | Linha de base | Meta | Semana atual |\n|---|---|---|---|---|\n| 1. Uso e resultado | orçamentos com retorno em 48 h ÷ orçamentos elegíveis | 25/42 = 60% (<data>) | 85% | <x/y> |\n| 2. Qualidade | rascunhos aprovados sem edição ÷ rascunhos gerados | — (não havia) | 80% | <x/y> |\n|    trava | limites violados na semana | — | 0 | <n> |\n| 3. Custo por follow-up | (custo de IA + hospedagem) ÷ follow-ups + minutos de revisão | 6 min de pessoa | <= 2 min + R$ <x> | <valor> |\n\nAlerta: uso caiu 20% na semana · edição acima de 30% · qualquer limite violado -> pausa e revisão."
+        },
+        {
+          "rot": "Cartão de hipótese (uma mudança por vez)",
+          "icone": "lupa",
+          "conteudo": "## H<n> — <título curto>\nSE        <uma única mudança concreta>\nENTÃO     <indicador> vai de <atual> para <esperado>\nPORQUE    <evidência: casos, exceções, comentários da gestora>\nSEM PIORAR <indicadores vigiados e tolerância>\nTESTE     bateria v<x> (mesmos casos) + <n> semanas de operação\nRESULTADO <antes -> depois, com denominador>\nDECISÃO   [ fica ]  [ volta ]  [ esperar mais dados ]   por: <nome>  em: <data>"
+        },
+        {
+          "rot": "Revisão semanal do gestor (15 min)",
+          "icone": "calendario",
+          "conteudo": "1. O resultado melhorou frente à linha de base, no mesmo período?\n2. Qualidade, limites violados e exceções mudaram?\n3. Quanto trabalho humano foi preciso, e onde?\n4. Qual foi o custo completo, incluindo retrabalho?\n5. Alguma ação precisa de pausa ou de menos autonomia?\n6. Qual hipótese merece teste nesta semana?\n7. Quem faz cada ação e quando revisamos?"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Painel da semana 3",
+            "html": "<ol><li><b>Uso e resultado</b>: 36/40 = 90% (base 60%).</li><li><b>Qualidade</b>: 31/40 aprovados sem edição = 78%; limites violados: 0.</li><li><b>Custo</b>: 1,5 min de revisão + custo de IA por follow-up.</li></ol><p>Dados fictícios do laboratório.</p>"
+          },
+          {
+            "rot": "Erros comuns",
+            "html": "<ul><li><b>Número sem denominador</b>: \"30 follow-ups\" não diz se melhorou.</li><li><b>Custo sem a pessoa</b>: esconde a revisão que cresceu.</li><li><b>Meta sozinha</b>: \"mais mensagens\" ensina a mandar mensagem demais.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática: painel e uma melhoria",
+      "sub": "Com o gestor, ao longo de três semanas.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Linha de base",
+          "min": "30 min",
+          "texto": "Com os casos da aula 2, escreva o número de antes de cada indicador, com período e denominador.",
+          "pronto": "os três indicadores têm valor de antes, ou estão marcados como \"não havia\" com o motivo."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Painel e revisões",
+          "min": "15 min por semana",
+          "dias": 21,
+          "texto": "Preencha o painel e faça a revisão semanal por três semanas.",
+          "pronto": "há três semanas preenchidas e uma ação anotada em cada revisão."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Uma melhoria",
+          "min": "60 min",
+          "texto": "Escreva uma hipótese, aplique uma mudança, rode a bateria e decida.",
+          "pronto": "o cartão de hipótese está preenchido com resultado, decisão (fica ou volta) e nome de quem decidiu."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste o que aprendeu",
+      "sub": "A explicação aparece depois da sua resposta.",
+      "perguntas": [
+        {
+          "p": "O painel da Horizonte não tem linha de base. Qual é o problema?",
+          "opcoes": [
+            "Nenhum, o número atual basta.",
+            "Ninguém consegue dizer se a ferramenta ajudou.",
+            "O painel fica feio.",
+            "A TI não aprova."
+          ],
+          "certa": 1,
+          "explica": "É a falha F11 do laboratório. Sem o antes, o depois não prova nada.",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "A versão nova reduziu a edição, mas um limite foi violado na bateria. O que fazer?",
+          "opcoes": [
+            "Manter, porque o alvo melhorou.",
+            "Voltar para a versão anterior: melhorar o alvo não pode piorar o que é vigiado.",
+            "Tirar o caso da bateria.",
+            "Esperar o cliente reclamar."
+          ],
+          "certa": 1,
+          "explica": "Melhorar X sem piorar Y. Limite violado derruba a mudança, por melhor que esteja o alvo.",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "Por que rever a escolha de modelo a cada trimestre?",
+          "opcoes": [
+            "Por moda.",
+            "Porque o preço por tarefa cai rápido e a mesma bateria mostra se um modelo mais barato mantém a qualidade.",
+            "Porque a lei exige.",
+            "Para trocar de fornecedor sempre."
+          ],
+          "certa": 1,
+          "explica": "Custo por tarefa cai a cada geração. Rodar a bateria com o modelo novo dá a resposta com evidência.",
+          "ref": "passos"
+        },
+        {
+          "p": "Qual destes é um indicador bem escrito?",
+          "opcoes": [
+            "\"Muitos follow-ups.\"",
+            "\"Orçamentos com retorno em 48 h ÷ orçamentos elegíveis, por semana.\"",
+            "\"Clientes felizes.\"",
+            "\"Uso da IA.\""
+          ],
+          "certa": 1,
+          "explica": "Tem numerador, denominador e período. Os outros não dá para contar.",
+          "ref": "codigo"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "A aula em quatro frases",
+      "itens": [
+        {
+          "t": "Antes de tudo",
+          "texto": "Linha de base com período e denominador."
+        },
+        {
+          "t": "Três números",
+          "texto": "Uso e resultado, qualidade com zero limite violado, custo por tarefa com o tempo da pessoa."
+        },
+        {
+          "t": "Toda semana",
+          "texto": "Quinze minutos, sete perguntas, uma ação com dono."
+        },
+        {
+          "t": "Melhorar com prova",
+          "texto": "Uma mudança, a mesma bateria, e fica só se nada piora."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {
+          "t": "LOOP-R: melhoria contínua com evidência (guia)",
+          "href": "https://inematds.github.io/loop-r/guia/",
+          "icone": "voltar"
+        },
+        {
+          "t": "LOOP-R: curso",
+          "href": "https://inematds.github.io/loop-r/curso/",
+          "icone": "lista"
+        },
+        {
+          "t": "Gestão de IA: plano da formação (módulos 9 e 10)",
+          "href": "https://inematds.github.io/curso-gestao-ia/",
+          "icone": "grafico"
+        },
+        {
+          "t": "Fonte: Anthropic — Claude Opus 5.5, custo 40% menor (22/09/2026)",
+          "href": "https://www.anthropic.com/claude-opus-5-5",
+          "icone": "seta"
+        },
+        {
+          "t": "Laboratório Horizonte: Painel de indicadores (F11)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/painel/",
+          "icone": "lupa"
+        }
+      ]
+    }
+  ]
+}
