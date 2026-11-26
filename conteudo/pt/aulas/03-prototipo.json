@@ -5,8 +5,8 @@
   "titulo": "Protótipo em um dia",
   "titulo_curto": "Protótipo em um dia",
   "minutos": 20,
-  "lead": "Com a spec aprovada, o gestor monta o primeiro protótipo numa sessão de trabalho com você. Ele dirige o teclado; você segura o escopo, os dados fictícios e a conferência. No fim do dia há uma ferramenta rodando no computador dele e uma lista honesta do que falta.",
-  "objetivo": "conduzir a sessão em que o gestor monta o protótipo com um agente, com dados fictícios, Git e lista de lacunas.",
+  "lead": "Com a spec aprovada, o gestor monta o primeiro protótipo numa sessêo de trabalho com você. Ele dirige o teclado; você segura o escopo, os dados fictícios e a conferência. No fim do dia há uma ferramenta rodando no computador dele e uma lista honesta do que falta.",
+  "objetivo": "conduzir a sessêo em que o gestor monta o protótipo com um agente, com dados fictícios, Git e lista de lacunas.",
   "competencias": [
     "conduzir-sessao-prototipo",
     "preparar-ambiente-seguro",
@@ -35,7 +35,7 @@
   "secoes": [
     {
       "tipo": "diagrama",
-      "titulo": "O ciclo da sessão de protótipo",
+      "titulo": "O ciclo da sessêo de protótipo",
       "sub": "Cinco etapas, repetidas até o fim do dia. Clique em cada bloco.",
       "nos": [
         {
@@ -86,10 +86,10 @@
           "itens": [
             {
               "icone": "usuario",
-              "t": "Comum, exceção, dado faltando"
+              "t": "Comum, exceçêo, dado faltando"
             }
           ],
-          "detalhe": "Abrir e testar com um caso comum, uma exceção e um dado faltando. \"Abriu e ficou bonito\" não é conferir."
+          "detalhe": "Abrir e testar com um caso comum, uma exceçêo e um dado faltando. \"Abriu e ficou bonito\" nêo é conferir."
         },
         {
           "icone": "git",
@@ -105,7 +105,7 @@
               "t": "lacunas.md"
             }
           ],
-          "detalhe": "Gostou: commit. Não gostou: git restore. Tudo o que o agente fez sem a spec mandar vira linha no lacunas.md, que alimenta a constituição (aula 4) e os testes (aula 5)."
+          "detalhe": "Gostou: commit. Nêo gostou: git restore. Tudo o que o agente fez sem a spec mandar vira linha no lacunas.md, que alimenta a constituiçêo (aula 4) e os testes (aula 5)."
         }
       ],
       "volta": "Próximo pedido, com a lacuna anotada",
@@ -118,11 +118,11 @@
     },
     {
       "tipo": "passos",
-      "titulo": "A sessão em quatro blocos",
-      "sub": "Um dia de trabalho, ou duas meias manhãs.",
+      "titulo": "A sessêo em quatro blocos",
+      "sub": "Um dia de trabalho, ou duas meias manhês.",
       "passos": [
         {
-          "titulo": "Antes da sessão",
+          "titulo": "Antes da sessêo",
           "sub": "O mentor prepara",
           "texto": [
             "Combine o equipamento: notebook do gestor, conta da empresa no agente escolhido, Git instalado. Gere com ele uma planilha de 20 clientes inventados, com nomes e valores fictícios.",
@@ -134,23 +134,23 @@
           }
         },
         {
-          "titulo": "Manhã",
-          "sub": "Pasta e primeira versão",
+          "titulo": "Manhê",
+          "sub": "Pasta e primeira versêo",
           "texto": [
             "O gestor cria a pasta, o AGENTS.md e faz o primeiro commit. Primeiro pedido: só leitura (\"leia o AGENTS.md e a spec e diga o que entendeu\").",
             "Segundo pedido: a lista de orçamentos abertos com a regra da spec. Abrir, conferir, salvar."
           ],
           "exemplo": {
             "rot": "Sinal de que está indo bem",
-            "texto": "Na hora do almoço o gestor já pede sozinho e sabe voltar uma versão com git restore."
+            "texto": "Na hora do almoço o gestor já pede sozinho e sabe voltar uma versêo com git restore."
           }
         },
         {
           "titulo": "Tarde",
-          "sub": "Rascunho e aprovação",
+          "sub": "Rascunho e aprovaçêo",
           "texto": [
-            "Terceiro pedido: o rascunho de mensagem para cada orçamento, citando só produtos do catálogo. Quarto: o botão de aprovar e a exportação do que foi aprovado.",
-            "Envio automático, WhatsApp oficial e desconto ficam fora: não estão na spec v0.1."
+            "Terceiro pedido: o rascunho de mensagem para cada orçamento, citando só produtos do catálogo. Quarto: o botêo de aprovar e a exportaçêo do que foi aprovado.",
+            "Envio automático, WhatsApp oficial e desconto ficam fora: nêo estêo na spec v0.1."
           ],
           "exemplo": {
             "rot": "Na Horizonte",
@@ -162,7 +162,7 @@
           "sub": "Conferir e anotar",
           "texto": [
             "Rodem os três casos de conferência. Tudo o que surpreendeu vai para o lacunas.md com data, o que aconteceu e o que deveria ter acontecido.",
-            "Combine a próxima sessão: escrever a constituição com base nas lacunas."
+            "Combine a próxima sessêo: escrever a constituiçêo com base nas lacunas."
           ],
           "exemplo": {
             "rot": "Entrega do dia",
@@ -174,22 +174,22 @@
     {
       "tipo": "codigo",
       "titulo": "Modelos: roteiro, AGENTS.md e prompt de protótipo",
-      "sub": "Copie, troque o que está entre < > e use na sessão.",
+      "sub": "Copie, troque o que está entre < > e use na sessêo.",
       "blocos": [
         {
-          "rot": "Roteiro da sessão de protótipo",
+          "rot": "Roteiro da sessêo de protótipo",
           "icone": "calendario",
-          "conteudo": "SESSÃO DE PROTÓTIPO · gestor: <nome> · ferramenta: <nome> · data: <dd/mm>\n\nANTES (mentor, 30 min)\n[ ] spec v0.1 aprovada pelo gestor\n[ ] notebook do gestor com Git e o agente na conta da EMPRESA\n[ ] 20 registros fictícios gerados (nenhum dado real)\n[ ] ensaio no chat: spec colada + 1 caso -> lacunas anotadas\n\nMANHÃ (gestor no teclado)\n1. Criar pasta, AGENTS.md, dados-ficticios/, git init, primeiro commit\n2. Pedido de leitura: \"leia AGENTS.md e spec.md e diga o que entendeu\"\n3. Pedido 1: <primeira parte da spec>  -> abrir, conferir, commit\n\nTARDE\n4. Pedido 2: <segunda parte>  -> conferir, commit\n5. Pedido 3: <terceira parte> -> conferir, commit\n\nFECHAMENTO (30 min)\n6. Três casos: comum · exceção · dado faltando\n7. lacunas.md: data | o que aconteceu | o que deveria acontecer\n8. Próxima sessão: constituição (aula 4) em <data>"
+          "conteudo": "SESSêO DE PROTÓTIPO · gestor: <nome> · ferramenta: <nome> · data: <dd/mm>\n\nANTES (mentor, 30 min)\n[ ] spec v0.1 aprovada pelo gestor\n[ ] notebook do gestor com Git e o agente na conta da EMPRESA\n[ ] 20 registros fictícios gerados (nenhum dado real)\n[ ] ensaio no chat: spec colada + 1 caso -> lacunas anotadas\n\nMANHê (gestor no teclado)\n1. Criar pasta, AGENTS.md, dados-ficticios/, git init, primeiro commit\n2. Pedido de leitura: \"leia AGENTS.md e spec.md e diga o que entendeu\"\n3. Pedido 1: <primeira parte da spec>  -> abrir, conferir, commit\n\nTARDE\n4. Pedido 2: <segunda parte>  -> conferir, commit\n5. Pedido 3: <terceira parte> -> conferir, commit\n\nFECHAMENTO (30 min)\n6. Três casos: comum · exceçêo · dado faltando\n7. lacunas.md: data | o que aconteceu | o que deveria acontecer\n8. Próxima sessêo: constituiçêo (aula 4) em <data>"
         },
         {
           "rot": "AGENTS.md do protótipo",
           "icone": "arquivo",
-          "conteudo": "# Projeto: follow-up de orçamentos (protótipo v0.1)\nDona: Patrícia Lima, gerente comercial · Mentor: <nome> · TI: Rafael\n\n## Regras\n- Siga a spec.md. Se algo não estiver nela, PERGUNTE antes de fazer.\n- Use só os dados da pasta dados-ficticios/. Nunca peça nem use dado real.\n- Não coloque chave de API, senha ou token em nenhum arquivo.\n- Não crie envio automático de mensagem, desconto ou alteração de preço.\n- Página simples em HTML que abre no navegador, sem servidor.\n- Ao terminar cada tarefa: diga o que mudou e como eu confiro.\n\n## O que tem aqui\n- spec.md: a spec de uma página\n- dados-ficticios/orcamentos.csv: 20 orçamentos inventados\n- lacunas.md: o que o protótipo ainda não resolve"
+          "conteudo": "# Projeto: follow-up de orçamentos (protótipo v0.1)\nDona: Patrícia Lima, gerente comercial · Mentor: <nome> · TI: Rafael\n\n## Regras\n- Siga a spec.md. Se algo nêo estiver nela, PERGUNTE antes de fazer.\n- Use só os dados da pasta dados-ficticios/. Nunca peça nem use dado real.\n- Nêo coloque chave de API, senha ou token em nenhum arquivo.\n- Nêo crie envio automático de mensagem, desconto ou alteraçêo de preço.\n- Página simples em HTML que abre no navegador, sem servidor.\n- Ao terminar cada tarefa: diga o que mudou e como eu confiro.\n\n## O que tem aqui\n- spec.md: a spec de uma página\n- dados-ficticios/orcamentos.csv: 20 orçamentos inventados\n- lacunas.md: o que o protótipo ainda nêo resolve"
         },
         {
-          "rot": "Prompt de protótipo (primeiro pedido de construção)",
+          "rot": "Prompt de protótipo (primeiro pedido de construçêo)",
           "icone": "chat",
-          "conteudo": "Leia o AGENTS.md e a spec.md antes de começar.\n\nTarefa: crie index.html, uma página que abre no navegador e:\n1. carrega dados-ficticios/orcamentos.csv;\n2. mostra só os orçamentos abertos há 2 dias úteis ou mais, de clientes ativos;\n3. para cada um, mostra um rascunho de mensagem curta (até 5 linhas) que cita o último\n   produto comprado e termina com uma pergunta;\n4. tem um botão \"Aprovar\" por linha e um botão \"Exportar aprovados\" que baixa um CSV.\n\nNão faça: envio de mensagem, desconto, mudança de preço, chave de API.\nSe faltar alguma regra para decidir, pare e me pergunte citando a seção da spec.\nNo fim, diga o que criou e como eu confiro em 3 casos."
+          "conteudo": "Leia o AGENTS.md e a spec.md antes de começar.\n\nTarefa: crie index.html, uma página que abre no navegador e:\n1. carrega dados-ficticios/orcamentos.csv;\n2. mostra só os orçamentos abertos há 2 dias úteis ou mais, de clientes ativos;\n3. para cada um, mostra um rascunho de mensagem curta (até 5 linhas) que cita o último\n   produto comprado e termina com uma pergunta;\n4. tem um botêo \"Aprovar\" por linha e um botêo \"Exportar aprovados\" que baixa um CSV.\n\nNêo faça: envio de mensagem, desconto, mudança de preço, chave de API.\nSe faltar alguma regra para decidir, pare e me pergunte citando a seçêo da spec.\nNo fim, diga o que criou e como eu confiro em 3 casos."
         }
       ],
       "saida": {
@@ -208,23 +208,23 @@
     },
     {
       "tipo": "simconversa",
-      "titulo": "Sessão simulada: a Patrícia no teclado",
+      "titulo": "Sessêo simulada: a Patrícia no teclado",
       "sub": "Conversa simulada para treinar. Escolha a resposta que você daria; o comentário aparece logo depois.",
       "personagem": {
         "nome": "Patrícia Lima",
         "papel": "gerente comercial · Horizonte Distribuidora"
       },
       "inicio": "abre",
-      "licao": "Na sessão, o mentor protege três coisas: dados fictícios, a gestora no teclado e o escopo da spec. O que escapar vira lacuna anotada, não remendo escondido.",
+      "licao": "Na sessêo, o mentor protege três coisas: dados fictícios, a gestora no teclado e o escopo da spec. O que escapar vira lacuna anotada, nêo remendo escondido.",
       "falas": {
         "abre": {
           "cliente": "Já que é rápido, vamos ligar direto na planilha de clientes de verdade? Assim eu já vejo funcionando.",
           "opcoes": [
             {
-              "t": "Hoje não. Usamos os 20 clientes fictícios. Dado real só depois dos testes e da TI.",
+              "t": "Hoje nêo. Usamos os 20 clientes fictícios. Dado real só depois dos testes e da TI.",
               "vai": "teclado",
               "nota": 2,
-              "comenta": "Isso. A planilha real tem CPF e telefone e já está compartilhada por link aberto no laboratório (falha F8). Protótipo não é lugar para dado real."
+              "comenta": "Isso. A planilha real tem CPF e telefone e já está compartilhada por link aberto no laboratório (falha F8). Protótipo nêo é lugar para dado real."
             },
             {
               "t": "Vamos usar uma cópia da planilha real, só que no seu computador.",
@@ -233,7 +233,7 @@
               "comenta": "Melhor que a original, mas a cópia continua com CPF e telefone, e o que vai para o agente sai do computador."
             },
             {
-              "t": "Pode, só não compartilha com ninguém.",
+              "t": "Pode, só nêo compartilha com ninguém.",
               "vai": "fim-dados",
               "nota": 0,
               "comenta": "Dado pessoal de cliente indo para um serviço de IA sem contrato nem base legal. É a falha F10 do laboratório."
@@ -241,7 +241,7 @@
           ]
         },
         "teclado": {
-          "cliente": "Tá, fictícios. Então você digita os comandos e eu fico olhando, é mais rápido.",
+          "cliente": "Tá, fictícios. Entêo você digita os comandos e eu fico olhando, é mais rápido.",
           "opcoes": [
             {
               "t": "Você digita e eu oriento. Em uma hora você estará pedindo sozinha.",
@@ -253,7 +253,7 @@
               "t": "Eu faço a primeira tarefa para você ver, e você faz as outras.",
               "vai": "escopo",
               "nota": 1,
-              "comenta": "Aceitável como demonstração curta, mas cuidado: a primeira vez é a que mais ensina."
+              "comenta": "Aceitável como demonstraçêo curta, mas cuidado: a primeira vez é a que mais ensina."
             },
             {
               "t": "Tudo bem, eu faço e depois te explico.",
@@ -267,16 +267,16 @@
           "cliente": "Vou pedir assim: \"faz um app de follow-up completo, com WhatsApp automático e desconto para quem sumiu\".",
           "opcoes": [
             {
-              "t": "Vamos pedir só o que está na spec v0.1: lista, rascunho e aprovação. O resto vai para a lista de depois.",
+              "t": "Vamos pedir só o que está na spec v0.1: lista, rascunho e aprovaçêo. O resto vai para a lista de depois.",
               "vai": "conferir",
               "nota": 2,
-              "comenta": "Escopo protegido. Envio automático e desconto são as ações vermelhas da spec."
+              "comenta": "Escopo protegido. Envio automático e desconto sêo as ações vermelhas da spec."
             },
             {
               "t": "Tira só o desconto; o WhatsApp automático pode.",
               "vai": "conferir",
               "nota": 1,
-              "comenta": "Metade certa. Envio automático também está fora da v0.1: enviar é \"com aprovação\"."
+              "comenta": "Metade certa. Envio automático também está fora da v0.1: enviar é \"com aprovaçêo\"."
             },
             {
               "t": "Boa, pede tudo de uma vez que o agente dá conta.",
@@ -293,19 +293,19 @@
               "t": "Antes, três casos: um comum, um cliente pedindo desconto e um orçamento sem telefone.",
               "vai": "lacuna",
               "nota": 2,
-              "comenta": "Conferir é testar comum, exceção e dado faltando. Bonito não é critério."
+              "comenta": "Conferir é testar comum, exceçêo e dado faltando. Bonito nêo é critério."
             },
             {
               "t": "Vamos mostrar para o Carlos e ver se ele gosta.",
               "vai": "lacuna",
               "nota": 1,
-              "comenta": "Mostrar ao dono é bom, mas gostar não é teste. Os três casos vêm antes."
+              "comenta": "Mostrar ao dono é bom, mas gostar nêo é teste. Os três casos vêm antes."
             },
             {
               "t": "Se abriu, funciona. Pode usar.",
               "vai": "fim-pressa",
               "nota": 0,
-              "comenta": "Protótipo com dado fictício não está pronto para cliente de verdade. Faltam constituição, testes e TI."
+              "comenta": "Protótipo com dado fictício nêo está pronto para cliente de verdade. Faltam constituiçêo, testes e TI."
             }
           ]
         },
@@ -313,16 +313,16 @@
           "cliente": "No caso do desconto, o rascunho diz \"posso oferecer 10%\". Ninguém mandou isso!",
           "opcoes": [
             {
-              "t": "Ótimo achado. Vai para o lacunas.md: vira limite na constituição e caso de teste na aula 5.",
+              "t": "Ótimo achado. Vai para o lacunas.md: vira limite na constituiçêo e caso de teste na aula 5.",
               "vai": "fim-bom",
               "nota": 2,
               "comenta": "A lacuna virou regra e teste. É assim que o protótipo amadurece."
             },
             {
-              "t": "Apaga essa frase na mão e segue.",
+              "t": "Apaga essa frase na mêo e segue.",
               "vai": "fim-meio",
               "nota": 1,
-              "comenta": "Resolve hoje e volta amanhã. Sem regra escrita, o agente repete."
+              "comenta": "Resolve hoje e volta amanhê. Sem regra escrita, o agente repete."
             },
             {
               "t": "Normal, IA é assim. Deixa.",
@@ -345,7 +345,7 @@
         "fim-pressa": {
           "fim": true,
           "titulo": "Pressa demais",
-          "texto": "Protótipo bonito foi tratado como produto. Faltam constituição, bateria de testes e passagem para a TI."
+          "texto": "Protótipo bonito foi tratado como produto. Faltam constituiçêo, bateria de testes e passagem para a TI."
         },
         "fim-meio": {
           "fim": true,
@@ -354,7 +354,7 @@
         },
         "fim-bom": {
           "fim": true,
-          "titulo": "Sessão bem conduzida",
+          "titulo": "Sessêo bem conduzida",
           "texto": "Dados fictícios, gestora no teclado, escopo da spec e lacuna anotada. O protótipo está pronto para receber limites."
         }
       }
@@ -362,27 +362,27 @@
     {
       "tipo": "pratica",
       "titulo": "Prática: o protótipo rodando com o gestor",
-      "sub": "Uma sessão real. Se ainda não tem gestor, faça no papel da Patrícia.",
+      "sub": "Uma sessêo real. Se ainda nêo tem gestor, faça no papel da Patrícia.",
       "exercicios": [
         {
           "id": "e1",
           "titulo": "E1 · Pasta e dados fictícios",
           "min": "30 min",
           "texto": "Com o gestor, crie a pasta, o AGENTS.md, a spec.md e 20 registros inventados. Faça o primeiro commit.",
-          "pronto": "git log mostra o primeiro commit e não há nenhum dado real na pasta."
+          "pronto": "git log mostra o primeiro commit e nêo há nenhum dado real na pasta."
         },
         {
           "id": "e2",
-          "titulo": "E2 · Sessão de protótipo",
+          "titulo": "E2 · Sessêo de protótipo",
           "min": "4 h",
-          "texto": "Conduza a sessão com o roteiro. O gestor digita todos os pedidos.",
+          "texto": "Conduza a sessêo com o roteiro. O gestor digita todos os pedidos.",
           "pronto": "o protótipo abre no computador do gestor e há um commit por pedido."
         },
         {
           "id": "e3",
           "titulo": "E3 · Três casos e lacunas",
           "min": "30 min",
-          "texto": "Rodem um caso comum, uma exceção e um dado faltando. Anote o que surpreendeu.",
+          "texto": "Rodem um caso comum, uma exceçêo e um dado faltando. Anote o que surpreendeu.",
           "pronto": "lacunas.md tem pelo menos três linhas com data, o que aconteceu e o que deveria acontecer."
         }
       ]
@@ -390,7 +390,7 @@
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "Que dados entram no protótipo?",
@@ -401,7 +401,7 @@
             "Tanto faz, é só protótipo."
           ],
           "certa": 1,
-          "explica": "Protótipo usa dado inventado. Dado real só depois dos testes e da validação da TI, com base legal e contrato.",
+          "explica": "Protótipo usa dado inventado. Dado real só depois dos testes e da validaçêo da TI, com base legal e contrato.",
           "ref": "simconversa",
           "cert": true
         },
@@ -409,12 +409,12 @@
           "p": "O protótipo precisa chamar um modelo de IA. Onde fica a chave de API?",
           "opcoes": [
             "No index.html, que é mais simples.",
-            "Em lugar nenhum do navegador: protótipo v0.1 sem chamada externa, e a integração real fica com a TI.",
+            "Em lugar nenhum do navegador: protótipo v0.1 sem chamada externa, e a integraçêo real fica com a TI.",
             "No AGENTS.md.",
             "Num comentário do código."
           ],
           "certa": 1,
-          "explica": "Chave no JavaScript do navegador é a falha F1: qualquer visitante copia. No protótipo, regras e modelos de texto bastam; integração vai com a TI.",
+          "explica": "Chave no JavaScript do navegador é a falha F1: qualquer visitante copia. No protótipo, regras e modelos de texto bastam; integraçêo vai com a TI.",
           "ref": "codigo",
           "cert": true
         },
@@ -422,16 +422,16 @@
           "p": "O agente acrescentou um desconto de 10% que ninguém pediu. Qual é a melhor resposta?",
           "opcoes": [
             "Apagar a frase e seguir.",
-            "Anotar no lacunas.md para virar limite na constituição e caso de teste.",
+            "Anotar no lacunas.md para virar limite na constituiçêo e caso de teste.",
             "Trocar de agente.",
             "Ignorar."
           ],
           "certa": 1,
-          "explica": "Lacuna anotada vira regra (aula 4) e teste (aula 5). Remendo à mão volta no dia seguinte.",
+          "explica": "Lacuna anotada vira regra (aula 4) e teste (aula 5). Remendo à mêo volta no dia seguinte.",
           "ref": "simconversa"
         },
         {
-          "p": "Quem digita os pedidos na sessão?",
+          "p": "Quem digita os pedidos na sessêo?",
           "opcoes": [
             "O mentor, que é mais rápido.",
             "O gestor; o mentor orienta e confere.",
@@ -439,7 +439,7 @@
             "Revezam a cada pedido."
           ],
           "certa": 1,
-          "explica": "O gestor precisa sair da sessão sabendo pedir, conferir e desfazer. É o que garante uma dona para a ferramenta.",
+          "explica": "O gestor precisa sair da sessêo sabendo pedir, conferir e desfazer. É o que garante uma dona para a ferramenta.",
           "ref": "passos"
         }
       ]

@@ -10,7 +10,7 @@
   "competencias": ["papel-do-mentor", "mapear-ferramentas", "classificar-risco-inicial"],
   "aprende": [
     {"icone": "usuario", "t": "O que muda quando o gestor constrói"},
-    {"icone": "alvo", "t": "O que o mentor faz e o que não faz"},
+    {"icone": "alvo", "t": "O que o mentor faz e o que nêo faz"},
     {"icone": "escudo", "t": "Onde a IA costuma falhar"},
     {"icone": "lista", "t": "Mapear 3 ferramentas com risco"}
   ],
@@ -32,36 +32,36 @@
         {
           "icone": "robo",
           "titulo": "IA",
-          "sub": "Acelera a construção",
+          "sub": "Acelera a construçêo",
           "itens": [{"icone": "terminal", "t": "Agente de código"}, {"icone": "chat", "t": "Agente de trabalho no chat"}],
-          "detalhe": "Hoje um agente monta um protótipo em horas. Construir ficou barato. O que continua caro é confiar no que foi construído: dados, permissões, testes e manutenção."
+          "detalhe": "Hoje um agente monta um protótipo em horas. Construir ficou barato. O que continua caro é confiar no que foi construído: dados, permissões, testes e manutençêo."
         },
         {
           "icone": "foco",
           "titulo": "Mentor",
           "sub": "Orienta com método",
           "itens": [{"icone": "lista", "t": "Spec, limites, testes"}, {"icone": "calendario", "t": "Programa de 90 dias"}],
-          "detalhe": "Você. Não constrói pelo gestor: torna o gestor capaz de construir com método. Faz as perguntas certas, segura o ritmo e prepara a entrega para a TI."
+          "detalhe": "Você. Nêo constrói pelo gestor: torna o gestor capaz de construir com método. Faz as perguntas certas, segura o ritmo e prepara a entrega para a TI."
         },
         {
           "icone": "escudo",
           "titulo": "TI",
           "sub": "Valida e assume",
-          "itens": [{"icone": "cadeado", "t": "Rafael, TI terceirizada"}, {"icone": "check", "t": "Acessos, segurança, manutenção"}],
-          "detalhe": "A TI continua essencial. Ela valida o que vai tocar dado e operação crítica, cuida de acessos e segurança e assume a manutenção. O mentor entrega o pacote; a TI decide se entra em produção."
+          "itens": [{"icone": "cadeado", "t": "Rafael, TI terceirizada"}, {"icone": "check", "t": "Acessos, segurança, manutençêo"}],
+          "detalhe": "A TI continua essencial. Ela valida o que vai tocar dado e operaçêo crítica, cuida de acessos e segurança e assume a manutençêo. O mentor entrega o pacote; a TI decide se entra em produçêo."
         },
         {
           "icone": "camadas",
           "titulo": "Governança",
           "sub": "Sustenta no tempo",
           "itens": [{"icone": "grafico", "t": "Indicadores"}, {"icone": "arquivo", "t": "Inventário e registro"}],
-          "detalhe": "Dono com nome, registro das ações, revisão periódica e inventário das ferramentas. É o que impede a ferramenta de virar 'aquela coisa que a Patrícia fez e ninguém sabe como funciona'."
+          "detalhe": "Dono com nome, registro das ações, revisêo periódica e inventário das ferramentas. É o que impede a ferramenta de virar 'aquela coisa que a Patrícia fez e ninguém sabe como funciona'."
         }
       ],
       "volta": "O que a TI e os indicadores mostram volta para o gestor como melhoria",
-      "legenda": "Antes: o gestor pedia à TI e esperava. Agora: o gestor prototipa, o mentor orienta e a TI valida antes de entrar em produção.",
+      "legenda": "Antes: o gestor pedia à TI e esperava. Agora: o gestor prototipa, o mentor orienta e a TI valida antes de entrar em produçêo.",
       "rolagem": true,
-      "rolagem_fim": {"titulo": "A combinação inteira", "texto": "Gestor que conhece o processo, IA que acelera, mentor que orienta, TI que valida e governança que sustenta. Tirar qualquer peça quebra o resto."}
+      "rolagem_fim": {"titulo": "A combinaçêo inteira", "texto": "Gestor que conhece o processo, IA que acelera, mentor que orienta, TI que valida e governança que sustenta. Tirar qualquer peça quebra o resto."}
     },
     {
       "tipo": "passos",
@@ -72,17 +72,17 @@
           "titulo": "Construir ficou barato",
           "sub": "Confiar ficou caro",
           "texto": [
-            "Um gestor sem experiência em programação já monta um app ou um agente numa tarde. O gargalo saiu do 'saber fazer' e foi para 'saber o que fazer, e o que não fazer'.",
+            "Um gestor sem experiência em programaçêo já monta um app ou um agente numa tarde. O gargalo saiu do 'saber fazer' e foi para 'saber o que fazer, e o que nêo fazer'.",
             "É aqui que entra o mentor: transformar a vontade de construir num processo com começo, meio e entrega.",
-            "O mercado já sente a troca. Segundo o Digital Economy Lab de Stanford (revisão de 12/08/2026), o emprego de 22 a 25 anos nas ocupações mais expostas à IA está 19% abaixo do que estaria se tivesse acompanhado o dos colegas em ocupações menos expostas (o estudo não afirma causa). Quem entra precisa de mentoria; quem gere precisa aprender a gerir agentes."
+            "O mercado já sente a troca. Segundo o Digital Economy Lab de Stanford (revisêo de 12/08/2026), o emprego de 22 a 25 anos nas ocupações mais expostas à IA está 19% abaixo do que estaria se tivesse acompanhado o dos colegas em ocupações menos expostas (o estudo nêo afirma causa). Quem entra precisa de mentoria; quem gere precisa aprender a gerir agentes."
           ],
           "exemplo": {"rot": "Na Horizonte", "texto": "A Patrícia viu um colega montar um app de pedidos em dois dias. Ela quer o mesmo para o follow-up de clientes."}
         },
         {
-          "titulo": "Você não constrói por ele",
+          "titulo": "Você nêo constrói por ele",
           "sub": "Você o torna capaz",
           "texto": [
-            "O serviço do mentor tem quatro partes: capacitar o gestor, acompanhar o projeto dele, apoiar arquitetura e integração e organizar testes, documentação e acessos com a TI.",
+            "O serviço do mentor tem quatro partes: capacitar o gestor, acompanhar o projeto dele, apoiar arquitetura e integraçêo e organizar testes, documentaçêo e acessos com a TI.",
             "Se você digita o código no lugar dele, a ferramenta fica sem dono no dia em que você sair."
           ],
           "exemplo": {"rot": "Regra de bolso", "texto": "Quem dirige o teclado é o gestor. Você pergunta, aponta e confere."}
@@ -91,7 +91,7 @@
           "titulo": "A IA erra em lugares previsíveis",
           "sub": "Fronteira irregular",
           "texto": [
-            "A IA é ótima numa tarefa e falha feio na vizinha. Os erros que mais aparecem em ferramentas feitas por gestores: segredo no código, dado aberto para qualquer um, permissão demais, número inventado e caso de exceção esquecido.",
+            "A IA é ótima numa tarefa e falha feio na vizinha. Os erros que mais aparecem em ferramentas feitas por gestores: segredo no código, dado aberto para qualquer um, permissêo demais, número inventado e caso de exceçêo esquecido.",
             "No laboratório da Horizonte há exemplos reais disso: uma chave de API no navegador do app de pedidos e um agente de WhatsApp que dá desconto sem teto."
           ],
           "exemplo": {"rot": "Pergunta que salva", "texto": "\"Se isso der errado às 22h de sexta, quem fica sabendo e como desliga?\""}
@@ -100,8 +100,8 @@
           "titulo": "Comece pelo mapa",
           "sub": "3 ferramentas, cada uma com risco",
           "texto": [
-            "Na primeira conversa, peça ao gestor as três ferramentas que ele mais quer. Para cada uma: que dado usa, que ação faz e para quem a saída vai. Isso já separa o que é fácil do que precisa da TI desde o início.",
-            "Pergunte também o que a equipe já usa por conta própria. Na Horizonte, o inventário achou quatro ferramentas de IA que a TI não conhecia."
+            "Na primeira conversa, peça ao gestor as três ferramentas que ele mais quer. Para cada uma: que dado usa, que açêo faz e para quem a saída vai. Isso já separa o que é fácil do que precisa da TI desde o início.",
+            "Pergunte também o que a equipe já usa por conta própria. Na Horizonte, o inventário achou quatro ferramentas de IA que a TI nêo conhecia."
           ],
           "exemplo": {"rot": "Risco em três cores", "texto": "Verde: só lê dado interno, sem dado pessoal. Amarelo: usa dado de cliente. Vermelho: envia para fora, mexe em dinheiro ou em pedido."}
         }
@@ -109,24 +109,24 @@
     },
     {
       "tipo": "codigo",
-      "titulo": "Modelos para a primeira sessão",
+      "titulo": "Modelos para a primeira sessêo",
       "sub": "Copie e adapte. Troque o texto entre < > pelo seu.",
       "blocos": [
         {
-          "rot": "Roteiro da 1ª sessão de mentoria (60 min)",
+          "rot": "Roteiro da 1ª sessêo de mentoria (60 min)",
           "icone": "calendario",
-          "conteudo": "SESSÃO 1 — Mapa de ferramentas · gestor: <nome, área> · data: <dd/mm>\n\n0–10 min  Combinar o jogo\n  - Eu oriento; você constrói. A TI valida antes de usar com dado real.\n  - Nada roda com dado de cliente até a aula de passagem.\n\n10–30 min  Escutar a dor\n  - Que tarefa da sua semana você mais queria tirar da mão?\n  - Quantas vezes por semana ela acontece? Quanto tempo leva?\n  - Quem mais participa dela?\n\n30–45 min  Mapa das 3 ferramentas (preencher juntos, tabela abaixo)\n\n45–55 min  O que já existe\n  - Que ferramentas de IA você ou a equipe já usam hoje?\n  - Alguma recebe dado de cliente? Quem sabe disso na TI?\n\n55–60 min  Combinados\n  - Qual das 3 vamos filtrar na próxima sessão?\n  - Próximo encontro: <data>. Tarefa: anotar 5 casos reais do processo."
+          "conteudo": "SESSêO 1 — Mapa de ferramentas · gestor: <nome, área> · data: <dd/mm>\n\n0–10 min  Combinar o jogo\n  - Eu oriento; você constrói. A TI valida antes de usar com dado real.\n  - Nada roda com dado de cliente até a aula de passagem.\n\n10–30 min  Escutar a dor\n  - Que tarefa da sua semana você mais queria tirar da mêo?\n  - Quantas vezes por semana ela acontece? Quanto tempo leva?\n  - Quem mais participa dela?\n\n30–45 min  Mapa das 3 ferramentas (preencher juntos, tabela abaixo)\n\n45–55 min  O que já existe\n  - Que ferramentas de IA você ou a equipe já usam hoje?\n  - Alguma recebe dado de cliente? Quem sabe disso na TI?\n\n55–60 min  Combinados\n  - Qual das 3 vamos filtrar na próxima sessêo?\n  - Próximo encontro: <data>. Tarefa: anotar 5 casos reais do processo."
         },
         {
           "rot": "Mapa de 3 ferramentas com risco",
           "icone": "lista",
-          "conteudo": "| # | Ferramenta que o gestor quer | Dado que usa | Ação que faz | Para quem vai a saída | Risco (verde/amarelo/vermelho) | Por quê |\n|---|---|---|---|---|---|---|\n| 1 | <ex.: follow-up de orçamentos> | <clientes, orçamentos> | <sugere mensagem> | <cliente, após aprovação> | <amarelo> | <dado de cliente; envio só com aprovação> |\n| 2 | | | | | | |\n| 3 | | | | | | |\n\nRegra das cores:\n- verde: só lê dado interno, sem dado pessoal, saída fica dentro da empresa\n- amarelo: usa dado pessoal de cliente ou funcionário (LGPD)\n- vermelho: envia para fora, mexe em dinheiro, preço, pedido ou apaga algo\n\nIA já em uso na área (inventário rápido): <ferramenta · quem usa · que dado entra>"
+          "conteudo": "| # | Ferramenta que o gestor quer | Dado que usa | Açêo que faz | Para quem vai a saída | Risco (verde/amarelo/vermelho) | Por quê |\n|---|---|---|---|---|---|---|\n| 1 | <ex.: follow-up de orçamentos> | <clientes, orçamentos> | <sugere mensagem> | <cliente, após aprovaçêo> | <amarelo> | <dado de cliente; envio só com aprovaçêo> |\n| 2 | | | | | | |\n| 3 | | | | | | |\n\nRegra das cores:\n- verde: só lê dado interno, sem dado pessoal, saída fica dentro da empresa\n- amarelo: usa dado pessoal de cliente ou funcionário (LGPD)\n- vermelho: envia para fora, mexe em dinheiro, preço, pedido ou apaga algo\n\nIA já em uso na área (inventário rápido): <ferramenta · quem usa · que dado entra>"
         }
       ],
       "saida": {
         "selo": "simulacao",
         "abas": [
-          {"rot": "Mapa da Patrícia", "html": "<ol><li><b>Follow-up de orçamentos</b> — clientes e orçamentos abertos; sugere mensagem; envio após aprovação. <b>Amarelo.</b></li><li><b>Resumo semanal de vendas</b> — relatório interno sem dado pessoal. <b>Verde.</b></li><li><b>Reativar cliente parado com desconto</b> — mexe em preço e fala com o cliente. <b>Vermelho.</b></li></ol>"},
+          {"rot": "Mapa da Patrícia", "html": "<ol><li><b>Follow-up de orçamentos</b> — clientes e orçamentos abertos; sugere mensagem; envio após aprovaçêo. <b>Amarelo.</b></li><li><b>Resumo semanal de vendas</b> — relatório interno sem dado pessoal. <b>Verde.</b></li><li><b>Reativar cliente parado com desconto</b> — mexe em preço e fala com o cliente. <b>Vermelho.</b></li></ol>"},
           {"rot": "Erros comuns", "html": "<ul><li><b>Pular o inventário</b>: a ferramenta nova nasce ao lado de outras que ninguém conhece.</li><li><b>Começar pela vermelha</b>: é a mais desejada e a pior para aprender. Comece pela amarela ou pela verde.</li><li><b>Prometer data</b> antes de filtrar a ideia na aula 2.</li></ul>"}
         ]
       }
@@ -134,9 +134,9 @@
     {
       "tipo": "pratica",
       "titulo": "Prática: o mapa do seu gestor",
-      "sub": "Faça com um gestor real. Se ainda não tem, use a Patrícia e o laboratório.",
+      "sub": "Faça com um gestor real. Se ainda nêo tem, use a Patrícia e o laboratório.",
       "exercicios": [
-        {"id": "e1", "titulo": "E1 · Sessão de mapa", "min": "60 min", "texto": "Conduza a sessão 1 com um gestor usando o roteiro. Ele fala; você anota.", "pronto": "você tem a tabela com 3 ferramentas, cada uma com dado, ação, destino e cor de risco."},
+        {"id": "e1", "titulo": "E1 · Sessêo de mapa", "min": "60 min", "texto": "Conduza a sessêo 1 com um gestor usando o roteiro. Ele fala; você anota.", "pronto": "você tem a tabela com 3 ferramentas, cada uma com dado, açêo, destino e cor de risco."},
         {"id": "e2", "titulo": "E2 · IA já em uso", "min": "15 min", "texto": "Pergunte o que a área já usa de IA por conta própria e que dado entra em cada ferramenta.", "pronto": "você tem uma lista (mesmo que vazia) com ferramenta, quem usa e que dado entra."},
         {"id": "e3", "titulo": "E3 · Escolher a primeira", "min": "10 min", "texto": "Combine com o gestor qual das três vai para o filtro da aula 2. Prefira a amarela ou a verde.", "pronto": "a escolha está anotada com o motivo em uma frase."}
       ]
@@ -144,12 +144,12 @@
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {"p": "A Patrícia pede: \"monta você a ferramenta, que é mais rápido\". O que o mentor faz?", "opcoes": ["Monta, porque o cliente pediu.", "Explica que ela dirige o teclado e ele orienta, para a ferramenta ter dona quando ele sair.", "Passa o pedido direto para a TI.", "Recusa o projeto."], "certa": 1, "explica": "O mentor torna o gestor capaz. Se o mentor constrói, a ferramenta fica sem dono. Passar direto à TI volta ao modelo antigo.", "ref": "passos", "cert": true},
-        {"p": "Qual ferramenta é vermelha no mapa?", "opcoes": ["Resumo semanal interno de vendas.", "Sugestão de mensagem que a gerente aprova antes de enviar.", "Agente que aplica desconto e fecha pedido sozinho.", "Planilha de metas da equipe."], "certa": 2, "explica": "Mexe em preço e em pedido, sem pessoa no meio. A sugestão aprovada antes do envio é amarela: tem dado de cliente, mas uma pessoa decide.", "ref": "codigo", "cert": true},
-        {"p": "Por que perguntar o que a equipe já usa de IA?", "opcoes": ["Para cobrar licenças.", "Porque ferramentas escondidas com dado de cliente são risco que a TI não conhece.", "Para escolher o melhor modelo.", "Não é necessário na primeira sessão."], "certa": 1, "explica": "É a 'IA na sombra'. Na Horizonte havia quatro ferramentas assim. Achar cedo evita construir a quinta.", "ref": "passos"},
-        {"p": "O que continua caro quando construir fica barato?", "opcoes": ["O computador.", "Confiar no que foi construído: dados, permissões, testes e manutenção.", "A assinatura do chat.", "Aprender a digitar."], "certa": 1, "explica": "É a tese da formação. O valor do mentor está em dar confiança ao que o gestor constrói.", "ref": "diagrama"}
+        {"p": "Qual ferramenta é vermelha no mapa?", "opcoes": ["Resumo semanal interno de vendas.", "Sugestêo de mensagem que a gerente aprova antes de enviar.", "Agente que aplica desconto e fecha pedido sozinho.", "Planilha de metas da equipe."], "certa": 2, "explica": "Mexe em preço e em pedido, sem pessoa no meio. A sugestêo aprovada antes do envio é amarela: tem dado de cliente, mas uma pessoa decide.", "ref": "codigo", "cert": true},
+        {"p": "Por que perguntar o que a equipe já usa de IA?", "opcoes": ["Para cobrar licenças.", "Porque ferramentas escondidas com dado de cliente sêo risco que a TI nêo conhece.", "Para escolher o melhor modelo.", "Nêo é necessário na primeira sessêo."], "certa": 1, "explica": "É a 'IA na sombra'. Na Horizonte havia quatro ferramentas assim. Achar cedo evita construir a quinta.", "ref": "passos"},
+        {"p": "O que continua caro quando construir fica barato?", "opcoes": ["O computador.", "Confiar no que foi construído: dados, permissões, testes e manutençêo.", "A assinatura do chat.", "Aprender a digitar."], "certa": 1, "explica": "É a tese da formaçêo. O valor do mentor está em dar confiança ao que o gestor constrói.", "ref": "diagrama"}
       ]
     },
     {
@@ -157,9 +157,9 @@
       "titulo": "A aula em quatro frases",
       "itens": [
         {"t": "Modelo novo", "texto": "Gestor constrói com IA, mentor orienta, TI valida, governança sustenta."},
-        {"t": "Seu papel", "texto": "Tornar o gestor capaz, não construir por ele. Quem dirige o teclado é ele."},
-        {"t": "Onde a IA falha", "texto": "Segredo no código, dado aberto, permissão demais, número inventado e exceção esquecida."},
-        {"t": "Primeiro passo", "texto": "Mapa de 3 ferramentas com dado, ação, destino e cor de risco, mais o inventário do que já se usa."}
+        {"t": "Seu papel", "texto": "Tornar o gestor capaz, nêo construir por ele. Quem dirige o teclado é ele."},
+        {"t": "Onde a IA falha", "texto": "Segredo no código, dado aberto, permissêo demais, número inventado e exceçêo esquecida."},
+        {"t": "Primeiro passo", "texto": "Mapa de 3 ferramentas com dado, açêo, destino e cor de risco, mais o inventário do que já se usa."}
       ]
     },
     {
@@ -167,8 +167,8 @@
       "titulo": "Para ir além",
       "links": [
         {"t": "Vídeo: do técnico ao gestor de agentes", "href": "https://inematds.github.io/gestor-de-agentes/videos/", "icone": "video"},
-        {"t": "Vídeo: gerente que não domina agentes", "href": "https://inematds.github.io/gerente-de-agentes/videos/", "icone": "video"},
-        {"t": "Área Gestão de IA e Agentes", "href": "https://eventos.inema.pro/gestao-ia/", "icone": "camadas"},
+        {"t": "Vídeo: gerente que nêo domina agentes", "href": "https://inematds.github.io/gerente-de-agentes/videos/", "icone": "video"},
+        {"t": "Área Gestêo de IA e Agentes", "href": "https://eventos.inema.pro/gestao-ia/", "icone": "camadas"},
         {"t": "Empresa-laboratório: Horizonte Distribuidora", "href": "https://inematds.github.io/prof2030-lab/", "icone": "pasta"},
         {"t": "Fonte: Stanford Digital Economy Lab — jovens em ocupações expostas à IA (ago/2026)", "href": "https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/", "icone": "grafico"}
       ]

@@ -51,7 +51,7 @@
               "t": "Mapa de 3 ferramentas por gestor"
             }
           ],
-          "detalhe": "Workshop de abertura com o dono e os gestores, inventário do que já se usa e sessão de mapa com cada gestor (aula 1). Marco: cada gestor escolheu uma ferramenta, com risco."
+          "detalhe": "Workshop de abertura com o dono e os gestores, inventário do que já se usa e sessêo de mapa com cada gestor (aula 1). Marco: cada gestor escolheu uma ferramenta, com risco."
         },
         {
           "icone": "arquivo",
@@ -64,10 +64,10 @@
             },
             {
               "icone": "terminal",
-              "t": "Sessão de protótipo"
+              "t": "Sessêo de protótipo"
             }
           ],
-          "detalhe": "Filtro e spec (aula 2), sessão de protótipo com dados fictícios (aula 3). Marco: protótipo rodando no computador do gestor, com lacunas anotadas."
+          "detalhe": "Filtro e spec (aula 2), sessêo de protótipo com dados fictícios (aula 3). Marco: protótipo rodando no computador do gestor, com lacunas anotadas."
         },
         {
           "icone": "escudo",
@@ -76,20 +76,20 @@
           "itens": [
             {
               "icone": "caneta",
-              "t": "Constituição"
+              "t": "Constituiçêo"
             },
             {
               "icone": "check",
               "t": "Bateria de 15 casos"
             }
           ],
-          "detalhe": "Constituição aplicada (aula 4), bateria e rodadas (aula 5). Marco: bateria com 85% ou mais e nenhum limite violado.",
+          "detalhe": "Constituiçêo aplicada (aula 4), bateria e rodadas (aula 5). Marco: bateria com 85% ou mais e nenhum limite violado.",
           "forte": true
         },
         {
           "icone": "pasta",
           "titulo": "Dias 56–70",
-          "sub": "Homologação e passagem",
+          "sub": "Homologaçêo e passagem",
           "itens": [
             {
               "icone": "usuario",
@@ -100,7 +100,7 @@
               "t": "TI revisa"
             }
           ],
-          "detalhe": "Homologação com o usuário e pacote de passagem com revisão da TI (aulas 5 e 6). Marco: decisão da TI registrada e teste de desligar feito."
+          "detalhe": "Homologaçêo com o usuário e pacote de passagem com revisêo da TI (aulas 5 e 6). Marco: decisêo da TI registrada e teste de desligar feito."
         },
         {
           "icone": "grafico",
@@ -116,7 +116,7 @@
               "t": "Uma melhoria"
             }
           ],
-          "detalhe": "Painel com linha de base, revisões semanais e uma melhoria testada (aula 7). Marco: reunião de fechamento com o dono, com números e a decisão do próximo ciclo."
+          "detalhe": "Painel com linha de base, revisões semanais e uma melhoria testada (aula 7). Marco: reuniêo de fechamento com o dono, com números e a decisêo do próximo ciclo."
         }
       ],
       "volta": "Próximo ciclo: nova ferramenta ou novo gestor",
@@ -124,7 +124,7 @@
       "rolagem": true,
       "rolagem_fim": {
         "titulo": "O programa inteiro",
-        "texto": "Mapa, spec e protótipo, limites e testes, homologação e passagem, medir e decidir. Cinco marcos, um a cada duas ou três semanas."
+        "texto": "Mapa, spec e protótipo, limites e testes, homologaçêo e passagem, medir e decidir. Cinco marcos, um a cada duas ou três semanas."
       }
     },
     {
@@ -136,7 +136,7 @@
           "titulo": "Papéis antes de datas",
           "sub": "Quem patrocina, quem constrói, quem valida",
           "texto": [
-            "Patrocinador: o dono (Carlos) abre portas e decide no fim. Gestores: constroem e são donos dos processos. TI: valida e assume. Mentor: conduz o método e o ritmo.",
+            "Patrocinador: o dono (Carlos) abre portas e decide no fim. Gestores: constroem e sêo donos dos processos. TI: valida e assume. Mentor: conduz o método e o ritmo.",
             "Escolha também um usuário de referência por ferramenta, que vai usar todo dia e dizer se está confortável."
           ],
           "exemplo": {
@@ -148,20 +148,20 @@
           "titulo": "Ritmo fixo",
           "sub": "Encontro semanal + sessões de trabalho",
           "texto": [
-            "Um encontro semanal de 60 minutos por gestor, sempre no mesmo dia. Mais as sessões longas de protótipo e de homologação nas datas certas.",
+            "Um encontro semanal de 60 minutos por gestor, sempre no mesmo dia. Mais as sessões longas de protótipo e de homologaçêo nas datas certas.",
             "Entre encontros, o gestor tem uma tarefa com \"pronto quando\". Sem tarefa, o programa vira conversa."
           ],
           "exemplo": {
             "rot": "Regra",
-            "texto": "Marco não cumprido muda a data do próximo, nunca o critério."
+            "texto": "Marco nêo cumprido muda a data do próximo, nunca o critério."
           }
         },
         {
           "titulo": "Marcos verificáveis",
           "sub": "Cinco portões",
           "texto": [
-            "Cada fase fecha com algo que qualquer pessoa confere: a tabela do mapa, o protótipo abrindo, a bateria com nota, a decisão da TI, o painel com linha de base.",
-            "No dia 90, uma reunião com o dono: o que mudou nos números, o que custa, o que vem no próximo ciclo."
+            "Cada fase fecha com algo que qualquer pessoa confere: a tabela do mapa, o protótipo abrindo, a bateria com nota, a decisêo da TI, o painel com linha de base.",
+            "No dia 90, uma reuniêo com o dono: o que mudou nos números, o que custa, o que vem no próximo ciclo."
           ],
           "exemplo": {
             "rot": "Pergunta do dia 90",
@@ -176,8 +176,8 @@
             "Use as peças do laboratório para mostrar o que o programa evita: cada falha F1 a F12 deve aparecer em algum controle do seu plano."
           ],
           "exemplo": {
-            "rot": "Sobre a certificação",
-            "texto": "A certificação INEMA de cada formação vem em breve. É qualificação, não profissão regulada."
+            "rot": "Sobre a certificaçêo",
+            "texto": "A certificaçêo INEMA de cada formaçêo vem em breve. É qualificaçêo, nêo profissêo regulada."
           }
         }
       ]
@@ -190,12 +190,12 @@
         {
           "rot": "Plano de 90 dias — encontros e marcos",
           "icone": "calendario",
-          "conteudo": "# Programa de 90 dias · empresa: <nome> · início: <dd/mm>\nPatrocinador: <dono> · Mentor: <nome> · TI: <nome>\nGestores e ferramentas: <gestor 1 → ferramenta> · <gestor 2 → ferramenta> · <gestor 3 → ferramenta>\nEncontro semanal: <dia e hora>, 60 min por gestor\n\n| Semana | Encontro / sessão | Entrega do gestor | Marco (pronto quando) |\n|---|---|---|---|\n| 1 | Workshop de abertura (liderança) + inventário de IA | lista do que já se usa | inventário com dono e dado de cada ferramenta |\n| 2 | Sessão 1: mapa (aula 1) | mapa de 3 ferramentas | ferramenta escolhida, com risco |\n| 3 | Filtro e seis elos (aula 2) | 5 casos reais anotados | filtro com decisão |\n| 4 | Spec com permissões (aula 2) | spec v0.1 | spec numa página, dono por linha |\n| 5 | SESSÃO DE PROTÓTIPO (aula 3, dia inteiro) | protótipo + lacunas.md | abre no computador do gestor, dados fictícios |\n| 6 | Constituição (aula 4) | constituição v1.0 | 9 seções, 3 casos difíceis |\n| 7 | Bateria (aula 5) | 15 casos com esperado | resposta escrita antes de rodar |\n| 8 | Rodadas | versões com motivo | >= 85% e zero limite violado |\n| 9 | HOMOLOGAÇÃO com o usuário (aula 5) | permissões assinadas | portão de 5 itens |\n| 10 | Pacote de passagem (aula 6) | pacote preenchido | sem campos em branco |\n| 11 | Revisão da TI + teste de desligar | — | decisão da TI registrada |\n| 12 | Painel e revisão semanal (aula 7) | linha de base + semana 1 | 3 indicadores com denominador |\n| 13 | Fechamento com o dono (dia 90) | 1 melhoria testada | decisão: continuar, ampliar ou parar |\n\nAlertas: marco atrasado 2 semanas -> reunião com o patrocinador · limite violado -> pausa."
+          "conteudo": "# Programa de 90 dias · empresa: <nome> · início: <dd/mm>\nPatrocinador: <dono> · Mentor: <nome> · TI: <nome>\nGestores e ferramentas: <gestor 1 → ferramenta> · <gestor 2 → ferramenta> · <gestor 3 → ferramenta>\nEncontro semanal: <dia e hora>, 60 min por gestor\n\n| Semana | Encontro / sessêo | Entrega do gestor | Marco (pronto quando) |\n|---|---|---|---|\n| 1 | Workshop de abertura (liderança) + inventário de IA | lista do que já se usa | inventário com dono e dado de cada ferramenta |\n| 2 | Sessêo 1: mapa (aula 1) | mapa de 3 ferramentas | ferramenta escolhida, com risco |\n| 3 | Filtro e seis elos (aula 2) | 5 casos reais anotados | filtro com decisêo |\n| 4 | Spec com permissões (aula 2) | spec v0.1 | spec numa página, dono por linha |\n| 5 | SESSêO DE PROTÓTIPO (aula 3, dia inteiro) | protótipo + lacunas.md | abre no computador do gestor, dados fictícios |\n| 6 | Constituiçêo (aula 4) | constituiçêo v1.0 | 9 seções, 3 casos difíceis |\n| 7 | Bateria (aula 5) | 15 casos com esperado | resposta escrita antes de rodar |\n| 8 | Rodadas | versões com motivo | >= 85% e zero limite violado |\n| 9 | HOMOLOGAÇêO com o usuário (aula 5) | permissões assinadas | portêo de 5 itens |\n| 10 | Pacote de passagem (aula 6) | pacote preenchido | sem campos em branco |\n| 11 | Revisêo da TI + teste de desligar | — | decisêo da TI registrada |\n| 12 | Painel e revisêo semanal (aula 7) | linha de base + semana 1 | 3 indicadores com denominador |\n| 13 | Fechamento com o dono (dia 90) | 1 melhoria testada | decisêo: continuar, ampliar ou parar |\n\nAlertas: marco atrasado 2 semanas -> reuniêo com o patrocinador · limite violado -> pausa."
         },
         {
           "rot": "Projeto final — Horizonte Distribuidora",
           "icone": "alvo",
-          "conteudo": "PROJETO FINAL · Mentor de IA · empresa-laboratório: Horizonte Distribuidora\n\nEntregue numa pasta (ou repositório) com:\n1. Mapa de 3 ferramentas da Patrícia, com risco (aula 1)\n2. Spec de uma página do follow-up, com permissões e dados fora (aula 2)\n3. Roteiro da sessão de protótipo + AGENTS.md + lacunas.md (aula 3)\n4. Constituição do agente de follow-up (aula 4)\n5. Bateria de 15 casos com resposta esperada e uma rodada com nota (aula 5)\n6. Pacote de passagem para o Rafael + lista de revisão da TI (aula 6)\n7. Painel de 3 indicadores com linha de base + 1 cartão de hipótese (aula 7)\n8. Plano de 90 dias para Patrícia e Juliana (esta aula)\n\nCritério de pronto:\n- nenhum modelo com campo entre < > em branco\n- cada falha do laboratório (F1 a F12) aparece em pelo menos um controle\n  dos seus modelos, com a linha indicada\n- dados de cliente usados: só fictícios"
+          "conteudo": "PROJETO FINAL · Mentor de IA · empresa-laboratório: Horizonte Distribuidora\n\nEntregue numa pasta (ou repositório) com:\n1. Mapa de 3 ferramentas da Patrícia, com risco (aula 1)\n2. Spec de uma página do follow-up, com permissões e dados fora (aula 2)\n3. Roteiro da sessêo de protótipo + AGENTS.md + lacunas.md (aula 3)\n4. Constituiçêo do agente de follow-up (aula 4)\n5. Bateria de 15 casos com resposta esperada e uma rodada com nota (aula 5)\n6. Pacote de passagem para o Rafael + lista de revisêo da TI (aula 6)\n7. Painel de 3 indicadores com linha de base + 1 cartêo de hipótese (aula 7)\n8. Plano de 90 dias para Patrícia e Juliana (esta aula)\n\nCritério de pronto:\n- nenhum modelo com campo entre < > em branco\n- cada falha do laboratório (F1 a F12) aparece em pelo menos um controle\n  dos seus modelos, com a linha indicada\n- dados de cliente usados: só fictícios"
         }
       ],
       "saida": {
@@ -203,11 +203,11 @@
         "abas": [
           {
             "rot": "Onde cada falha aparece",
-            "html": "<ul><li><b>F1–F4</b>: lista de revisão da TI (aula 6).</li><li><b>F5–F7</b>: limites e permissões da constituição (aula 4) e casos críticos da bateria (aula 5).</li><li><b>F8, F10</b>: dados fictícios no protótipo (aula 3) e bloco de dados do pacote (aula 6).</li><li><b>F9</b>: menor permissão nas integrações (aula 6).</li><li><b>F11</b>: linha de base do painel (aula 7).</li><li><b>F12</b>: inventário da semana 1 (aulas 1 e 8).</li></ul>"
+            "html": "<ul><li><b>F1–F4</b>: lista de revisêo da TI (aula 6).</li><li><b>F5–F7</b>: limites e permissões da constituiçêo (aula 4) e casos críticos da bateria (aula 5).</li><li><b>F8, F10</b>: dados fictícios no protótipo (aula 3) e bloco de dados do pacote (aula 6).</li><li><b>F9</b>: menor permissêo nas integrações (aula 6).</li><li><b>F11</b>: linha de base do painel (aula 7).</li><li><b>F12</b>: inventário da semana 1 (aulas 1 e 8).</li></ul>"
           },
           {
             "rot": "Erros comuns",
-            "html": "<ul><li><b>Cinco gestores no primeiro programa</b>: o mentor não acompanha com qualidade.</li><li><b>Marco sem critério</b>: \"protótipo quase pronto\" não é marco.</li><li><b>Pular o dia 90</b>: sem decisão do dono, o programa some sem resultado.</li></ul>"
+            "html": "<ul><li><b>Cinco gestores no primeiro programa</b>: o mentor nêo acompanha com qualidade.</li><li><b>Marco sem critério</b>: \"protótipo quase pronto\" nêo é marco.</li><li><b>Pular o dia 90</b>: sem decisêo do dono, o programa some sem resultado.</li></ul>"
           }
         ]
       }
@@ -215,7 +215,7 @@
     {
       "tipo": "pratica",
       "titulo": "Prática: o plano e o projeto final",
-      "sub": "Um gestor real, se tiver; senão, a Horizonte.",
+      "sub": "Um gestor real, se tiver; senêo, a Horizonte.",
       "exercicios": [
         {
           "id": "e1",
@@ -251,7 +251,7 @@
         },
         {
           "t": "Agente que usa o computador",
-          "texto": "Set/2026: o Claude Code passou a usar o computador em segundo plano no app de desktop (beta, planos Pro e Max). Mais poder pede mais limite: permissões por ação valem ainda mais. <a href=\"https://code.claude.com/docs/en/whats-new/2026-w36\">Claude Code, novidades da semana 36</a>"
+          "texto": "Set/2026: o Claude Code passou a usar o computador em segundo plano no app de desktop (beta, planos Pro e Max). Mais poder pede mais limite: permissões por açêo valem ainda mais. <a href=\"https://code.claude.com/docs/en/whats-new/2026-w36\">Claude Code, novidades da semana 36</a>"
         },
         {
           "t": "Custo por tarefa caindo",
@@ -263,29 +263,29 @@
         },
         {
           "t": "Varredura de segurança no agente de código",
-          "texto": "2026: a documentação do Codex já traz varredura de segurança do repositório. Ajuda o Rafael, mas não substitui a revisão da TI nem o teste de invasão. <a href=\"https://developers.openai.com/codex/changelog\">Codex changelog</a>"
+          "texto": "2026: a documentaçêo do Codex já traz varredura de segurança do repositório. Ajuda o Rafael, mas nêo substitui a revisêo da TI nem o teste de invasêo. <a href=\"https://developers.openai.com/codex/changelog\">Codex changelog</a>"
         },
         {
           "t": "Entrada na carreira mais difícil",
-          "texto": "12/08/2026: Stanford estima o emprego de 22 a 25 anos nas ocupações mais expostas à IA 19% abaixo do que estaria se tivesse acompanhado o dos colegas em ocupações menos expostas; o estudo não afirma causa. Mentoria e programas como este ganham peso. <a href=\"https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/\">Stanford Digital Economy Lab</a>"
+          "texto": "12/08/2026: Stanford estima o emprego de 22 a 25 anos nas ocupações mais expostas à IA 19% abaixo do que estaria se tivesse acompanhado o dos colegas em ocupações menos expostas; o estudo nêo afirma causa. Mentoria e programas como este ganham peso. <a href=\"https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/\">Stanford Digital Economy Lab</a>"
         }
       ]
     },
     {
       "tipo": "quiz",
       "titulo": "Teste final",
-      "sub": "Quatro perguntas sobre a formação inteira.",
+      "sub": "Quatro perguntas sobre a formaçêo inteira.",
       "perguntas": [
         {
-          "p": "Em que fase do programa a TI decide se a ferramenta entra em produção?",
+          "p": "Em que fase do programa a TI decide se a ferramenta entra em produçêo?",
           "opcoes": [
             "Dias 1–15.",
             "Dias 16–35.",
-            "Dias 56–70, depois da homologação e do pacote de passagem.",
+            "Dias 56–70, depois da homologaçêo e do pacote de passagem.",
             "Nunca, o gestor decide."
           ],
           "certa": 2,
-          "explica": "A TI revisa o pacote depois que o usuário homologa. A decisão fica registrada e o teste de desligar é feito antes de ligar.",
+          "explica": "A TI revisa o pacote depois que o usuário homologa. A decisêo fica registrada e o teste de desligar é feito antes de ligar.",
           "ref": "diagrama",
           "cert": true
         },
@@ -298,14 +298,14 @@
             "Pula-se o marco."
           ],
           "certa": 1,
-          "explica": "Marco não cumprido muda datas, nunca o critério. Atraso de duas semanas leva ao patrocinador.",
+          "explica": "Marco nêo cumprido muda datas, nunca o critério. Atraso de duas semanas leva ao patrocinador.",
           "ref": "passos",
           "cert": true
         },
         {
           "p": "Uma ferramenta usada pelo gestor sai de linha no fim do trimestre. O que protege a empresa?",
           "opcoes": [
-            "Torcer para não sair.",
+            "Torcer para nêo sair.",
             "O pacote de passagem com regras, código e acessos guardados fora da ferramenta.",
             "Trocar de mentor.",
             "Nada."
@@ -323,7 +323,7 @@
             "Dez, para escalar."
           ],
           "certa": 0,
-          "explica": "Um a três permite acompanhar cada sessão e cada marco com qualidade.",
+          "explica": "Um a três permite acompanhar cada sessêo e cada marco com qualidade.",
           "ref": "diagrama"
         }
       ]
@@ -348,7 +348,7 @@
           "icone": "lista"
         },
         {
-          "t": "Gestão de IA: a ementa completa",
+          "t": "Gestêo de IA: a ementa completa",
           "href": "https://inematds.github.io/curso-gestao-ia/",
           "icone": "grafico"
         },
@@ -398,7 +398,7 @@
           "icone": "lupa"
         },
         {
-          "t": "Laboratório Horizonte: Integração MCP com o e-mail (F9)",
+          "t": "Laboratório Horizonte: Integraçêo MCP com o e-mail (F9)",
           "href": "https://inematds.github.io/prof2030-lab/pecas/mcp-email/",
           "icone": "lupa"
         },

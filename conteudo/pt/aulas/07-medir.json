@@ -5,8 +5,8 @@
   "titulo": "Medir e melhorar",
   "titulo_curto": "Medir e melhorar",
   "minutos": 18,
-  "lead": "Ferramenta ligada sem linha de base é aposta: ninguém sabe se ajudou. É a falha F11 do laboratório. Nesta aula você monta com o gestor um painel de três indicadores, uma revisão semanal curta e um jeito de melhorar sem quebrar o que já funciona.",
-  "objetivo": "montar o painel de 3 indicadores com linha de base e aplicar 1 melhoria testada, com decisão de manter ou voltar.",
+  "lead": "Ferramenta ligada sem linha de base é aposta: ninguém sabe se ajudou. É a falha F11 do laboratório. Nesta aula você monta com o gestor um painel de três indicadores, uma revisêo semanal curta e um jeito de melhorar sem quebrar o que já funciona.",
+  "objetivo": "montar o painel de 3 indicadores com linha de base e aplicar 1 melhoria testada, com decisêo de manter ou voltar.",
   "competencias": [
     "definir-linha-de-base",
     "montar-painel-de-indicadores",
@@ -20,7 +20,7 @@
     },
     {
       "icone": "calendario",
-      "t": "A revisão semanal de 15 minutos"
+      "t": "A revisêo semanal de 15 minutos"
     },
     {
       "icone": "lupa",
@@ -48,7 +48,7 @@
               "t": "Semana anterior à ferramenta"
             }
           ],
-          "detalhe": "O número de antes, com período e denominador. Na Horizonte: 17 de 42 orçamentos sem retorno em 48 horas numa semana. Sem isso, qualquer melhora é opinião."
+          "detalhe": "O número de antes, com período e denominador. Na Horizonte: 17 de 42 orçamentos sem retorno em 48 horas numa semana. Sem isso, qualquer melhora é opiniêo."
         },
         {
           "icone": "grafico",
@@ -73,7 +73,7 @@
         },
         {
           "icone": "calendario",
-          "titulo": "Revisão semanal",
+          "titulo": "Revisêo semanal",
           "sub": "15 minutos",
           "itens": [
             {
@@ -81,7 +81,7 @@
               "t": "Sete perguntas"
             }
           ],
-          "detalhe": "Toda semana, gestora e mentor olham os três números e a lista de exceções. Uso caindo, edição subindo ou limite violado acendem alerta."
+          "detalhe": "Toda semana, gestora e mentor olham os três números e a lista de exceções. Uso caindo, ediçêo subindo ou limite violado acendem alerta."
         },
         {
           "icone": "lupa",
@@ -90,7 +90,7 @@
           "itens": [
             {
               "icone": "caneta",
-              "t": "Se... então... porque..."
+              "t": "Se... entêo... porque..."
             }
           ],
           "detalhe": "Uma mudança concreta, com o número que deve mexer e a evidência por trás. Duas mudanças juntas e ninguém sabe qual funcionou."
@@ -109,7 +109,7 @@
               "t": "Volta"
             }
           ],
-          "detalhe": "A versão nova roda a mesma bateria. Só fica se melhora o alvo sem piorar os outros. Senão, volta para a anterior, que ficou guardada."
+          "detalhe": "A versêo nova roda a mesma bateria. Só fica se melhora o alvo sem piorar os outros. Senêo, volta para a anterior, que ficou guardada."
         }
       ],
       "volta": "Decidiu? A próxima semana mede de novo",
@@ -117,7 +117,7 @@
       "rolagem": true,
       "rolagem_fim": {
         "titulo": "O ciclo inteiro",
-        "texto": "Linha de base, três indicadores, revisão semanal, uma hipótese por vez e decisão de manter ou voltar com a mesma bateria."
+        "texto": "Linha de base, três indicadores, revisêo semanal, uma hipótese por vez e decisêo de manter ou voltar com a mesma bateria."
       }
     },
     {
@@ -129,8 +129,8 @@
           "titulo": "Denominador sempre",
           "sub": "X de quantos, em que período",
           "texto": [
-            "\"Fizemos 30 follow-ups\" não diz nada. \"30 de 41 orçamentos elegíveis da semana tiveram retorno em 48 h\" diz.",
-            "Separe teste, piloto e produção: número de bateria não é número de operação."
+            "\"Fizemos 30 follow-ups\" nêo diz nada. \"30 de 41 orçamentos elegíveis da semana tiveram retorno em 48 h\" diz.",
+            "Separe teste, piloto e produçêo: número de bateria nêo é número de operaçêo."
           ],
           "exemplo": {
             "rot": "Na Horizonte",
@@ -141,59 +141,59 @@
           "titulo": "Custo inclui a pessoa",
           "sub": "Custo por tarefa, completo",
           "texto": [
-            "Custo por follow-up = custo de IA e hospedagem + minutos da gestora revisando e tratando exceções. Ferramenta barata que dobra a revisão não economiza nada.",
+            "Custo por follow-up = custo de IA e hospedagem + minutos da gestora revisando e tratando exceções. Ferramenta barata que dobra a revisêo nêo economiza nada.",
             "O preço da IA cai rápido. Exemplo: a Anthropic lançou em 22/09/2026 um modelo que, segundo ela, custa 40% menos que o anterior para tarefas típicas. Por isso, revise a escolha de modelo a cada trimestre, rodando a bateria."
           ],
           "exemplo": {
             "rot": "Conta simples",
-            "texto": "Antes: 6 min por follow-up. Agora: 1,5 min de revisão + R$ <x> de IA. A diferença vira tempo da Patrícia com cliente."
+            "texto": "Antes: 6 min por follow-up. Agora: 1,5 min de revisêo + R$ <x> de IA. A diferença vira tempo da Patrícia com cliente."
           }
         },
         {
-          "titulo": "Revisão semanal",
+          "titulo": "Revisêo semanal",
           "sub": "15 minutos, sete perguntas",
           "texto": [
             "Melhorou frente à linha de base? Qualidade e exceções mudaram? Quanto trabalho humano foi preciso? Qual foi o custo completo? Algo precisa de pausa ou menos autonomia? Que hipótese vale testar? Quem faz e quando?",
-            "Sinais de alerta: uso cai de uma semana para outra, a equipe volta ao jeito antigo, a edição dos rascunhos sobe."
+            "Sinais de alerta: uso cai de uma semana para outra, a equipe volta ao jeito antigo, a ediçêo dos rascunhos sobe."
           ],
           "exemplo": {
             "rot": "Regra",
-            "texto": "Com menos de 30 observações, anote a tendência, mas não decida."
+            "texto": "Com menos de 30 observações, anote a tendência, mas nêo decida."
           }
         },
         {
-          "titulo": "Melhorar sem regressão",
+          "titulo": "Melhorar sem regressêo",
           "sub": "Uma mudança, mesma bateria",
           "texto": [
-            "Escreva a hipótese: se mudar isto, então este número vai de A para B, porque vimos tal evidência. Aplique só essa mudança numa versão nova.",
-            "Rode a bateria da aula 5. Fica se melhora o alvo e nenhum outro piora além da tolerância; senão, volta. A versão anterior continua guardada no Git."
+            "Escreva a hipótese: se mudar isto, entêo este número vai de A para B, porque vimos tal evidência. Aplique só essa mudança numa versêo nova.",
+            "Rode a bateria da aula 5. Fica se melhora o alvo e nenhum outro piora além da tolerância; senêo, volta. A versêo anterior continua guardada no Git."
           ],
           "exemplo": {
             "rot": "Na Horizonte",
-            "texto": "Hipótese: citar o último produto comprado reduz edição de 25% para 15%. Bateria passou, edição caiu para 16% em 3 semanas. Ficou."
+            "texto": "Hipótese: citar o último produto comprado reduz ediçêo de 25% para 15%. Bateria passou, ediçêo caiu para 16% em 3 semanas. Ficou."
           }
         }
       ]
     },
     {
       "tipo": "codigo",
-      "titulo": "Modelos: painel, cartão de hipótese e revisão semanal",
+      "titulo": "Modelos: painel, cartêo de hipótese e revisêo semanal",
       "sub": "Copie para uma planilha ou um arquivo no repositório.",
       "blocos": [
         {
           "rot": "Painel de 3 indicadores — follow-up",
           "icone": "grafico",
-          "conteudo": "PAINEL · ferramenta: follow-up de orçamentos · dona: Patrícia · período: semana de <dd/mm>\n\n| Indicador | Fórmula (com denominador) | Linha de base | Meta | Semana atual |\n|---|---|---|---|---|\n| 1. Uso e resultado | orçamentos com retorno em 48 h ÷ orçamentos elegíveis | 25/42 = 60% (<data>) | 85% | <x/y> |\n| 2. Qualidade | rascunhos aprovados sem edição ÷ rascunhos gerados | — (não havia) | 80% | <x/y> |\n|    trava | limites violados na semana | — | 0 | <n> |\n| 3. Custo por follow-up | (custo de IA + hospedagem) ÷ follow-ups + minutos de revisão | 6 min de pessoa | <= 2 min + R$ <x> | <valor> |\n\nAlerta: uso caiu 20% na semana · edição acima de 30% · qualquer limite violado -> pausa e revisão."
+          "conteudo": "PAINEL · ferramenta: follow-up de orçamentos · dona: Patrícia · período: semana de <dd/mm>\n\n| Indicador | Fórmula (com denominador) | Linha de base | Meta | Semana atual |\n|---|---|---|---|---|\n| 1. Uso e resultado | orçamentos com retorno em 48 h ÷ orçamentos elegíveis | 25/42 = 60% (<data>) | 85% | <x/y> |\n| 2. Qualidade | rascunhos aprovados sem ediçêo ÷ rascunhos gerados | — (nêo havia) | 80% | <x/y> |\n|    trava | limites violados na semana | — | 0 | <n> |\n| 3. Custo por follow-up | (custo de IA + hospedagem) ÷ follow-ups + minutos de revisêo | 6 min de pessoa | <= 2 min + R$ <x> | <valor> |\n\nAlerta: uso caiu 20% na semana · ediçêo acima de 30% · qualquer limite violado -> pausa e revisêo."
         },
         {
-          "rot": "Cartão de hipótese (uma mudança por vez)",
+          "rot": "Cartêo de hipótese (uma mudança por vez)",
           "icone": "lupa",
-          "conteudo": "## H<n> — <título curto>\nSE        <uma única mudança concreta>\nENTÃO     <indicador> vai de <atual> para <esperado>\nPORQUE    <evidência: casos, exceções, comentários da gestora>\nSEM PIORAR <indicadores vigiados e tolerância>\nTESTE     bateria v<x> (mesmos casos) + <n> semanas de operação\nRESULTADO <antes -> depois, com denominador>\nDECISÃO   [ fica ]  [ volta ]  [ esperar mais dados ]   por: <nome>  em: <data>"
+          "conteudo": "## H<n> — <título curto>\nSE        <uma única mudança concreta>\nENTêO     <indicador> vai de <atual> para <esperado>\nPORQUE    <evidência: casos, exceções, comentários da gestora>\nSEM PIORAR <indicadores vigiados e tolerância>\nTESTE     bateria v<x> (mesmos casos) + <n> semanas de operaçêo\nRESULTADO <antes -> depois, com denominador>\nDECISêO   [ fica ]  [ volta ]  [ esperar mais dados ]   por: <nome>  em: <data>"
         },
         {
-          "rot": "Revisão semanal do gestor (15 min)",
+          "rot": "Revisêo semanal do gestor (15 min)",
           "icone": "calendario",
-          "conteudo": "1. O resultado melhorou frente à linha de base, no mesmo período?\n2. Qualidade, limites violados e exceções mudaram?\n3. Quanto trabalho humano foi preciso, e onde?\n4. Qual foi o custo completo, incluindo retrabalho?\n5. Alguma ação precisa de pausa ou de menos autonomia?\n6. Qual hipótese merece teste nesta semana?\n7. Quem faz cada ação e quando revisamos?"
+          "conteudo": "1. O resultado melhorou frente à linha de base, no mesmo período?\n2. Qualidade, limites violados e exceções mudaram?\n3. Quanto trabalho humano foi preciso, e onde?\n4. Qual foi o custo completo, incluindo retrabalho?\n5. Alguma açêo precisa de pausa ou de menos autonomia?\n6. Qual hipótese merece teste nesta semana?\n7. Quem faz cada açêo e quando revisamos?"
         }
       ],
       "saida": {
@@ -201,11 +201,11 @@
         "abas": [
           {
             "rot": "Painel da semana 3",
-            "html": "<ol><li><b>Uso e resultado</b>: 36/40 = 90% (base 60%).</li><li><b>Qualidade</b>: 31/40 aprovados sem edição = 78%; limites violados: 0.</li><li><b>Custo</b>: 1,5 min de revisão + custo de IA por follow-up.</li></ol><p>Dados fictícios do laboratório.</p>"
+            "html": "<ol><li><b>Uso e resultado</b>: 36/40 = 90% (base 60%).</li><li><b>Qualidade</b>: 31/40 aprovados sem ediçêo = 78%; limites violados: 0.</li><li><b>Custo</b>: 1,5 min de revisêo + custo de IA por follow-up.</li></ol><p>Dados fictícios do laboratório.</p>"
           },
           {
             "rot": "Erros comuns",
-            "html": "<ul><li><b>Número sem denominador</b>: \"30 follow-ups\" não diz se melhorou.</li><li><b>Custo sem a pessoa</b>: esconde a revisão que cresceu.</li><li><b>Meta sozinha</b>: \"mais mensagens\" ensina a mandar mensagem demais.</li></ul>"
+            "html": "<ul><li><b>Número sem denominador</b>: \"30 follow-ups\" nêo diz se melhorou.</li><li><b>Custo sem a pessoa</b>: esconde a revisêo que cresceu.</li><li><b>Meta sozinha</b>: \"mais mensagens\" ensina a mandar mensagem demais.</li></ul>"
           }
         ]
       }
@@ -220,48 +220,48 @@
           "titulo": "E1 · Linha de base",
           "min": "30 min",
           "texto": "Com os casos da aula 2, escreva o número de antes de cada indicador, com período e denominador.",
-          "pronto": "os três indicadores têm valor de antes, ou estão marcados como \"não havia\" com o motivo."
+          "pronto": "os três indicadores têm valor de antes, ou estêo marcados como \"nêo havia\" com o motivo."
         },
         {
           "id": "e2",
           "titulo": "E2 · Painel e revisões",
           "min": "15 min por semana",
           "dias": 21,
-          "texto": "Preencha o painel e faça a revisão semanal por três semanas.",
-          "pronto": "há três semanas preenchidas e uma ação anotada em cada revisão."
+          "texto": "Preencha o painel e faça a revisêo semanal por três semanas.",
+          "pronto": "há três semanas preenchidas e uma açêo anotada em cada revisêo."
         },
         {
           "id": "e3",
           "titulo": "E3 · Uma melhoria",
           "min": "60 min",
           "texto": "Escreva uma hipótese, aplique uma mudança, rode a bateria e decida.",
-          "pronto": "o cartão de hipótese está preenchido com resultado, decisão (fica ou volta) e nome de quem decidiu."
+          "pronto": "o cartêo de hipótese está preenchido com resultado, decisêo (fica ou volta) e nome de quem decidiu."
         }
       ]
     },
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
-          "p": "O painel da Horizonte não tem linha de base. Qual é o problema?",
+          "p": "O painel da Horizonte nêo tem linha de base. Qual é o problema?",
           "opcoes": [
             "Nenhum, o número atual basta.",
             "Ninguém consegue dizer se a ferramenta ajudou.",
             "O painel fica feio.",
-            "A TI não aprova."
+            "A TI nêo aprova."
           ],
           "certa": 1,
-          "explica": "É a falha F11 do laboratório. Sem o antes, o depois não prova nada.",
+          "explica": "É a falha F11 do laboratório. Sem o antes, o depois nêo prova nada.",
           "ref": "diagrama",
           "cert": true
         },
         {
-          "p": "A versão nova reduziu a edição, mas um limite foi violado na bateria. O que fazer?",
+          "p": "A versêo nova reduziu a ediçêo, mas um limite foi violado na bateria. O que fazer?",
           "opcoes": [
             "Manter, porque o alvo melhorou.",
-            "Voltar para a versão anterior: melhorar o alvo não pode piorar o que é vigiado.",
+            "Voltar para a versêo anterior: melhorar o alvo nêo pode piorar o que é vigiado.",
             "Tirar o caso da bateria.",
             "Esperar o cliente reclamar."
           ],
@@ -279,7 +279,7 @@
             "Para trocar de fornecedor sempre."
           ],
           "certa": 1,
-          "explica": "Custo por tarefa cai a cada geração. Rodar a bateria com o modelo novo dá a resposta com evidência.",
+          "explica": "Custo por tarefa cai a cada geraçêo. Rodar a bateria com o modelo novo dá a resposta com evidência.",
           "ref": "passos"
         },
         {
@@ -291,7 +291,7 @@
             "\"Uso da IA.\""
           ],
           "certa": 1,
-          "explica": "Tem numerador, denominador e período. Os outros não dá para contar.",
+          "explica": "Tem numerador, denominador e período. Os outros nêo dá para contar.",
           "ref": "codigo"
         }
       ]
@@ -310,7 +310,7 @@
         },
         {
           "t": "Toda semana",
-          "texto": "Quinze minutos, sete perguntas, uma ação com dono."
+          "texto": "Quinze minutos, sete perguntas, uma açêo com dono."
         },
         {
           "t": "Melhorar com prova",
@@ -333,7 +333,7 @@
           "icone": "lista"
         },
         {
-          "t": "Gestão de IA: plano da formação (módulos 9 e 10)",
+          "t": "Gestêo de IA: plano da formaçêo (módulos 9 e 10)",
           "href": "https://inematds.github.io/curso-gestao-ia/",
           "icone": "grafico"
         },
