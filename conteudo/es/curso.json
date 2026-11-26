@@ -1,21 +1,21 @@
 {
   "id": "prof2030-mentor",
   "lang": "es",
-  "url": "https://inematds.github.io/prof2030-mentor/es/",
+  "url": "https://linnoff88-dev.github.io/arckhe-/es/",
   "nome": "Mentor de IA",
   "sub": "Formación del Profesional 2030",
   "volta": {
     "t": "Área Profesional 2030",
-    "href": "https://inematds.github.io/profissional-2030/"
+    "href": "https://linnoff88-dev.github.io/arckhe-/"
   },
   "lado_card": {
     "rot": "Empresa-laboratorio",
     "t": "Horizonte Distribuidora",
     "texto": "La misma empresa ficticia en las cinco formaciones. Aquí acompañas a Patrícia, desde el prototipo hasta el traspaso a Rafael.",
     "link": "Abrir el laboratorio",
-    "href": "https://inematds.github.io/prof2030-lab/"
+    "href": "https://linnoff88-dev.github.io/arckhe-/"
   },
-  "rodape": "INEMA.CLUB · contenido abierto y gratuito · formato INEMA Learning v7.2 · <a href=\"https://inematds.github.io/profissional-2030/\">Profesional 2030</a> · <a href=\"https://inema.club/\">inema.club</a> · <a href=\"https://www.inema.club/cursos/339-profissional-2030-mentor-de-ia-do-prototipo-do-gestor-a-passagem-para-a-ti-8-aulas/\">Ficha de este curso en INEMA.CLUB</a> · <a href=\"https://www.inema.club/aprender-inteligencia-artificial/\">Guía: cómo aprender IA</a>",
+  "rodape": "ARCKHÉ AI · contenido abierto y gratuito · formato ARCKHÉ Learning v7.2 · <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Profesional 2030</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a> · <a href=\"https://www.ARCKHÉ AI/cursos/339-profissional-2030-mentor-de-ia-do-prototipo-do-gestor-a-passagem-para-a-ti-8-aulas/\">Ficha de este curso en ARCKHÉ AI</a> · <a href=\"https://www.ARCKHÉ AI/aprender-inteligencia-artificial/\">Guía: cómo aprender IA</a>",
   "videos": {},
   "inicio": {
     "kicker": "Profesional 2030 · formación Mentor de IA · 8 clases",
@@ -24,7 +24,7 @@
     "cta": "Empezar por la clase 1",
     "cta2": {
       "t": "Ver el Profesional 2030",
-      "href": "https://inematds.github.io/profissional-2030/"
+      "href": "https://linnoff88-dev.github.io/arckhe-/"
     },
     "capa_alt": "Mentor de IA: una mentora y una gerente comercial revisan un prototipo en la laptop; el técnico de TI al fondo.",
     "numeros": [
@@ -68,10 +68,10 @@
       {
         "t": "Forma parte del Profesional 2030",
         "itens": [
-          "Esta formación es una de las cuatro del <a href=\"https://inematds.github.io/profissional-2030/\">Profesional 2030</a>. Cada formación tendrá una certificación INEMA de calificación (no es una profesión regulada); más detalles pronto.",
-          "Requisito previo recomendado, no obligatorio: <a href=\"https://inematds.github.io/prof2030-base/\">Base común — Confiar en lo que la IA construye</a>.",
-          "Otras formaciones: <a href=\"https://inematds.github.io/prof2030-consultor/\">Consultor</a> · <a href=\"https://inematds.github.io/prof2030-auditor/\">Auditor</a> · <a href=\"https://inematds.github.io/prof2030-treinador/\">Entrenador</a> · <a href=\"https://inematds.github.io/prof2030-mentor/\">Mentor (esta)</a>.",
-          "Empresa-laboratorio usada en las cinco: <a href=\"https://inematds.github.io/prof2030-lab/\">Horizonte Distribuidora</a>."
+          "Esta formación es una de las cuatro del <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Profesional 2030</a>. Cada formación tendrá una certificación ARCKHÉ de calificación (no es una profesión regulada); más detalles pronto.",
+          "Requisito previo recomendado, no obligatorio: <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Base común — Confiar en lo que la IA construye</a>.",
+          "Otras formaciones: <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Consultor</a> · <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Auditor</a> · <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Entrenador</a> · <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Mentor (esta)</a>.",
+          "Empresa-laboratorio usada en las cinco: <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Horizonte Distribuidora</a>."
         ]
       }
     ]

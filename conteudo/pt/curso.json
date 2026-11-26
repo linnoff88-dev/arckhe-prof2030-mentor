@@ -1,21 +1,21 @@
 {
   "id": "prof2030-mentor",
   "lang": "pt-BR",
-  "url": "https://inematds.github.io/prof2030-mentor/",
+  "url": "https://linnoff88-dev.github.io/arckhe-/",
   "nome": "Mentor de IA",
   "sub": "Formaçêo do Profissional 2030",
   "volta": {
     "t": "Área Profissional 2030",
-    "href": "https://inematds.github.io/profissional-2030/"
+    "href": "https://linnoff88-dev.github.io/arckhe-/"
   },
   "lado_card": {
     "rot": "Empresa-laboratório",
     "t": "Horizonte Distribuidora",
     "texto": "A mesma empresa fictícia nas cinco formações. Aqui você acompanha a Patrícia, do protótipo à passagem para o Rafael.",
     "link": "Abrir o laboratório",
-    "href": "https://inematds.github.io/prof2030-lab/"
+    "href": "https://linnoff88-dev.github.io/arckhe-/"
   },
-  "rodape": "INEMA.CLUB · conteúdo aberto e gratuito · formato INEMA Learning v7.2 · <a href=\"https://inematds.github.io/profissional-2030/\">Profissional 2030</a> · <a href=\"https://inema.club/\">inema.club</a> · <a href=\"https://www.inema.club/cursos/339-profissional-2030-mentor-de-ia-do-prototipo-do-gestor-a-passagem-para-a-ti-8-aulas/\">Ficha deste curso no INEMA.CLUB</a> · <a href=\"https://www.inema.club/aprender-inteligencia-artificial/\">Guia: como aprender IA</a>",
+  "rodape": "ARCKHÉ AI · conteúdo aberto e gratuito · formato ARCKHÉ Learning v7.2 · <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Profissional 2030</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a> · <a href=\"https://www.ARCKHÉ AI/cursos/339-profissional-2030-mentor-de-ia-do-prototipo-do-gestor-a-passagem-para-a-ti-8-aulas/\">Ficha deste curso no ARCKHÉ AI</a> · <a href=\"https://www.ARCKHÉ AI/aprender-inteligencia-artificial/\">Guia: como aprender IA</a>",
   "videos": {},
   "inicio": {
     "kicker": "Profissional 2030 · formaçêo Mentor de IA · 8 aulas",
@@ -24,7 +24,7 @@
     "cta": "Começar pela aula 1",
     "cta2": {
       "t": "Ver o Profissional 2030",
-      "href": "https://inematds.github.io/profissional-2030/"
+      "href": "https://linnoff88-dev.github.io/arckhe-/"
     },
     "capa_alt": "Mentor de IA: uma mentora e uma gerente comercial revisam um protótipo no notebook; o técnico de TI ao fundo.",
     "numeros": [
@@ -68,10 +68,10 @@
       {
         "t": "Faz parte do Profissional 2030",
         "itens": [
-          "Esta formaçêo é uma das quatro do <a href=\"https://inematds.github.io/profissional-2030/\">Profissional 2030</a>. Cada formaçêo terá certificaçêo INEMA de qualificaçêo (nêo é profissêo regulada); detalhes em breve.",
-          "Pré-requisito recomendado, nêo obrigatório: <a href=\"https://inematds.github.io/prof2030-base/\">Base comum — Confiar no que a IA constrói</a>.",
-          "Outras formações: <a href=\"https://inematds.github.io/prof2030-consultor/\">Consultor</a> · <a href=\"https://inematds.github.io/prof2030-auditor/\">Auditor</a> · <a href=\"https://inematds.github.io/prof2030-treinador/\">Treinador</a> · <a href=\"https://inematds.github.io/prof2030-mentor/\">Mentor (esta)</a>.",
-          "Empresa-laboratório usada nas cinco: <a href=\"https://inematds.github.io/prof2030-lab/\">Horizonte Distribuidora</a>."
+          "Esta formaçêo é uma das quatro do <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Profissional 2030</a>. Cada formaçêo terá certificaçêo ARCKHÉ de qualificaçêo (nêo é profissêo regulada); detalhes em breve.",
+          "Pré-requisito recomendado, nêo obrigatório: <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Base comum — Confiar no que a IA constrói</a>.",
+          "Outras formações: <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Consultor</a> · <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Auditor</a> · <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Treinador</a> · <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Mentor (esta)</a>.",
+          "Empresa-laboratório usada nas cinco: <a href=\"https://linnoff88-dev.github.io/arckhe-/\">Horizonte Distribuidora</a>."
         ]
       }
     ]

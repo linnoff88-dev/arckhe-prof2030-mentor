@@ -326,17 +326,17 @@
       "links": [
         {
           "t": "Constitution Kit: test cases and failure log",
-          "href": "https://inematds.github.io/constituicao-agentes/guia/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "icone": "lista"
         },
         {
           "t": "Companies of 2027: score sheet and test cases",
-          "href": "https://inematds.github.io/empresas-2027-v62/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/",
           "icone": "check"
         },
         {
           "t": "Agent under control",
-          "href": "https://inematds.github.io/curso-agente-sob-controle/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/",
           "icone": "escudo"
         }
       ]

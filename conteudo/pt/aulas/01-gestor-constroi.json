@@ -166,10 +166,10 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "Vídeo: do técnico ao gestor de agentes", "href": "https://inematds.github.io/gestor-de-agentes/videos/", "icone": "video"},
-        {"t": "Vídeo: gerente que nêo domina agentes", "href": "https://inematds.github.io/gerente-de-agentes/videos/", "icone": "video"},
-        {"t": "Área Gestêo de IA e Agentes", "href": "https://eventos.inema.pro/gestao-ia/", "icone": "camadas"},
-        {"t": "Empresa-laboratório: Horizonte Distribuidora", "href": "https://inematds.github.io/prof2030-lab/", "icone": "pasta"},
+        {"t": "Vídeo: do técnico ao gestor de agentes", "href": "https://linnoff88-dev.github.io/arckhe-/videos/", "icone": "video"},
+        {"t": "Vídeo: gerente que nêo domina agentes", "href": "https://linnoff88-dev.github.io/arckhe-/videos/", "icone": "video"},
+        {"t": "Área Gestêo de IA e Agentes", "href": "https://eventos.ARCKHÉ.pro/gestao-ia/", "icone": "camadas"},
+        {"t": "Empresa-laboratório: Horizonte Distribuidora", "href": "https://linnoff88-dev.github.io/arckhe-/", "icone": "pasta"},
         {"t": "Fonte: Stanford Digital Economy Lab — jovens em ocupações expostas à IA (ago/2026)", "href": "https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/", "icone": "grafico"}
       ]
     }

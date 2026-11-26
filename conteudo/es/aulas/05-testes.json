@@ -326,17 +326,17 @@
       "links": [
         {
           "t": "Kit Constitución: casos de prueba y registro de fallas",
-          "href": "https://inematds.github.io/constituicao-agentes/guia/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "icone": "lista"
         },
         {
           "t": "Empresas de 2027: ficha de calificación y casos de prueba",
-          "href": "https://inematds.github.io/empresas-2027-v62/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/",
           "icone": "check"
         },
         {
           "t": "Agente bajo control",
-          "href": "https://inematds.github.io/curso-agente-sob-controle/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/",
           "icone": "escudo"
         }
       ]

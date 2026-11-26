@@ -135,9 +135,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "Kit Constituiçêo: casos de teste e registro de falhas", "href": "https://inematds.github.io/constituicao-agentes/guia/", "icone": "lista"},
-        {"t": "Empresas de 2027: ficha de nota e casos de teste", "href": "https://inematds.github.io/empresas-2027-v62/", "icone": "check"},
-        {"t": "Agente sob controle", "href": "https://inematds.github.io/curso-agente-sob-controle/", "icone": "escudo"}
+        {"t": "Kit Constituiçêo: casos de teste e registro de falhas", "href": "https://linnoff88-dev.github.io/arckhe-/guia/", "icone": "lista"},
+        {"t": "Empresas de 2027: ficha de nota e casos de teste", "href": "https://linnoff88-dev.github.io/arckhe-/", "icone": "check"},
+        {"t": "Agente sob controle", "href": "https://linnoff88-dev.github.io/arckhe-/", "icone": "escudo"}
       ]
     }
   ]

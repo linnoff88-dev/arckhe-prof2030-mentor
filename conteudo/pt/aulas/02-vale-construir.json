@@ -133,9 +133,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "Arquiteto de Trabalho com IA (processo → spec com permissões)", "href": "https://inematds.github.io/pffia/", "icone": "lista"},
-        {"t": "Produtos na era da IA: vale a pena construir?", "href": "https://inematds.github.io/produtos-era-ia/", "icone": "lupa"},
-        {"t": "Gestêo de Agentes: os 7 princípios", "href": "https://inematds.github.io/curso-7pa/", "icone": "camadas"}
+        {"t": "Arquiteto de Trabalho com IA (processo → spec com permissões)", "href": "https://linnoff88-dev.github.io/arckhe-/", "icone": "lista"},
+        {"t": "Produtos na era da IA: vale a pena construir?", "href": "https://linnoff88-dev.github.io/arckhe-/", "icone": "lupa"},
+        {"t": "Gestêo de Agentes: os 7 princípios", "href": "https://linnoff88-dev.github.io/arckhe-/", "icone": "camadas"}
       ]
     }
   ]

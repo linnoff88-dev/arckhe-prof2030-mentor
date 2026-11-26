@@ -6,11 +6,11 @@
 </div>
 
 
-## Mais no INEMA.CLUB
+## Mais no ARCKHÉ AI
 
-- [Ficha no INEMA.CLUB](https://www.inema.club/cursos/339-profissional-2030-mentor-de-ia-do-prototipo-do-gestor-a-passagem-para-a-ti-8-aulas/)
-- [Guia: como aprender inteligência artificial](https://www.inema.club/aprender-inteligencia-artificial/)
-- [Todos os cursos](https://www.inema.club/cursos/)
+- [Ficha no ARCKHÉ AI](https://www.ARCKHÉ AI/cursos/339-profissional-2030-mentor-de-ia-do-prototipo-do-gestor-a-passagem-para-a-ti-8-aulas/)
+- [Guia: como aprender inteligência artificial](https://www.ARCKHÉ AI/aprender-inteligencia-artificial/)
+- [Todos os cursos](https://www.ARCKHÉ AI/cursos/)
 
 ---
 

@@ -177,7 +177,7 @@
           ],
           "exemplo": {
             "rot": "Sobre la certificación",
-            "texto": "La certificación INEMA de cada formación llegará pronto. Es una calificación, no una profesión regulada."
+            "texto": "La certificación ARCKHÉ de cada formación llegará pronto. Es una calificación, no una profesión regulada."
           }
         }
       ]
@@ -334,22 +334,22 @@
       "links": [
         {
           "t": "Profesional 2030: área del programa",
-          "href": "https://inematds.github.io/profissional-2030/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/",
           "icone": "camadas"
         },
         {
           "t": "Empresa-laboratorio: Horizonte Distribuidora",
-          "href": "https://inematds.github.io/prof2030-lab/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/",
           "icone": "pasta"
         },
         {
           "t": "Base común del Profesional 2030",
-          "href": "https://inematds.github.io/prof2030-base/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/",
           "icone": "lista"
         },
         {
           "t": "Gestión de IA: el temario completo",
-          "href": "https://inematds.github.io/curso-gestao-ia/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/",
           "icone": "grafico"
         },
         {
@@ -384,37 +384,37 @@
         },
         {
           "t": "Laboratorio Horizonte: App de pedidos (F1–F4)",
-          "href": "https://inematds.github.io/prof2030-lab/pecas/app-pedidos/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/pecas/app-pedidos/",
           "icone": "lupa"
         },
         {
           "t": "Laboratorio Horizonte: Agente de WhatsApp (F5–F7)",
-          "href": "https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/pecas/agente-whatsapp/",
           "icone": "lupa"
         },
         {
           "t": "Laboratorio Horizonte: Planilla de clientes (F8)",
-          "href": "https://inematds.github.io/prof2030-lab/pecas/planilha-clientes/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/pecas/planilha-clientes/",
           "icone": "lupa"
         },
         {
           "t": "Laboratorio Horizonte: Integración MCP con el correo electrónico (F9)",
-          "href": "https://inematds.github.io/prof2030-lab/pecas/mcp-email/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/pecas/mcp-email/",
           "icone": "lupa"
         },
         {
           "t": "Laboratorio Horizonte: Resumen de atención (F10)",
-          "href": "https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/pecas/resumo-atendimento/",
           "icone": "lupa"
         },
         {
           "t": "Laboratorio Horizonte: Panel de indicadores (F11)",
-          "href": "https://inematds.github.io/prof2030-lab/pecas/painel/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/pecas/painel/",
           "icone": "lupa"
         },
         {
           "t": "Laboratorio Horizonte: Inventario e IA en la sombra (F12)",
-          "href": "https://inematds.github.io/prof2030-lab/inventario.html",
+          "href": "https://linnoff88-dev.github.io/arckhe-/inventario.html",
           "icone": "lupa"
         }
       ]

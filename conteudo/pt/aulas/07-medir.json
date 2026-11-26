@@ -324,17 +324,17 @@
       "links": [
         {
           "t": "LOOP-R: melhoria contínua com evidência (guia)",
-          "href": "https://inematds.github.io/loop-r/guia/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "icone": "voltar"
         },
         {
           "t": "LOOP-R: curso",
-          "href": "https://inematds.github.io/loop-r/curso/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/curso/",
           "icone": "lista"
         },
         {
           "t": "Gestêo de IA: plano da formaçêo (módulos 9 e 10)",
-          "href": "https://inematds.github.io/curso-gestao-ia/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/",
           "icone": "grafico"
         },
         {
@@ -344,7 +344,7 @@
         },
         {
           "t": "Laboratório Horizonte: Painel de indicadores (F11)",
-          "href": "https://inematds.github.io/prof2030-lab/pecas/painel/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/pecas/painel/",
           "icone": "lupa"
         }
       ]
